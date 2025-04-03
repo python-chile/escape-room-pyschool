@@ -1,0 +1,17 @@
+### Dos
+
+<a href="start.html">Regresar a la página anterior</a>
+
+
+## Programación
+
+## 1. 👋 Hola Mundo
+Es tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprima la frase "Hola, Mundo" (o "Hello World") en la pantalla.
+
+```{pyodide-python}
+print("<a href='end.html'>Siguiente página...</a>")
+```
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?
+:::

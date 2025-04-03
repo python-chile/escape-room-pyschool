@@ -1,0 +1,92 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PySchool",
+    "section": "",
+    "text": "Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python.\n\n\n\nPySchool es una iniciativa de la organización Python Chile y DUOC.\nNuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nIniciar el escape room",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/start.html",
+    "href": "rooms/start.html",
+    "title": "Uno",
+    "section": "",
+    "text": "Paso 1: Instala la librería de ayuda",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Uno</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/start.html#paso-1-instala-la-librería-de-ayuda",
+    "href": "rooms/start.html#paso-1-instala-la-librería-de-ayuda",
+    "title": "Uno",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Uno</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/start.html#paso-2-resuelve-el-enigma-de-la-habitación",
+    "href": "rooms/start.html#paso-2-resuelve-el-enigma-de-la-habitación",
+    "title": "Uno",
+    "section": "Paso 2: Resuelve el enigma de la habitación",
+    "text": "Paso 2: Resuelve el enigma de la habitación\n¿Cuánto es 2 + 3?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Uno</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/2.html",
+    "href": "rooms/2.html",
+    "title": "Dos",
+    "section": "",
+    "text": "Programación",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Dos</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/2.html#hola-mundo",
+    "href": "rooms/2.html#hola-mundo",
+    "title": "Dos",
+    "section": "1. 👋 Hola Mundo",
+    "text": "1. 👋 Hola Mundo\nEs tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprimma la frase “Hola, Mundo” (o “Hello World”) en la pantalla.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\n¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Dos</span>"
+    ]
+  },
+  {
+    "objectID": "other/autoria.html",
+    "href": "other/autoria.html",
+    "title": "Autoría",
+    "section": "",
+    "text": "Reconocimientos adicionales\nQueremos extender un agradecimiento especial a todos los colaboradores y miembros de nuestra comunidad que han enriquecido este proyecto con sus ideas, sugerencias y aportes de código. Su participación ha sido crucial y es enormemente valorada.\nPara obtener más información sobre los autores y colaboradores, o para descubrir cómo puedes contribuir, te invitamos a visitar la página oficial de Python Chile. ¡Agradecemos tu apoyo y nos complace contar contigo en nuestra comunidad!",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Autoría</span>"
+    ]
+  },
+  {
+    "objectID": "other/cierre_evento.html",
+    "href": "other/cierre_evento.html",
+    "title": "Cierre PySchool",
+    "section": "",
+    "text": "🎯 Retroalimentación\nNos encantaría saber que te ha parecido PySchool, y que podemos mejorar. Agradeceríamos contestaras la siguiente encuesta:\n\n \n\nhttps://forms.gle/MjQFihE1RiKzVgid9\n\n\n\n\n\nCódigo para sorteo\nPara sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función random.randint(a, b) que retorna un número entero aleatorio \\(N\\) que cumpla la condición \\(a &lt;= N &lt;= b\\).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nCondiciones de uso de giftcards\nLas condiciones de uso de las giftcards para uso en el local café-robots-galletas tienen las siguientes condiciones:\n\nCada giftcard es válida para un único uso.\nLa giftcard no se puede cambiar por dinero en efectivo, ni se entregará vuelto.\nLa giftcard se puede usar para cualquier producto en venta en el local.\nCada giftcard tiene vigencia de 3 meses (hasta el 31 de octubre).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Cierre PySchool</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/end.html",
+    "href": "rooms/end.html",
+    "title": "Fin",
+    "section": "",
+    "text": "Siguiente página…\nFelicidades, has escapado del escape room de Python.\n¿Quieres volver al inicio?: Regresar al inicio",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Fin</span>"
+    ]
+  }
+]

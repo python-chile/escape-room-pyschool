@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: "html"
+
+book:
+  title: "PySchool"
+  favicon: "images/favicon.png"
+  chapters:
+    - index.qmd
+    - rooms/start.qmd
+    - rooms/2.qmd
+    - other/autoria.qmd
+    - other/cierre_evento.qmd
+    - rooms/end.qmd
+
+lang: es
+
+format:
+  html:
+    theme: spacelab
+    number-sections: false
+    toc: false
+    page-layout: full
+    sidebar-width: 0px
+
+filters: 
+  - pyodide
+
+#sin-enumeracion: true  # Esta línea es opcional para indicar que no se desea enumeración

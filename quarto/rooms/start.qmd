@@ -1,0 +1,37 @@
+# Uno
+Despiertas en una habitación, sin memoria de como llegaste allí.
+
+Buscas una manera de escapar, y encuentras una nota con una pista.
+
+Bienvenido al escape room de Python.
+
+Para escapar, tendrás que resolver los desafíos que te propondremos.
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+Para ello, tendrás que programar. No te preocupes, no esperes a que te enseñen Python, puedes aprender mientras avanzas.
+:::
+
+## Paso 1: Instala la librería de ayuda
+
+```{pyodide-python}
+required_libraries = ["IPython"]
+await micropip.install(required_libraries)
+print("Librerias instaladas:", ",".join(required_libraries))
+```
+
+## Paso 2: Resuelve el enigma de la habitación
+
+¿Cuánto es 2 + 3?
+
+```{pyodide-python}
+var1 = 2
+var2 = 3
+# Escribe tu respuesta aquí
+respuesta = None
+
+if respuesta == var1 + var2:
+    print("¡Correcto! Avanza a la siguiente página")
+    print('<a href="2.html">Siguiente página...</a>')
+else:
+    print("No no no... intenta de nuevo.")
+```

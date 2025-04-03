@@ -1,0 +1,16 @@
+Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. 
+
+<center>
+<img src="./images/cover.png" width="300">
+</center>
+
+PySchool es una iniciativa de la organización Python Chile y DUOC. 
+
+Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.
+
+<a href="rooms/start.html">Iniciar el escape room</a>
+
+<center>
+<img src="./images/pythonchile.png" width="270">
+<img src="./images/DUOC_1.png" width="300">
+</center>
