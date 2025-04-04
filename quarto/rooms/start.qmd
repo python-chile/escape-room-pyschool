@@ -13,10 +13,33 @@ Para ello, tendrás que programar. No te preocupes, no esperes a que te enseñen
 
 ## Paso 1: Instala la librería de ayuda
 
+V1
+
 ```{pyodide-python}
 required_libraries = ["IPython"]
 await micropip.install(required_libraries)
 print("Librerias instaladas:", ",".join(required_libraries))
+```
+
+V2
+
+```{pyodide-python}
+import pyodide_http
+pyodide_http.patch_all()
+
+import urllib.request
+import sys
+
+# Download the file
+urllib.request.urlretrieve(
+    "https://raw.githubusercontent.com/username/repo/main/mylibrary.py",
+    "/mylibrary.py"
+)
+
+# Add root to sys.path and import
+sys.path.append("/")
+import mylibrary
+
 ```
 
 ## Paso 2: Resuelve el enigma de la habitación

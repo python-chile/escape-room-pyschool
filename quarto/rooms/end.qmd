@@ -1,6 +1,6 @@
 # Fin
 
-<a href="start.html">Regresar a la página anterior</a>
+<a href="2.html">Regresar a la página anterior</a>
 
 Felicidades, has escapado del escape room de Python.
 

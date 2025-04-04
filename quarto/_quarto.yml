@@ -1,9 +1,21 @@
+# Basic Metadata Configuration
+title: "PySchool 2025"
+subtitle: "Un escape room con Python"
+description: "Aprende Python mientras resuelves desafíos"
+author: "Sebastian Flores"
+date: "2025-05-04"
+lang: es
+license: "CC BY-NC"
+
+# Project Configuration
 project:
   type: book
   output-dir: "html"
 
+# Book Configuration
 book:
-  title: "PySchool"
+  sidebar: false        # show sidebar navigation
+  #reader-mode: true    # focuses content (like Read the Docs)
   favicon: "images/favicon.png"
   chapters:
     - index.qmd
@@ -13,16 +25,17 @@ book:
     - other/cierre_evento.qmd
     - rooms/end.qmd
 
-lang: es
-
+# Format Configuration
 format:
   html:
     theme: spacelab
+    css: "style.css"
     number-sections: false
     toc: false
     page-layout: full
     sidebar-width: 0px
 
+# Extensions
 filters: 
   - pyodide
 
