@@ -32,13 +32,13 @@ import sys
 
 # Download the file
 urllib.request.urlretrieve(
-    "https://raw.githubusercontent.com/username/repo/main/mylibrary.py",
-    "/mylibrary.py"
+    "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py?token=GHSAT0AAAAAAC7XLTHNO47TU6HL7UFGPISYZ7QILRQ",
+    "/verification.py"
 )
 
 # Add root to sys.path and import
 sys.path.append("/")
-import mylibrary
+import verification
 
 ```
 

@@ -14,7 +14,7 @@
     "href": "rooms/start.html",
     "title": "Uno",
     "section": "",
-    "text": "Paso 1: Instala la librería de ayuda",
+    "text": "Paso 1: Instala la librería de ayuda\nV1\nV2",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "rooms/start.html#paso-1-instala-la-librería-de-ayuda",
     "title": "Uno",
     "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]

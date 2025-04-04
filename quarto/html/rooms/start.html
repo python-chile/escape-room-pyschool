@@ -233,7 +233,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"fig-cap":"","warning":"true","results":"markup","context":"interactive","message":"true","dpi":72,"comment":"","label":"","out-width":"700px","output":"true","classes":"","read-only":"false","autorun":"","fig-width":7,"out-height":"","fig-height":5},"id":1,"code":"required_libraries = [\"IPython\"]\nawait micropip.install(required_libraries)\nprint(\"Librerias instaladas:\", \",\".join(required_libraries))"},{"options":{"fig-cap":"","warning":"true","results":"markup","context":"interactive","message":"true","dpi":72,"comment":"","label":"","out-width":"700px","output":"true","classes":"","read-only":"false","autorun":"","fig-width":7,"out-height":"","fig-height":5},"id":2,"code":"var1 = 2\nvar2 = 3\n# Escribe tu respuesta aquí\nrespuesta = None\n\nif respuesta == var1 + var2:\n    print(\"¡Correcto! Avanza a la siguiente página\")\n    print('<a href=\"2.html\">Siguiente página...</a>')\nelse:\n    print(\"No no no... intenta de nuevo.\")"}];
+globalThis.qpyodideCellDetails = [{"code":"required_libraries = [\"IPython\"]\nawait micropip.install(required_libraries)\nprint(\"Librerias instaladas:\", \",\".join(required_libraries))","id":1,"options":{"out-width":"700px","fig-cap":"","message":"true","autorun":"","results":"markup","output":"true","fig-height":5,"read-only":"false","warning":"true","label":"","comment":"","classes":"","dpi":72,"context":"interactive","fig-width":7,"out-height":""}},{"code":"import pyodide_http\npyodide_http.patch_all()\n\nimport urllib.request\nimport sys\n\n# Download the file\nurllib.request.urlretrieve(\n    \"https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py?token=GHSAT0AAAAAAC7XLTHNO47TU6HL7UFGPISYZ7QILRQ\",\n    \"/verification.py\"\n)\n\n# Add root to sys.path and import\nsys.path.append(\"/\")\nimport verification","id":2,"options":{"out-width":"700px","fig-cap":"","message":"true","autorun":"","results":"markup","output":"true","fig-height":5,"read-only":"false","warning":"true","label":"","comment":"","classes":"","dpi":72,"context":"interactive","fig-width":7,"out-height":""}},{"code":"var1 = 2\nvar2 = 3\n# Escribe tu respuesta aquí\nrespuesta = None\n\nif respuesta == var1 + var2:\n    print(\"¡Correcto! Avanza a la siguiente página\")\n    print('<a href=\"2.html\">Siguiente página...</a>')\nelse:\n    print(\"No no no... intenta de nuevo.\")","id":3,"options":{"out-width":"700px","fig-cap":"","message":"true","autorun":"","results":"markup","output":"true","fig-height":5,"read-only":"false","warning":"true","label":"","comment":"","classes":"","dpi":72,"context":"interactive","fig-width":7,"out-height":""}}];
 
 
 </script>
@@ -560,13 +560,17 @@ Desafío:
 </div>
 <section id="paso-1-instala-la-librería-de-ayuda" class="level2">
 <h2 class="anchored" data-anchor-id="paso-1-instala-la-librería-de-ayuda">Paso 1: Instala la librería de ayuda</h2>
+<p>V1</p>
 <div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>V2</p>
+<div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="paso-2-resuelve-el-enigma-de-la-habitación" class="level2">
 <h2 class="anchored" data-anchor-id="paso-2-resuelve-el-enigma-de-la-habitación">Paso 2: Resuelve el enigma de la habitación</h2>
 <p>¿Cuánto es 2 + 3?</p>
-<div id="qpyodide-insertion-location-2"></div>
+<div id="qpyodide-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 

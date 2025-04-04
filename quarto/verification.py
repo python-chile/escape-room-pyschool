@@ -15,7 +15,7 @@ def check_answer(answer, room_number):
     return
 
 def check_answer_1(answer):
-    if respuesta == var1 + var2:
+    if answer == 5:
         print("¡Correcto! Avanza a la siguiente página")
         print('<a href="2.html">Siguiente página...</a>')
     else:
