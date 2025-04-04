@@ -30,16 +30,25 @@ pyodide_http.patch_all()
 import urllib.request
 import sys
 
+# URL
+url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
+
+# Print the content
+with urllib.request.urlopen(url) as response:
+    content = response.read().decode("utf-8")
+    print(content)
+
 # Download the file
 urllib.request.urlretrieve(
-    "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py?token=GHSAT0AAAAAAC7XLTHNO47TU6HL7UFGPISYZ7QILRQ",
+    "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py",
     "/verification.py"
 )
 
 # Add root to sys.path and import
 sys.path.append("/")
 import verification
-
+print("✅ Module imported successfully!")
+print(dir(verification))
 ```
 
 ## Paso 2: Resuelve el enigma de la habitación
@@ -52,9 +61,5 @@ var2 = 3
 # Escribe tu respuesta aquí
 respuesta = None
 
-if respuesta == var1 + var2:
-    print("¡Correcto! Avanza a la siguiente página")
-    print('<a href="2.html">Siguiente página...</a>')
-else:
-    print("No no no... intenta de nuevo.")
+verification.check_answer(respuesta, 1)
 ```
