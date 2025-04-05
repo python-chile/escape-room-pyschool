@@ -4,13 +4,13 @@ def hyperlink(url, text, type="info"):
     print(f'<a href="{url}" class="btn btn-{type}">{text}</a>')
 
 
-def text(title="", text="", type="info", dismissable=True):
+def text(title="", text="", type="info", dismissable=False):
     class_str = f'alert alert-{type}'
-    if dismissable: 
-        class_str += " alert-dismissible"
-    text_str = '<div class="{class_str}">'
+    text_str = f'<div class="{class_str}">'
     if title: 
         text_str += f'<h4 class=\"alert-heading\">{title}</h4>'
+    if dismissable: 
+        text_str += f'<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'
     if text: 
         text_str += f'<p class=\"mb-0\">{text}</p>'
     text_str += '</div>'
@@ -34,10 +34,10 @@ def check_answer(answer, room_number):
 
 
 def check_answer_1(answer):
-    if answer == None:
-        text("No hay una respuesta", "intenta de nuevo.", "warning")
     if answer == 5:
         hyperlink("2.html", "¡Correcto! Avanza a la siguiente página", "success")
+    elif answer == None:
+        text("No hay una respuesta", "intenta de nuevo.", "warning")
     else:
         text("No no no...", "intenta de nuevo.", "warning")
 
