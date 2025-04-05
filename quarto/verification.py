@@ -6,8 +6,9 @@ def hyperlink(url, text, type="info"):
 
 def text(title="", text="", type="info", dismissable=True):
     class_str = f'alert alert-{type}'
-    if dismissable: class_str += " alert-dismissible"
-        text_str = '<div class="{class_str}">'
+    if dismissable: 
+        class_str += " alert-dismissible"
+    text_str = '<div class="{class_str}">'
     if title: 
         text_str += f'<h4 class=\"alert-heading\">{title}</h4>'
     if text: 
@@ -34,7 +35,7 @@ def check_answer(answer, room_number):
 
 def check_answer_1(answer):
     if answer == None:
-
+        text("No hay una respuesta", "intenta de nuevo.", "warning")
     if answer == 5:
         hyperlink("2.html", "¡Correcto! Avanza a la siguiente página", "success")
     else:
@@ -48,5 +49,6 @@ def check_answer_2(answer):
         text("No no no...", "intenta de nuevo.", "warning")
 
 if __name__ == "__main__":
+    check_answer(None, 1)
     check_answer(5, 1)
     check_answer("2", 2)
