@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>¿Cómo creo mis propias habitaciones?</title>
+<title>¿Cómo crear una habitación?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -229,7 +229,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"code":"a = 3.14**2\nprint(f\"{a:.2f}\")","options":{"autorun":"","fig-width":7,"warning":"true","classes":"","fig-cap":"","dpi":72,"out-width":"700px","context":"interactive","output":"true","label":"","read-only":"false","out-height":"","results":"markup","comment":"","message":"true","fig-height":5}}];
+globalThis.qpyodideCellDetails = [{"id":1,"options":{"classes":"","output":"true","fig-height":5,"warning":"true","results":"markup","context":"interactive","out-height":"","message":"true","label":"","autorun":"","read-only":"false","dpi":72,"comment":"","fig-width":7,"fig-cap":"","out-width":"700px"},"code":"a = 3.14**2\nprint(f\"{a:.2f}\")"}];
 
 
 </script>
@@ -440,7 +440,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./howto.html"><span class="chapter-title">¿Cómo creo mis propias habitaciones?</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./howto.html"><span class="chapter-title">¿Cómo crear una habitación?</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -492,7 +492,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./howto.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">¿Cómo creo mis propias habitaciones?</span></a>
+  <a href="./howto.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">¿Cómo crear una habitación?</span></a>
   </div>
 </li>
     </ul>
@@ -516,7 +516,7 @@ globalThis._qpyodideGetInstance = function() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">¿Cómo creo mis propias habitaciones?</span></h1>
+<h1 class="title"><span class="chapter-title">¿Cómo crear una habitación?</span></h1>
 </div>
 
 
@@ -534,34 +534,34 @@ globalThis._qpyodideGetInstance = function() {
 
 
 <p>Esta página contiene todos los distintos elementos, para que puedas examinar el código y ver lo que se puede hacer.</p>
-<section id="theme" class="level2">
-<h2 class="anchored" data-anchor-id="theme">Theme</h2>
-<p>El tema es <a href="https://bootswatch.com/sketchy/">sketchy</a>, pero podría ser cualquier <a href="https://quarto.org/docs/output-formats/html-themes.html">otro</a>.</p>
+<section id="tema-theme" class="level2">
+<h2 class="anchored" data-anchor-id="tema-theme">Tema (Theme)</h2>
+<p>El tema es <a href="https://bootswatch.com/sketchy/">sketchy</a>, pero podría ser cualquier <a href="https://quarto.org/docs/output-formats/html-themes.html">otro</a>. Ya está configurado en el archivo <code>_quarto.yml</code>.</p>
+<p>En <a href="https://bootswatch.com/sketchy/">sketchy doc</a> hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.</p>
 </section>
 <section id="texto" class="level2">
 <h2 class="anchored" data-anchor-id="texto">Texto</h2>
+<p>Es posible usar markdown normal, o html. Las clases de bootstrap están disponibles.</p>
 <p>Este es el texto típico en <strong>negritas</strong> e <em>itálicas</em>.</p>
-<h2 class="anchored">
-Example body text
-</h2>
 <p>
-Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
 </p>
 <p>
-<small>This line of text is meant to be treated as fine print.</small>
+<small>Esta línea de texto está destinada a ser tratada como letra pequeña.</small>
 </p>
 <p>
-The following is <strong>rendered as bold text</strong>.
+Lo siguiente es <strong>representado como texto en negritas</strong>.
 </p>
 <p>
-The following is <em>rendered as italicized text</em>.
+Lo siguiente es <em>representado como texto en cursiva</em>.
 </p>
 <p>
-An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.
+Lo siguiente es un enlace <a href="#">aquí</a>.
 </p>
-<h2 class="anchored">
-Emphasis classes
-</h2>
+<p><mark>Este texto está subrayado</mark></p>
+</section>
+<section id="colores" class="level2">
+<h2 class="anchored" data-anchor-id="colores">Colores</h2>
 <p class="text-primary">
 .text-primary
 </p>
@@ -622,7 +622,6 @@ Emphasis classes
 <p class="text-body-tertiary">
 .text-body-tertiary
 </p>
-<p><mark>Este texto está subrayado</mark></p>
 <figure class="figure">
 <blockquote class="blockquote">
 <p class="mb-0">
@@ -642,7 +641,7 @@ Someone famous in <cite title="Source Title">Source Title</cite>
 <section id="imagenes" class="level2">
 <h2 class="anchored" data-anchor-id="imagenes">Imagenes</h2>
 <center>
-<img src="./images/cover.png" width="300">
+<img src="./images/cover.png" width="100">
 </center>
 </section>
 <section id="botones" class="level2">
@@ -674,13 +673,102 @@ Dark
 <button type="button" class="btn btn-link">
 Link
 </button>
+<p>La clase <code>btn-lg</code> y <code>btn-sm</code> hace el botón más grande y chico respectivamente:</p>
+<div class="d-grid gap-2">
+<p><button class="btn btn-lg btn-primary" type="button">Large button</button> <button class="btn btn-primary" type="button">Default button</button> <button class="btn btn-sm btn-primary" type="button">Small button</button></p>
+</div>
 <p>Típicamente los botones se combinan con un hipervínculo:</p>
 <center>
 <a href="rooms/start.html" class="btn btn-info">Iniciar el escape room</a>
 </center>
-<p>La clase <code>btn-lg</code> y <code>btn-sm</code> hace el botón más grande y chico respectivamente:</p>
-<div class="d-grid gap-2">
-<p><button class="btn btn-lg btn-primary" type="button">Large button</button> <button class="btn btn-primary" type="button">Default button</button> <button class="btn btn-sm btn-primary" type="button">Small button</button></p>
+<p>Para hacer un botón hipervínculo que ocupe todo el ancho de la pantalla, se puede usar:</p>
+<div class="d-grid gap-2 w-100">
+<p><a href="rooms/start.html" class="btn btn-info w-100" type="button">Iniciar el escape room</a></p>
+</div>
+</section>
+<section id="mensajes-de-quarto---callouts" class="level2">
+<h2 class="anchored" data-anchor-id="mensajes-de-quarto---callouts">Mensajes de quarto - Callouts</h2>
+<p>Los mensajes de quarto son una forma de mostrar mensajes en la página.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that there are five types of callouts, including: <code>note</code>, <code>warning</code>, <code>important</code>, <code>tip</code>, and <code>caution</code>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip with Title
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an example of a callout with a title.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Expand To Learn About Collapse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This is an example of a ‘folded’ caution callout that can be expanded by the user. You can use <code>collapse="true"</code> to collapse it by default or <code>collapse="false"</code> to make a collapsible callout that is expanded by default.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Tip with Title">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip with Title
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is a callout with a title.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pay Attention
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using callouts is an effective way to highlight content that your reader give special consideration or attention.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pay Attention
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using callouts is an effective way to highlight content that your reader give special consideration or attention.</p>
+</div>
 </div>
 </section>
 <section id="mensajes" class="level2">
@@ -688,10 +776,10 @@ Link
 <section id="descartables" class="level3">
 <h3 class="anchored" data-anchor-id="descartables">Descartables</h3>
 <div class="alert alert-dismissible alert-warning">
-<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
 <h4 class="alert-heading anchored">
 Warning!
 </h4>
+<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
 <p class="mb-0">
 Best check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.
 </p>
@@ -735,14 +823,14 @@ Best check yo self, you’re not looking too good. Nulla vitae elit libero, a ph
 </section>
 <section id="badges" class="level2">
 <h2 class="anchored" data-anchor-id="badges">Badges</h2>
-</section>
-<section id="badges-cuadrados" class="level2">
-<h2 class="anchored" data-anchor-id="badges-cuadrados">Badges cuadrados</h2>
+<section id="badges-cuadrados" class="level3">
+<h3 class="anchored" data-anchor-id="badges-cuadrados">Badges cuadrados</h3>
 <p><span class="badge bg-primary">Primary</span> <span class="badge bg-secondary">Secondary</span> <span class="badge bg-success">Success</span> <span class="badge bg-danger">Danger</span> <span class="badge bg-warning">Warning</span> <span class="badge bg-info">Info</span> <span class="badge bg-light">Light</span> <span class="badge bg-dark">Dark</span></p>
 </section>
-<section id="badges-redondeados" class="level2">
-<h2 class="anchored" data-anchor-id="badges-redondeados">Badges redondeados</h2>
+<section id="badges-redondeados" class="level3">
+<h3 class="anchored" data-anchor-id="badges-redondeados">Badges redondeados</h3>
 <p><span class="badge rounded-pill bg-primary">Primary</span> <span class="badge rounded-pill bg-secondary">Secondary</span> <span class="badge rounded-pill bg-success">Success</span> <span class="badge rounded-pill bg-danger">Danger</span> <span class="badge rounded-pill bg-warning">Warning</span> <span class="badge rounded-pill bg-info">Info</span> <span class="badge rounded-pill bg-light">Light</span> <span class="badge rounded-pill bg-dark">Dark</span></p>
+</section>
 </section>
 <section id="tarjetas-cards" class="level2">
 <h2 class="anchored" data-anchor-id="tarjetas-cards">Tarjetas (cards)</h2>
@@ -877,8 +965,29 @@ Header
 Some quick example text to build on the card title and make up the bulk of the card’s content.
 </div>
 </div>
+</section>
+<section id="texto-expandible" class="level2">
+<h2 class="anchored" data-anchor-id="texto-expandible">Texto expandible</h2>
+<p>El elemento de texto expandible posee un título (que siempre esta visible) y un contenido que se puede expandir y contraer.</p>
+<section id="un-único-ítem" class="level3">
+<h3 class="anchored" data-anchor-id="un-único-ítem">Un único ítem</h3>
+<div id="accordionExample" class="accordion">
+<div class="accordion-item">
+<pre><code>&lt;h2 class="accordion-header" id="headingOne"&gt;
+  &lt;button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"&gt;
+    Título del item
+  &lt;/button&gt;
+&lt;/h2&gt;
+&lt;div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style=""&gt;
+  &lt;div class="accordion-body"&gt;
+    &lt;strong&gt;Este es el cuerpo del acordeón del primer ítem.&lt;/strong&gt; Se muestra por defecto, hasta que el plugin de colapso agrega las clases apropiadas que usamos para estilizar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquier parte de esto con CSS personalizado o anulando nuestras variables predeterminadas. También es importante destacar que prácticamente cualquier HTML puede ir dentro de la &lt;code&gt;.accordion-body&lt;/code&gt;, aunque la transición limita el desbordamiento.
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

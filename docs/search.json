@@ -62,111 +62,121 @@
   {
     "objectID": "howto.html",
     "href": "howto.html",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "",
-    "text": "Theme\nEl tema es sketchy, pero podría ser cualquier otro.",
+    "text": "Tema (Theme)\nEl tema es sketchy, pero podría ser cualquier otro. Ya está configurado en el archivo _quarto.yml.\nEn sketchy doc hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
     "objectID": "howto.html#texto",
     "href": "howto.html#texto",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "Texto",
-    "text": "Texto\nEste es el texto típico en negritas e itálicas.\n\nExample body text\n\n\nNullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.\n\n\nThis line of text is meant to be treated as fine print.\n\n\nThe following is rendered as bold text.\n\n\nThe following is rendered as italicized text.\n\n\nAn abbreviation of the word attribute is attr.\n\n\nEmphasis classes\n\n\n.text-primary\n\n\n.text-primary-emphasis\n\n\n.text-secondary\n\n\n.text-secondary-emphasis\n\n\n.text-success\n\n\n.text-success-emphasis\n\n\n.text-danger\n\n\n.text-danger-emphasis\n\n\n.text-warning\n\n\n.text-warning-emphasis\n\n\n.text-info\n\n\n.text-info-emphasis\n\n\n.text-light\n\n\n.text-light-emphasis\n\n\n.text-dark\n\n\n.text-dark-emphasis\n\n\n.text-body\n\n\n.text-body-emphasis\n\n\n.text-body-secondary\n\n\n.text-body-tertiary\n\nEste texto está subrayado\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.\n\n\n\nSomeone famous in Source Title",
+    "text": "Texto\nEs posible usar markdown normal, o html. Las clases de bootstrap están disponibles.\nEste es el texto típico en negritas e itálicas.\n\nNullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.\n\n\nEsta línea de texto está destinada a ser tratada como letra pequeña.\n\n\nLo siguiente es representado como texto en negritas.\n\n\nLo siguiente es representado como texto en cursiva.\n\n\nLo siguiente es un enlace aquí.\n\nEste texto está subrayado",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#colores",
+    "href": "howto.html#colores",
+    "title": "¿Cómo crear una habitación?",
+    "section": "Colores",
+    "text": "Colores\n\n.text-primary\n\n\n.text-primary-emphasis\n\n\n.text-secondary\n\n\n.text-secondary-emphasis\n\n\n.text-success\n\n\n.text-success-emphasis\n\n\n.text-danger\n\n\n.text-danger-emphasis\n\n\n.text-warning\n\n\n.text-warning-emphasis\n\n\n.text-info\n\n\n.text-info-emphasis\n\n\n.text-light\n\n\n.text-light-emphasis\n\n\n.text-dark\n\n\n.text-dark-emphasis\n\n\n.text-body\n\n\n.text-body-emphasis\n\n\n.text-body-secondary\n\n\n.text-body-tertiary\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.\n\n\n\nSomeone famous in Source Title",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
     "objectID": "howto.html#celdas-de-python",
     "href": "howto.html#celdas-de-python",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "Celdas de Python",
     "text": "Celdas de Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
     "objectID": "howto.html#imagenes",
     "href": "howto.html#imagenes",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "Imagenes",
     "text": "Imagenes",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
     "objectID": "howto.html#botones",
     "href": "howto.html#botones",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "Botones",
-    "text": "Botones\n\nPrimary\n\n\nSecondary\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nLight\n\n\nDark\n\n\nLink\n\nTípicamente los botones se combinan con un hipervínculo:\n\nIniciar el escape room\n\nLa clase btn-lg y btn-sm hace el botón más grande y chico respectivamente:\n\nLarge button Default button Small button",
+    "text": "Botones\n\nPrimary\n\n\nSecondary\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nLight\n\n\nDark\n\n\nLink\n\nLa clase btn-lg y btn-sm hace el botón más grande y chico respectivamente:\n\nLarge button Default button Small button\n\nTípicamente los botones se combinan con un hipervínculo:\n\nIniciar el escape room\n\nPara hacer un botón hipervínculo que ocupe todo el ancho de la pantalla, se puede usar:\n\nIniciar el escape room",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#mensajes-de-quarto---callouts",
+    "href": "howto.html#mensajes-de-quarto---callouts",
+    "title": "¿Cómo crear una habitación?",
+    "section": "Mensajes de quarto - Callouts",
+    "text": "Mensajes de quarto - Callouts\nLos mensajes de quarto son una forma de mostrar mensajes en la página.\n\n\n\n\n\n\nNota\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is a callout with a title.\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nUsing callouts is an effective way to highlight content that your reader give special consideration or attention.\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nUsing callouts is an effective way to highlight content that your reader give special consideration or attention.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
     "objectID": "howto.html#mensajes",
     "href": "howto.html#mensajes",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "Mensajes",
-    "text": "Mensajes\n\nDescartables\n\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n Well done! You successfully read this important alert message.\n\n\n Heads up! This alert needs your attention, but it’s not super important.\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n\nFijos\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\nOh snap! Change a few things up and try submitting again.\n\n\nWell done! You successfully read this important alert message.\n\n\nHeads up! This alert needs your attention, but it’s not super important.\n\n\nOh snap! Change a few things up and try submitting again.",
+    "text": "Mensajes\n\nDescartables\n\n\nWarning!\n\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n Well done! You successfully read this important alert message.\n\n\n Heads up! This alert needs your attention, but it’s not super important.\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n\nFijos\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\nOh snap! Change a few things up and try submitting again.\n\n\nWell done! You successfully read this important alert message.\n\n\nHeads up! This alert needs your attention, but it’s not super important.\n\n\nOh snap! Change a few things up and try submitting again.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
     "objectID": "howto.html#badges",
     "href": "howto.html#badges",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "Badges",
-    "text": "Badges",
+    "text": "Badges\n\nBadges cuadrados\nPrimary Secondary Success Danger Warning Info Light Dark\n\n\nBadges redondeados\nPrimary Secondary Success Danger Warning Info Light Dark",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
-    ]
-  },
-  {
-    "objectID": "howto.html#badges-cuadrados",
-    "href": "howto.html#badges-cuadrados",
-    "title": "¿Cómo creo mis propias habitaciones?",
-    "section": "Badges cuadrados",
-    "text": "Badges cuadrados\nPrimary Secondary Success Danger Warning Info Light Dark",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
-    ]
-  },
-  {
-    "objectID": "howto.html#badges-redondeados",
-    "href": "howto.html#badges-redondeados",
-    "title": "¿Cómo creo mis propias habitaciones?",
-    "section": "Badges redondeados",
-    "text": "Badges redondeados\nPrimary Secondary Success Danger Warning Info Light Dark",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
     "objectID": "howto.html#tarjetas-cards",
     "href": "howto.html#tarjetas-cards",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "Tarjetas (cards)",
     "text": "Tarjetas (cards)\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
     "objectID": "howto.html#tarjetas-cards-sin-fondo",
     "href": "howto.html#tarjetas-cards-sin-fondo",
-    "title": "¿Cómo creo mis propias habitaciones?",
+    "title": "¿Cómo crear una habitación?",
     "section": "Tarjetas (cards) sin fondo",
     "text": "Tarjetas (cards) sin fondo\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#texto-expandible",
+    "href": "howto.html#texto-expandible",
+    "title": "¿Cómo crear una habitación?",
+    "section": "Texto expandible",
+    "text": "Texto expandible\nEl elemento de texto expandible posee un título (que siempre esta visible) y un contenido que se puede expandir y contraer.\n\nUn único ítem\n\n\n&lt;h2 class=\"accordion-header\" id=\"headingOne\"&gt;\n  &lt;button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"&gt;\n    Título del item\n  &lt;/button&gt;\n&lt;/h2&gt;\n&lt;div id=\"collapseOne\" class=\"accordion-collapse collapse\" aria-labelledby=\"headingOne\" data-bs-parent=\"#accordionExample\" style=\"\"&gt;\n  &lt;div class=\"accordion-body\"&gt;\n    &lt;strong&gt;Este es el cuerpo del acordeón del primer ítem.&lt;/strong&gt; Se muestra por defecto, hasta que el plugin de colapso agrega las clases apropiadas que usamos para estilizar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquier parte de esto con CSS personalizado o anulando nuestras variables predeterminadas. También es importante destacar que prácticamente cualquier HTML puede ir dentro de la &lt;code&gt;.accordion-body&lt;/code&gt;, aunque la transición limita el desbordamiento.\n  &lt;/div&gt;\n&lt;/div&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   }
 ]
