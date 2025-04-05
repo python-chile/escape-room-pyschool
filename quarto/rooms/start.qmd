@@ -2,14 +2,7 @@
 title: "Habitación 0: Inicio"
 ---
 
-## Paso 1: Instala la librería de ayuda
-```{pyodide-python}
-import urllib.request
-url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
-urllib.request.urlretrieve(url, "verification.py");
-```
-
-## Paso 2: Resuelve el enigma de la habitación
+Esta habitación tiene un enigma extremadamente difícil...
 
 ¿Cuánto es 2 + 3?
 

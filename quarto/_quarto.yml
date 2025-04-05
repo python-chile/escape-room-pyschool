@@ -24,6 +24,7 @@ book:
     - other/autoria.qmd
     - other/cierre_evento.qmd
     - rooms/end.qmd
+    - howto.qmd
 
 # Format Configuration
 format:

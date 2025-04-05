@@ -1,8 +1,10 @@
 # Fin
 
-<a href="2.html">Regresar a la página anterior</a>
+<a href="2.html" class="btn btn-info">Regresar al salón anterior</a>
 
 Felicidades, has escapado del escape room de Python.
 
-¿Quieres volver al inicio?: [Regresar al inicio](../index.html)
+¿Quieres volver al inicio? 
+
+<a href="../index.html" class="btn btn-info">Regresar al Inicio</a>
 

@@ -4,16 +4,7 @@ title: "Habitación 1: Lorem Ipsum"
 
 <a href="start.html" class="btn btn-info">Regresar al salón anterior</a>
 
-## Paso 1: Instala la librería de ayuda
-```{pyodide-python}
-import urllib.request
-url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
-urllib.request.urlretrieve(url, "verification.py");
-```
-
-## Paso 2: Resuelve el enigma de la habitación
-
-¿Cuánto es 2 + 3?
+¿Cuánto es 2? (Intenta como un string)
 
 ```{pyodide-python}
 import verification

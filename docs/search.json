@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "PySchool 2025",
     "section": "",
-    "text": "Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python.\n\n\n\nPySchool es una iniciativa de la organización Python Chile y DUOC.\nNuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\n\n \n\n\nIniciar el escape room\n\n\nThis text is highlighted\n\nPrimary\n\n\nSecondary\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nLight\n\n\nDark\n\n\nLink\n\n\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n Well done! You successfully read this important alert message.\n\n\n Heads up! This alert needs your attention, but it’s not super important.\n\n\n Oh snap! Change a few things up and try submitting again.\n\nPrimary Secondary Success Danger Warning Info Light Dark",
+    "text": "Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python.\n\n\n\nPySchool es una iniciativa de la organización Python Chile y DUOC.\nNuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\n\n \n\n\nIniciar el escape room\n\n\n\nDocumentación de elementos para construir el escape room",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
@@ -14,27 +14,7 @@
     "href": "rooms/start.html",
     "title": "Habitación 0: Inicio",
     "section": "",
-    "text": "Paso 1: Instala la librería de ayuda",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
-    ]
-  },
-  {
-    "objectID": "rooms/start.html#paso-1-instala-la-librería-de-ayuda",
-    "href": "rooms/start.html#paso-1-instala-la-librería-de-ayuda",
-    "title": "Habitación 0: Inicio",
-    "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
-    ]
-  },
-  {
-    "objectID": "rooms/start.html#paso-2-resuelve-el-enigma-de-la-habitación",
-    "href": "rooms/start.html#paso-2-resuelve-el-enigma-de-la-habitación",
-    "title": "Habitación 0: Inicio",
-    "section": "Paso 2: Resuelve el enigma de la habitación",
-    "text": "Paso 2: Resuelve el enigma de la habitación\n¿Cuánto es 2 + 3?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Esta habitación tiene un enigma extremadamente difícil…\n¿Cuánto es 2 + 3?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
     ]
@@ -44,27 +24,7 @@
     "href": "rooms/2.html",
     "title": "Habitación 1: Lorem Ipsum",
     "section": "",
-    "text": "Paso 1: Instala la librería de ayuda",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación 1: Lorem Ipsum</span>"
-    ]
-  },
-  {
-    "objectID": "rooms/2.html#paso-1-instala-la-librería-de-ayuda",
-    "href": "rooms/2.html#paso-1-instala-la-librería-de-ayuda",
-    "title": "Habitación 1: Lorem Ipsum",
-    "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación 1: Lorem Ipsum</span>"
-    ]
-  },
-  {
-    "objectID": "rooms/2.html#paso-2-resuelve-el-enigma-de-la-habitación",
-    "href": "rooms/2.html#paso-2-resuelve-el-enigma-de-la-habitación",
-    "title": "Habitación 1: Lorem Ipsum",
-    "section": "Paso 2: Resuelve el enigma de la habitación",
-    "text": "Paso 2: Resuelve el enigma de la habitación\n¿Cuánto es 2 + 3?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Regresar al salón anterior\n¿Cuánto es 2? (Intenta como un string)\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación 1: Lorem Ipsum</span>"
     ]
@@ -94,9 +54,119 @@
     "href": "rooms/end.html",
     "title": "Fin",
     "section": "",
-    "text": "Regresar a la página anterior\nFelicidades, has escapado del escape room de Python.\n¿Quieres volver al inicio?: Regresar al inicio",
+    "text": "Regresar al salón anterior\nFelicidades, has escapado del escape room de Python.\n¿Quieres volver al inicio?\nRegresar al Inicio",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>PySchool 2025</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html",
+    "href": "howto.html",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "",
+    "text": "Theme\nEl tema es sketchy, pero podría ser cualquier otro.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#texto",
+    "href": "howto.html#texto",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Texto",
+    "text": "Texto\nEste es el texto típico en negritas e itálicas.\n\nExample body text\n\n\nNullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.\n\n\nThis line of text is meant to be treated as fine print.\n\n\nThe following is rendered as bold text.\n\n\nThe following is rendered as italicized text.\n\n\nAn abbreviation of the word attribute is attr.\n\n\nEmphasis classes\n\n\n.text-primary\n\n\n.text-primary-emphasis\n\n\n.text-secondary\n\n\n.text-secondary-emphasis\n\n\n.text-success\n\n\n.text-success-emphasis\n\n\n.text-danger\n\n\n.text-danger-emphasis\n\n\n.text-warning\n\n\n.text-warning-emphasis\n\n\n.text-info\n\n\n.text-info-emphasis\n\n\n.text-light\n\n\n.text-light-emphasis\n\n\n.text-dark\n\n\n.text-dark-emphasis\n\n\n.text-body\n\n\n.text-body-emphasis\n\n\n.text-body-secondary\n\n\n.text-body-tertiary\n\nEste texto está subrayado\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.\n\n\n\nSomeone famous in Source Title",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#celdas-de-python",
+    "href": "howto.html#celdas-de-python",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Celdas de Python",
+    "text": "Celdas de Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#imagenes",
+    "href": "howto.html#imagenes",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Imagenes",
+    "text": "Imagenes",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#botones",
+    "href": "howto.html#botones",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Botones",
+    "text": "Botones\n\nPrimary\n\n\nSecondary\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nLight\n\n\nDark\n\n\nLink\n\nTípicamente los botones se combinan con un hipervínculo:\n\nIniciar el escape room\n\nLa clase btn-lg y btn-sm hace el botón más grande y chico respectivamente:\n\nLarge button Default button Small button",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#mensajes",
+    "href": "howto.html#mensajes",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Mensajes",
+    "text": "Mensajes\n\nDescartables\n\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n Well done! You successfully read this important alert message.\n\n\n Heads up! This alert needs your attention, but it’s not super important.\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n\nFijos\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\nOh snap! Change a few things up and try submitting again.\n\n\nWell done! You successfully read this important alert message.\n\n\nHeads up! This alert needs your attention, but it’s not super important.\n\n\nOh snap! Change a few things up and try submitting again.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#badges",
+    "href": "howto.html#badges",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Badges",
+    "text": "Badges",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#badges-cuadrados",
+    "href": "howto.html#badges-cuadrados",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Badges cuadrados",
+    "text": "Badges cuadrados\nPrimary Secondary Success Danger Warning Info Light Dark",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#badges-redondeados",
+    "href": "howto.html#badges-redondeados",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Badges redondeados",
+    "text": "Badges redondeados\nPrimary Secondary Success Danger Warning Info Light Dark",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#tarjetas-cards",
+    "href": "howto.html#tarjetas-cards",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Tarjetas (cards)",
+    "text": "Tarjetas (cards)\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
+    ]
+  },
+  {
+    "objectID": "howto.html#tarjetas-cards-sin-fondo",
+    "href": "howto.html#tarjetas-cards-sin-fondo",
+    "title": "¿Cómo creo mis propias habitaciones?",
+    "section": "Tarjetas (cards) sin fondo",
+    "text": "Tarjetas (cards) sin fondo\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo creo mis propias habitaciones?</span>"
     ]
   }
 ]
