@@ -38,6 +38,8 @@ def check_answer_2(answer):
     else:
         text("No no no...", "intenta de nuevo.", "danger")
 
+print("OK")
+
 if __name__ == "__main__":
     check_answer(5, 1)
     check_answer("2", 2)
