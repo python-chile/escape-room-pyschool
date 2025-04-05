@@ -2,12 +2,12 @@ def hyperlink(url, text, type="info"):
     print(f'<a href="{url}" class="btn btn-{type}">{text}</a>')
 
 def text(title="", text="", type="info", dismissable=True):
-    class_str = f"alert alert-{type}"
+    class_str = f'alert alert-{type}'
     if dismissable: class_str += " alert-dismissible"
-    text_str = "<div class="{class_str}">"
-    if title: text_str += f"<h4 class=\"alert-heading\">{title}</h4>"
-    if text: text_str += f"<p class=\"mb-0\">{text}</p>"
-    text_str += "</div>"
+    text_str = '<div class="{class_str}">'
+    if title: text_str += f'<h4 class=\"alert-heading\">{title}</h4>'
+    if text: text_str += f'<p class=\"mb-0\">{text}</p>'
+    text_str += '</div>'
     print(text_str)
 
 def check_answer(answer, room_number):
@@ -37,3 +37,7 @@ def check_answer_2(answer):
         hyperlink("3.html", "¡Correcto! Avanza a la siguiente página")
     else:
         text("No no no...", "intenta de nuevo.", "danger")
+
+if __name__ == "__main__":
+    check_answer(5, 1)
+    check_answer("2", 2)
