@@ -10,7 +10,7 @@ license: "CC BY-NC"
 # Project Configuration
 project:
   type: book
-  output-dir: "../html"
+  output-dir: "../docs"
 
 # Book Configuration
 book:

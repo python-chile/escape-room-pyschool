@@ -9,7 +9,7 @@
 <meta name="author" content="Sebastian Flores">
 <meta name="description" content="Aprende Python mientras resuelves desafíos">
 
-<title>Uno</title>
+<title>Cierre PySchool</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../rooms/2.html" rel="next">
-<link href="../index.html" rel="prev">
+<link href="../rooms/end.html" rel="next">
+<link href="../other/autoria.html" rel="prev">
 <link href="../images/favicon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -233,7 +233,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"required_libraries = [\"IPython\"]\nawait micropip.install(required_libraries)\nprint(\"Librerias instaladas:\", \",\".join(required_libraries))","options":{"fig-height":5,"fig-width":7,"results":"markup","comment":"","out-width":"700px","read-only":"false","warning":"true","label":"","message":"true","autorun":"","out-height":"","classes":"","dpi":72,"output":"true","context":"interactive","fig-cap":""},"id":1},{"code":"import pyodide_http\npyodide_http.patch_all()\n\nimport urllib.request\nimport sys\n\n# URL\nurl = \"https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py\"\n\n# Print the content\nwith urllib.request.urlopen(url) as response:\n    content = response.read().decode(\"utf-8\")\n    print(content)\n\n# Download the file\nurllib.request.urlretrieve(\n    \"https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py\",\n    \"/verification.py\"\n)\n\n# Add root to sys.path and import\nsys.path.append(\"/\")\nimport verification\nprint(\"✅ Module imported successfully!\")\nprint(dir(verification))","options":{"fig-height":5,"fig-width":7,"results":"markup","comment":"","out-width":"700px","read-only":"false","warning":"true","label":"","message":"true","autorun":"","out-height":"","classes":"","dpi":72,"output":"true","context":"interactive","fig-cap":""},"id":2},{"code":"var1 = 2\nvar2 = 3\n# Escribe tu respuesta aquí\nrespuesta = None\n\nverification.check_answer(respuesta, 1)","options":{"fig-height":5,"fig-width":7,"results":"markup","comment":"","out-width":"700px","read-only":"false","warning":"true","label":"","message":"true","autorun":"","out-height":"","classes":"","dpi":72,"output":"true","context":"interactive","fig-cap":""},"id":3}];
+globalThis.qpyodideCellDetails = [{"id":1,"code":"from random import randint\n\nnumero_participantes = 2\nnumero_premiado = randint(1, numero_participantes)\n\nprint(f\"El estudiante premiado es: {numero_premiado}\")","options":{"context":"interactive","output":"true","fig-cap":"","read-only":"false","warning":"true","dpi":72,"message":"true","comment":"","fig-width":7,"out-height":"","results":"markup","autorun":"","label":"","classes":"","out-width":"700px","fig-height":5}}];
 
 
 </script>
@@ -424,6 +424,35 @@ globalThis._qpyodideGetInstance = function() {
 
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -437,7 +466,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/start.html"><span class="chapter-title">PySchool 2025</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../other/cierre_evento.html"><span class="chapter-title">PySchool 2025</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -464,7 +493,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/start.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="../rooms/start.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -479,7 +508,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../other/cierre_evento.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="../other/cierre_evento.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">PySchool 2025</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -508,7 +537,7 @@ globalThis._qpyodideGetInstance = function() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Uno</span></h1>
+<h1 class="title"><span class="chapter-title">Cierre PySchool</span></h1>
 <p class="subtitle lead">Un escape room con Python</p>
 </div>
 
@@ -538,40 +567,32 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>Despiertas en una habitación, sin memoria de como llegaste allí.</p>
-<p>Buscas una manera de escapar, y encuentras una nota con una pista.</p>
-<p>Bienvenido al escape room de Python.</p>
-<p>Para escapar, tendrás que resolver los desafíos que te propondremos.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Desafío:
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>Para ello, tendrás que programar. No te preocupes, no esperes a que te enseñen Python, puedes aprender mientras avanzas.</p>
-</div>
-</div>
-</div>
-<section id="paso-1-instala-la-librería-de-ayuda" class="level2">
-<h2 class="anchored" data-anchor-id="paso-1-instala-la-librería-de-ayuda">Paso 1: Instala la librería de ayuda</h2>
-<p>V1</p>
+<section id="retroalimentación" class="level3">
+<h3 class="anchored" data-anchor-id="retroalimentación">🎯 <strong>Retroalimentación</strong></h3>
+<p>Nos encantaría saber que te ha parecido PySchool, y que podemos mejorar. Agradeceríamos contestaras la siguiente encuesta:</p>
+<center>
+<a href="https://forms.gle/MjQFihE1RiKzVgid9" target="_blank" rel="noopener noreferrer"> <img src="../../images/qr_retroalimentacion.png" width="400">
+<p>
+https://forms.gle/MjQFihE1RiKzVgid9
+</p>
+</a>
+</center>
+</section>
+<section id="código-para-sorteo" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-sorteo">Código para sorteo</h3>
+<p>Para sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función <code>random.randint(a, b)</code> que retorna un número entero aleatorio <span class="math inline">\(N\)</span> que cumpla la condición <span class="math inline">\(a &lt;= N &lt;= b\)</span>.</p>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>V2</p>
-<div id="qpyodide-insertion-location-2"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="paso-2-resuelve-el-enigma-de-la-habitación" class="level2">
-<h2 class="anchored" data-anchor-id="paso-2-resuelve-el-enigma-de-la-habitación">Paso 2: Resuelve el enigma de la habitación</h2>
-<p>¿Cuánto es 2 + 3?</p>
-<div id="qpyodide-insertion-location-3"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<section id="condiciones-de-uso-de-giftcards" class="level3">
+<h3 class="anchored" data-anchor-id="condiciones-de-uso-de-giftcards">Condiciones de uso de giftcards</h3>
+<p>Las condiciones de uso de las giftcards para uso en el local <a href="https://cafe-robots-y-galletas.odoo.com/">café-robots-galletas</a> tienen las siguientes condiciones:</p>
+<ul>
+<li>Cada giftcard es válida para un único uso.</li>
+<li>La giftcard no se puede cambiar por dinero en efectivo, ni se entregará vuelto.</li>
+<li>La giftcard se puede usar para cualquier producto en venta en el local.</li>
+<li>Cada giftcard tiene vigencia de 3 meses (hasta el 31 de octubre).</li>
+</ul>
 
 
 </section>
@@ -988,12 +1009,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="PySchool 2025">
+      <a href="../other/autoria.html" class="pagination-link" aria-label="PySchool 2025">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">PySchool 2025</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../rooms/2.html" class="pagination-link" aria-label="PySchool 2025">
+      <a href="../rooms/end.html" class="pagination-link" aria-label="PySchool 2025">
         <span class="nav-page-text"><span class="chapter-title">PySchool 2025</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>

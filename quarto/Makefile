@@ -2,4 +2,4 @@ render:
 	quarto render .
 
 view:
-	open ../html/index.html
+	open ../docs/index.html
