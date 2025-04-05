@@ -20,6 +20,7 @@ def text(title="", text="", type="info", dismissable=True):
     <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
     </div>    
     '''
+    print(text_str)
 
 
 def check_answer(answer, room_number):

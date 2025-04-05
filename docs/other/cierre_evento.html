@@ -229,7 +229,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"fig-width":7,"label":"","output":"true","out-width":"700px","results":"markup","fig-cap":"","read-only":"false","fig-height":5,"comment":"","dpi":72,"context":"interactive","autorun":"","out-height":"","warning":"true","classes":"","message":"true"},"code":"from random import randint\n\nnumero_participantes = 2\nnumero_premiado = randint(1, numero_participantes)\n\nprint(f\"El estudiante premiado es: {numero_premiado}\")","id":1}];
+globalThis.qpyodideCellDetails = [{"id":1,"code":"from random import randint\n\nnumero_participantes = 2\nnumero_premiado = randint(1, numero_participantes)\n\nprint(f\"El estudiante premiado es: {numero_premiado}\")","options":{"out-width":"700px","comment":"","results":"markup","classes":"","label":"","read-only":"false","warning":"true","autorun":"","out-height":"","output":"true","fig-width":7,"dpi":72,"fig-height":5,"fig-cap":"","message":"true","context":"interactive"}}];
 
 
 </script>
@@ -391,6 +391,13 @@ globalThis.qpyodideInstance = await import(
     from matplotlib import pyplot as plt
     `);
 
+    // Load the verification file
+    await mainPyodide.runPythonAsync(`
+    import urllib.request
+    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
+    urllib.request.urlretrieve(url, "verification.py");
+    `);
+     
     // Unlock interactive buttons
     qpyodideSetInteractiveButtonState(
       `<i class="fa-solid fa-play qpyodide-icon-run-code"></i> <span>Run Code</span>`, 

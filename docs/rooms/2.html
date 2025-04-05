@@ -229,7 +229,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"comment":"","label":"","results":"markup","fig-height":5,"read-only":"false","warning":"true","classes":"","autorun":"","out-width":"700px","dpi":72,"context":"interactive","message":"true","out-height":"","fig-width":7,"fig-cap":"","output":"true"},"code":"import urllib.request\nurl = \"https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py\"\nurllib.request.urlretrieve(url, \"verification.py\");","id":1},{"options":{"comment":"","label":"","results":"markup","fig-height":5,"read-only":"false","warning":"true","classes":"","autorun":"","out-width":"700px","dpi":72,"context":"interactive","message":"true","out-height":"","fig-width":7,"fig-cap":"","output":"true"},"code":"import verification\n\n# Escribe tu respuesta aquí\nrespuesta = 2 # \"dos\"\n\nverification.check_answer(respuesta, 2)","id":2}];
+globalThis.qpyodideCellDetails = [{"id":1,"code":"import urllib.request\nurl = \"https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py\"\nurllib.request.urlretrieve(url, \"verification.py\");","options":{"read-only":"false","message":"true","label":"","fig-cap":"","autorun":"","fig-height":5,"results":"markup","context":"interactive","classes":"","out-height":"","dpi":72,"fig-width":7,"out-width":"700px","output":"true","comment":"","warning":"true"}},{"id":2,"code":"import verification\n\n# Escribe tu respuesta aquí\nrespuesta = 2 # \"dos\"\n\nverification.check_answer(respuesta, 2)","options":{"read-only":"false","message":"true","label":"","fig-cap":"","autorun":"","fig-height":5,"results":"markup","context":"interactive","classes":"","out-height":"","dpi":72,"fig-width":7,"out-width":"700px","output":"true","comment":"","warning":"true"}}];
 
 
 </script>
@@ -391,6 +391,13 @@ globalThis.qpyodideInstance = await import(
     from matplotlib import pyplot as plt
     `);
 
+    // Load the verification file
+    await mainPyodide.runPythonAsync(`
+    import urllib.request
+    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
+    urllib.request.urlretrieve(url, "verification.py");
+    `);
+     
     // Unlock interactive buttons
     qpyodideSetInteractiveButtonState(
       `<i class="fa-solid fa-play qpyodide-icon-run-code"></i> <span>Run Code</span>`, 

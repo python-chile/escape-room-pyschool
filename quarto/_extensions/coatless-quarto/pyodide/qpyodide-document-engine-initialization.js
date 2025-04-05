@@ -59,6 +59,13 @@ globalThis.qpyodideInstance = await import(
     from matplotlib import pyplot as plt
     `);
 
+    // Load the verification file
+    await mainPyodide.runPythonAsync(`
+    import urllib.request
+    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
+    urllib.request.urlretrieve(url, "verification.py");
+    `);
+     
     // Unlock interactive buttons
     qpyodideSetInteractiveButtonState(
       `<i class="fa-solid fa-play qpyodide-icon-run-code"></i> <span>Run Code</span>`, 
