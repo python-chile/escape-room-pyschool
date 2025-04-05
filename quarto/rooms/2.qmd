@@ -1,8 +1,8 @@
-### Dos
+---
+title: "Habitación 1: Lorem Ipsum"
+---
 
-<a href="start.html">Regresar a la página anterior</a>
-
-# Uno
+<a href="start.html" class="btn btn-info">Regresar al salón anterior</a>
 
 ## Paso 1: Instala la librería de ayuda
 ```{pyodide-python}

@@ -1,4 +1,6 @@
-# Uno
+---
+title: "Habitación 0: Inicio"
+---
 
 ## Paso 1: Instala la librería de ayuda
 ```{pyodide-python}

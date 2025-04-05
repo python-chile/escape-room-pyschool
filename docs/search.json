@@ -12,61 +12,61 @@
   {
     "objectID": "rooms/start.html",
     "href": "rooms/start.html",
-    "title": "Uno",
+    "title": "Habitación 0: Inicio",
     "section": "",
     "text": "Paso 1: Instala la librería de ayuda",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
     ]
   },
   {
     "objectID": "rooms/start.html#paso-1-instala-la-librería-de-ayuda",
     "href": "rooms/start.html#paso-1-instala-la-librería-de-ayuda",
-    "title": "Uno",
+    "title": "Habitación 0: Inicio",
     "section": "",
     "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
     ]
   },
   {
     "objectID": "rooms/start.html#paso-2-resuelve-el-enigma-de-la-habitación",
     "href": "rooms/start.html#paso-2-resuelve-el-enigma-de-la-habitación",
-    "title": "Uno",
+    "title": "Habitación 0: Inicio",
     "section": "Paso 2: Resuelve el enigma de la habitación",
     "text": "Paso 2: Resuelve el enigma de la habitación\n¿Cuánto es 2 + 3?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
     ]
   },
   {
     "objectID": "rooms/2.html",
     "href": "rooms/2.html",
-    "title": "Dos",
+    "title": "Habitación 1: Lorem Ipsum",
     "section": "",
-    "text": "Uno",
+    "text": "Paso 1: Instala la librería de ayuda",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación 1: Lorem Ipsum</span>"
     ]
   },
   {
     "objectID": "rooms/2.html#paso-1-instala-la-librería-de-ayuda",
     "href": "rooms/2.html#paso-1-instala-la-librería-de-ayuda",
-    "title": "Dos",
-    "section": "Paso 1: Instala la librería de ayuda",
-    "text": "Paso 1: Instala la librería de ayuda\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "title": "Habitación 1: Lorem Ipsum",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación 1: Lorem Ipsum</span>"
     ]
   },
   {
     "objectID": "rooms/2.html#paso-2-resuelve-el-enigma-de-la-habitación",
     "href": "rooms/2.html#paso-2-resuelve-el-enigma-de-la-habitación",
-    "title": "Dos",
+    "title": "Habitación 1: Lorem Ipsum",
     "section": "Paso 2: Resuelve el enigma de la habitación",
     "text": "Paso 2: Resuelve el enigma de la habitación\n¿Cuánto es 2 + 3?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación 1: Lorem Ipsum</span>"
     ]
   },
   {

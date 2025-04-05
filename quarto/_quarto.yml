@@ -1,6 +1,6 @@
 # Basic Metadata Configuration
 title: "PySchool 2025"
-subtitle: "Un escape room con Python: Aprende Python mientras resuelves desafíos"
+#subtitle: "Un escape room con Python: Aprende Python mientras resuelves desafíos"
 #description: "Aprende Python mientras resuelves desafíos"
 #author: "Sebastian Flores"
 #date: "2025-05-04"
@@ -32,7 +32,8 @@ format:
     css: "style.css"
     number-sections: false
     toc: false
-    page-layout: full
+    #page-layout: full
+    page-navigation: false
     sidebar-width: 0px
 
 # Extensions
