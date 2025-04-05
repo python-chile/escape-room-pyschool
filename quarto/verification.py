@@ -7,13 +7,13 @@ def hyperlink(url, text, type="info"):
 def text(title="", text="", type="info", dismissable=True):
     class_str = f'alert alert-{type}'
     if dismissable: class_str += " alert-dismissible"
-    text_str = '<div class="{class_str}">'
-    if title: text_str += f'<h4 class=\"alert-heading\">{title}</h4>'
-    if text: text_str += f'<p class=\"mb-0\">{text}</p>'
+        text_str = '<div class="{class_str}">'
+    if title: 
+        text_str += f'<h4 class=\"alert-heading\">{title}</h4>'
+    if text: 
+        text_str += f'<p class=\"mb-0\">{text}</p>'
     text_str += '</div>'
-    print("```html\n"+text_str+"\n```")
     print(text_str)
-
 
 def check_answer(answer, room_number):
     """
