@@ -2,19 +2,24 @@
 
 <a href="start.html">Regresar a la página anterior</a>
 
+# Uno
 
-## Programación
-
-## 1. 👋 Hola Mundo
-Es tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprima la frase "Hola, Mundo" (o "Hello World") en la pantalla.
-
+## Paso 1: Instala la librería de ayuda
 ```{pyodide-python}
-answer = 2
-verification.check_answer(answer, 2)
-
-#print("<a href='end.html'>Siguiente página...</a>")
+import urllib.request
+url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
+urllib.request.urlretrieve(url, "verification.py");
 ```
 
-::: {.callout-tip collapse="false" title="Desafío:"}
-¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?
-:::
+## Paso 2: Resuelve el enigma de la habitación
+
+¿Cuánto es 2 + 3?
+
+```{pyodide-python}
+import verification
+
+# Escribe tu respuesta aquí
+respuesta = 2 # "dos"
+
+verification.check_answer(respuesta, 2)
+```

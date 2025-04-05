@@ -1,9 +1,9 @@
 # Basic Metadata Configuration
 title: "PySchool 2025"
-subtitle: "Un escape room con Python"
-description: "Aprende Python mientras resuelves desafíos"
-author: "Sebastian Flores"
-date: "2025-05-04"
+subtitle: "Un escape room con Python: Aprende Python mientras resuelves desafíos"
+#description: "Aprende Python mientras resuelves desafíos"
+#author: "Sebastian Flores"
+#date: "2025-05-04"
 lang: es
 license: "CC BY-NC"
 
@@ -28,7 +28,7 @@ book:
 # Format Configuration
 format:
   html:
-    theme: spacelab
+    theme: sketchy
     css: "style.css"
     number-sections: false
     toc: false

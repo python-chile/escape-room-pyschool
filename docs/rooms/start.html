@@ -6,8 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sebastian Flores">
-<meta name="description" content="Aprende Python mientras resuelves desafíos">
 
 <title>Uno</title>
 <style>
@@ -233,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"options":{"read-only":"false","output":"true","comment":"","fig-height":5,"out-width":"700px","message":"true","classes":"","warning":"true","label":"","context":"interactive","results":"markup","fig-cap":"","autorun":"","fig-width":7,"dpi":72,"out-height":""},"code":"required_libraries = [\"IPython\"]\nawait micropip.install(required_libraries)\nprint(\"Librerias instaladas:\", \",\".join(required_libraries))"},{"id":2,"options":{"read-only":"false","output":"true","comment":"","fig-height":5,"out-width":"700px","message":"true","classes":"","warning":"true","label":"","context":"interactive","results":"markup","fig-cap":"","autorun":"","fig-width":7,"dpi":72,"out-height":""},"code":"import pyodide_http\npyodide_http.patch_all()\n\nimport urllib.request\nimport sys\n\n# URL\nurl = \"https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py\"\n\n# Print the content\nwith urllib.request.urlopen(url) as response:\n    content = response.read().decode(\"utf-8\")\n    print(content)\n\n# Download the file\nurllib.request.urlretrieve(\n    \"https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py\",\n    \"/verification.py\"\n)\n\n# Add root to sys.path and import\nsys.path.append(\"/\")\nimport verification\nprint(\"✅ Module imported successfully!\")\nprint(dir(verification))"},{"id":3,"options":{"read-only":"false","output":"true","comment":"","fig-height":5,"out-width":"700px","message":"true","classes":"","warning":"true","label":"","context":"interactive","results":"markup","fig-cap":"","autorun":"","fig-width":7,"dpi":72,"out-height":""},"code":"var1 = 2\nvar2 = 3\n# Escribe tu respuesta aquí\nrespuesta = None\n\nverification.check_answer(respuesta, 1)"}];
+globalThis.qpyodideCellDetails = [{"options":{"out-width":"700px","autorun":"","fig-cap":"","results":"markup","message":"true","warning":"true","output":"true","dpi":72,"comment":"","label":"","classes":"","context":"interactive","fig-height":5,"read-only":"false","fig-width":7,"out-height":""},"id":1,"code":"import urllib.request\nurl = \"https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py\"\nurllib.request.urlretrieve(url, \"verification.py\");"},{"options":{"out-width":"700px","autorun":"","fig-cap":"","results":"markup","message":"true","warning":"true","output":"true","dpi":72,"comment":"","label":"","classes":"","context":"interactive","fig-height":5,"read-only":"false","fig-width":7,"out-height":""},"id":2,"code":"import verification\n\nvar1 = 2\nvar2 = 3\n# Escribe tu respuesta aquí\nrespuesta = None\n\nverification.check_answer(respuesta, 1)"}];
 
 
 </script>
@@ -509,26 +507,14 @@ globalThis._qpyodideGetInstance = function() {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-title">Uno</span></h1>
-<p class="subtitle lead">Un escape room con Python</p>
+<p class="subtitle lead">Un escape room con Python: Aprende Python mientras resuelves desafíos</p>
 </div>
 
 
 
 <div class="quarto-title-meta column-page-right">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor/a</div>
-    <div class="quarto-title-meta-contents">
-             <p>Sebastian Flores </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Fecha de publicación</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">4 de mayo de 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -538,39 +524,15 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>Despiertas en una habitación, sin memoria de como llegaste allí.</p>
-<p>Buscas una manera de escapar, y encuentras una nota con una pista.</p>
-<p>Bienvenido al escape room de Python.</p>
-<p>Para escapar, tendrás que resolver los desafíos que te propondremos.</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Desafío:
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>Para ello, tendrás que programar. No te preocupes, no esperes a que te enseñen Python, puedes aprender mientras avanzas.</p>
-</div>
-</div>
-</div>
 <section id="paso-1-instala-la-librería-de-ayuda" class="level2">
 <h2 class="anchored" data-anchor-id="paso-1-instala-la-librería-de-ayuda">Paso 1: Instala la librería de ayuda</h2>
-<p>V1</p>
 <div id="qpyodide-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>V2</p>
-<div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="paso-2-resuelve-el-enigma-de-la-habitación" class="level2">
 <h2 class="anchored" data-anchor-id="paso-2-resuelve-el-enigma-de-la-habitación">Paso 2: Resuelve el enigma de la habitación</h2>
 <p>¿Cuánto es 2 + 3?</p>
-<div id="qpyodide-insertion-location-3"></div>
+<div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 

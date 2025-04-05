@@ -1,54 +1,10 @@
 # Uno
-Despiertas en una habitación, sin memoria de como llegaste allí.
-
-Buscas una manera de escapar, y encuentras una nota con una pista.
-
-Bienvenido al escape room de Python.
-
-Para escapar, tendrás que resolver los desafíos que te propondremos.
-
-::: {.callout-tip collapse="false" title="Desafío:"}
-Para ello, tendrás que programar. No te preocupes, no esperes a que te enseñen Python, puedes aprender mientras avanzas.
-:::
 
 ## Paso 1: Instala la librería de ayuda
-
-V1
-
 ```{pyodide-python}
-required_libraries = ["IPython"]
-await micropip.install(required_libraries)
-print("Librerias instaladas:", ",".join(required_libraries))
-```
-
-V2
-
-```{pyodide-python}
-import pyodide_http
-pyodide_http.patch_all()
-
 import urllib.request
-import sys
-
-# URL
 url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
-
-# Print the content
-with urllib.request.urlopen(url) as response:
-    content = response.read().decode("utf-8")
-    print(content)
-
-# Download the file
-urllib.request.urlretrieve(
-    "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py",
-    "/verification.py"
-)
-
-# Add root to sys.path and import
-sys.path.append("/")
-import verification
-print("✅ Module imported successfully!")
-print(dir(verification))
+urllib.request.urlretrieve(url, "verification.py");
 ```
 
 ## Paso 2: Resuelve el enigma de la habitación
@@ -56,6 +12,8 @@ print(dir(verification))
 ¿Cuánto es 2 + 3?
 
 ```{pyodide-python}
+import verification
+
 var1 = 2
 var2 = 3
 # Escribe tu respuesta aquí

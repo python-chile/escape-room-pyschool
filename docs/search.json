@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "PySchool 2025",
     "section": "",
-    "text": "Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python.\n\n\n\nPySchool es una iniciativa de la organización Python Chile y DUOC.\nNuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nIniciar el escape room",
+    "text": "Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python.\n\n\n\nPySchool es una iniciativa de la organización Python Chile y DUOC.\nNuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\n\n \n\n\nIniciar el escape room\n\n\nThis text is highlighted\n\nPrimary\n\n\nSecondary\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nLight\n\n\nDark\n\n\nLink\n\n\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n Well done! You successfully read this important alert message.\n\n\n Heads up! This alert needs your attention, but it’s not super important.\n\n\n Oh snap! Change a few things up and try submitting again.\n\nPrimary Secondary Success Danger Warning Info Light Dark",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
@@ -14,7 +14,7 @@
     "href": "rooms/start.html",
     "title": "Uno",
     "section": "",
-    "text": "Paso 1: Instala la librería de ayuda\nV1\nV2",
+    "text": "Paso 1: Instala la librería de ayuda",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "rooms/start.html#paso-1-instala-la-librería-de-ayuda",
     "title": "Uno",
     "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
@@ -44,17 +44,27 @@
     "href": "rooms/2.html",
     "title": "Dos",
     "section": "",
-    "text": "Programación",
+    "text": "Uno",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
   },
   {
-    "objectID": "rooms/2.html#hola-mundo",
-    "href": "rooms/2.html#hola-mundo",
+    "objectID": "rooms/2.html#paso-1-instala-la-librería-de-ayuda",
+    "href": "rooms/2.html#paso-1-instala-la-librería-de-ayuda",
     "title": "Dos",
-    "section": "1. 👋 Hola Mundo",
-    "text": "1. 👋 Hola Mundo\nEs tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprima la frase “Hola, Mundo” (o “Hello World”) en la pantalla.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\n¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?",
+    "section": "Paso 1: Instala la librería de ayuda",
+    "text": "Paso 1: Instala la librería de ayuda\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>PySchool 2025</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/2.html#paso-2-resuelve-el-enigma-de-la-habitación",
+    "href": "rooms/2.html#paso-2-resuelve-el-enigma-de-la-habitación",
+    "title": "Dos",
+    "section": "Paso 2: Resuelve el enigma de la habitación",
+    "text": "Paso 2: Resuelve el enigma de la habitación\n¿Cuánto es 2 + 3?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]

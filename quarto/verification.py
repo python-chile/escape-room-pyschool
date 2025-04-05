@@ -1,3 +1,15 @@
+def hyperlink(url, text, type="info"):
+    print(f'<a href="{url}" class="btn btn-{type}">{text}</a>')
+
+def text(title="", text="", type="info", dismissable=True):
+    class_str = f"alert alert-{type}"
+    if dismissable: class_str += " alert-dismissible"
+    text_str = "<div class="{class_str}">"
+    if title: text_str += f"<h4 class=\"alert-heading\">{title}</h4>"
+    if text: text_str += f"<p class=\"mb-0\">{text}</p>"
+    text_str += "</div>"
+    print(text_str)
+
 def check_answer(answer, room_number):
     """
     Verifica si la respuesta es correcta para la habitación especificada.
@@ -16,14 +28,12 @@ def check_answer(answer, room_number):
 
 def check_answer_1(answer):
     if answer == 5:
-        print("¡Correcto! Avanza a la siguiente página")
-        print('<a href="2.html">Siguiente página...</a>')
+        hyperlink("2.html", "¡Correcto! Avanza a la siguiente página")
     else:
-        print("No no no... intenta de nuevo.")
+        text("No no no...", "intenta de nuevo.", "danger")
 
 def check_answer_2(answer):
     if answer == "2":
-        print("¡Correcto! Avanza a la siguiente página")
-        print('<a href="3.html">Siguiente página...</a>')
+        hyperlink("3.html", "¡Correcto! Avanza a la siguiente página")
     else:
-        print("No no no... intenta de nuevo.")
+        text("No no no...", "intenta de nuevo.", "danger")
