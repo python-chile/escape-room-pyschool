@@ -7,12 +7,12 @@ Esta habitación tiene un enigma extremadamente difícil...
 ¿Cuánto es 2 + 3?
 
 ```{pyodide-python}
-import verification
+import verificar
 
 var1 = 2
 var2 = 3
 # Escribe tu respuesta aquí
 respuesta = None
 
-verification.check_answer(respuesta, 1)
+verificar.salon_1(respuesta)
 ```

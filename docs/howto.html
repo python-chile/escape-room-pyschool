@@ -229,7 +229,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"output":"true","context":"interactive","dpi":72,"fig-height":5,"warning":"true","message":"true","comment":"","read-only":"false","results":"markup","classes":"","out-width":"700px","autorun":"","fig-cap":"","label":"","fig-width":7,"out-height":""},"code":"a = 3.14**2\nprint(f\"{a:.2f}\")","id":1}];
+globalThis.qpyodideCellDetails = [{"id":1,"options":{"autorun":"","fig-cap":"","output":"true","read-only":"false","label":"","comment":"","results":"markup","context":"interactive","message":"true","out-width":"700px","out-height":"","fig-width":7,"classes":"","fig-height":5,"warning":"true","dpi":72},"code":"a = 3.14**2\nprint(f\"{a:.2f}\")"}];
 
 
 </script>
@@ -395,8 +395,8 @@ globalThis.qpyodideInstance = await import(
     // Load the verification file
     await mainPyodide.runPythonAsync(`
     import urllib.request
-    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
-    urllib.request.urlretrieve(url, "verification.py");
+    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verificar.py"
+    urllib.request.urlretrieve(url, "verificar.py");
     `);
     qpyodideUpdateStatusHeader("Cargando las habitaciones...");
      

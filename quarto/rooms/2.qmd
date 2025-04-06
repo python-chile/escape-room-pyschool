@@ -7,10 +7,10 @@ title: "Habitación 1: Lorem Ipsum"
 ¿Cuánto es 2? (Intenta como un string)
 
 ```{pyodide-python}
-import verification
+import verificar
 
 # Escribe tu respuesta aquí
-respuesta = 2 # "dos"
+respuesta = None
 
-verification.check_answer(respuesta, 2)
+verificar.salon_2(respuesta)
 ```

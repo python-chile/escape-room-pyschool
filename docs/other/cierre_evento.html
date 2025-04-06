@@ -229,7 +229,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"label":"","out-height":"","dpi":72,"read-only":"false","classes":"","results":"markup","context":"interactive","fig-height":5,"output":"true","out-width":"700px","autorun":"","fig-cap":"","message":"true","warning":"true","fig-width":7,"comment":""},"code":"from random import randint\n\nnumero_participantes = 2\nnumero_premiado = randint(1, numero_participantes)\n\nprint(f\"El estudiante premiado es: {numero_premiado}\")","id":1}];
+globalThis.qpyodideCellDetails = [{"id":1,"options":{"context":"interactive","warning":"true","message":"true","classes":"","out-width":"700px","autorun":"","output":"true","results":"markup","dpi":72,"comment":"","read-only":"false","fig-width":7,"fig-cap":"","label":"","out-height":"","fig-height":5},"code":"from random import randint\n\nnumero_participantes = 2\nnumero_premiado = randint(1, numero_participantes)\n\nprint(f\"El estudiante premiado es: {numero_premiado}\")"}];
 
 
 </script>
@@ -395,8 +395,8 @@ globalThis.qpyodideInstance = await import(
     // Load the verification file
     await mainPyodide.runPythonAsync(`
     import urllib.request
-    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
-    urllib.request.urlretrieve(url, "verification.py");
+    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verificar.py"
+    urllib.request.urlretrieve(url, "verificar.py");
     `);
     qpyodideUpdateStatusHeader("Cargando las habitaciones...");
      
