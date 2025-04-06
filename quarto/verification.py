@@ -1,9 +1,5 @@
 # types: alert, danger, success, info, primary
 
-def hyperlink(url, text, type="info"):
-    print(f'<a href="{url}" class="btn btn-{type}">{text}</a>')
-
-
 def text(title="", text="", type="info", dismissable=False):
     class_str = f'alert alert-{type}'
     text_str = f'<div class="{class_str}">'
@@ -15,6 +11,11 @@ def text(title="", text="", type="info", dismissable=False):
         text_str += f'<p class=\"mb-0\">{text}</p>'
     text_str += '</div>'
     print(text_str)
+
+
+def hyperlink(url, text, type="info"):
+    print(f'<a href="{url}" class="btn btn-{type} w-100 h-100">{text}</a>')
+
 
 def check_answer(answer, room_number):
     """

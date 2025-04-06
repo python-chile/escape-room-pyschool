@@ -1,3 +1,7 @@
 #quarto-sidebar {
     display: none !important;
 }
+
+.qpyodide-output-code-area-1 {
+    border: none !important;
+}
