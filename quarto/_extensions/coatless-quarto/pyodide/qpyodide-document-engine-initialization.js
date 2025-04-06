@@ -63,8 +63,8 @@ globalThis.qpyodideInstance = await import(
     // Load the verification file
     await mainPyodide.runPythonAsync(`
     import urllib.request
-    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verification.py"
-    urllib.request.urlretrieve(url, "verification.py");
+    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verificar.py"
+    urllib.request.urlretrieve(url, "verificar.py");
     `);
     qpyodideUpdateStatusHeader("Cargando las habitaciones...");
      
