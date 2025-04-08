@@ -10,10 +10,10 @@ En la muralla, hay una puerta y una consola con un teclado.
 Extrañado, te acercas a la consola y ves que sobre la pantalla hay una nota:
 
 <div class="alert alert-info">
-**¡Bienvenido a PySchool!**
-Cada habitación tiene un enigma, que podrás resolver con Python. 
-Puedes realizar tantos intentos como desees. 
-Cada habitación tiene algunas explicaciones y pistas.
+**¡Bienvenido a PySchool!**  
+Cada habitación tiene un enigma, que podrás resolver con Python.  
+Puedes realizar tantos intentos como desees.  
+Cada habitación tiene algunas explicaciones y pistas.  
 ¡Buena suerte, pythonista!
 </div>
 

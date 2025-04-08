@@ -43,7 +43,9 @@ def salon_2(answer):
     else:
         text("No no no...", "alert")
 
+
 if __name__ == "__main__":
+    salon_0("PySchool2025")
     salon_1(None)
     salon_1(5)
     salon_1("2")
