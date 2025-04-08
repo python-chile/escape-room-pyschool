@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Habitación 1: Lorem Ipsum</title>
+<title>Habitación 2: Números</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -229,7 +229,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"options":{"results":"markup","fig-cap":"","label":"","read-only":"false","dpi":72,"comment":"","out-width":"700px","out-height":"","context":"interactive","warning":"true","output":"true","autorun":"","classes":"","message":"true","fig-height":5,"fig-width":7},"code":"import verificar\n\n# Escribe tu respuesta aquí\nrespuesta = None\n\nverificar.salon_2(respuesta)"}];
+globalThis.qpyodideCellDetails = [{"code":"# Escribe tu respuesta aquí\nrespuesta = None\n\n# Verifica la respuesta\nimport verificar\nverificar.salon_2(respuesta)","options":{"label":"","out-height":"","context":"interactive","classes":"","message":"true","dpi":72,"read-only":"false","results":"markup","autorun":"","comment":"","output":"true","warning":"true","fig-cap":"","fig-height":5,"out-width":"700px","fig-width":7},"id":1}];
 
 
 </script>
@@ -427,6 +427,35 @@ globalThis._qpyodideGetInstance = function() {
 
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -440,7 +469,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/2.html"><span class="chapter-title">Habitación 1: Lorem Ipsum</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/2.html"><span class="chapter-title">Habitación 2: Números</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -477,12 +506,12 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 0: Inicio</span></a>
+  <a href="../rooms/1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 1: Hola Mundo</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación 1: Lorem Ipsum</span></a>
+  <a href="../rooms/2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación 2: Números</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -526,7 +555,7 @@ globalThis._qpyodideGetInstance = function() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Habitación 1: Lorem Ipsum</span></h1>
+<h1 class="title"><span class="chapter-title">Habitación 2: Números</span></h1>
 </div>
 
 
@@ -543,10 +572,43 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p><a href="start.html" class="btn btn-info">Regresar al salón anterior</a></p>
-<p>¿Cuánto es 2? (Intenta como un string)</p>
+<p>Comienza a volverse monótono. La puerta vuelve a abrirse, y te encuentras en una nueva habitación con una nueva nota:</p>
+<div class="alert alert-info">
+<p>Python puede usarse como una calculadora muy potente.<br>
+En esta habitación, te pediremos que calcules el siguiente número:</p>
+<p><span class="math display">\[
+\frac{1.23 + 2.34}{1 + 43/2} + 3 \times 2^{1.5}
+\]</span></p>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Las operaciones matemáticas en Python se realizan con los operadores habituales:</p>
+<ul>
+<li><code>+</code> para la suma</li>
+<li><code>-</code> para la resta</li>
+<li><code>*</code> para la multiplicación</li>
+<li><code>/</code> para la división</li>
+<li><code>**</code> para la potencia</li>
+</ul>
+</div>
+</div>
+</div>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<hr>
+<center>
+<a href="1.html" class="btn btn-info">Salón anterior</a> <a href="end.html" class="btn btn-info">Siguiente salón</a>
+</center>
 
 
 

@@ -24,7 +24,7 @@
     "href": "rooms/0.html",
     "title": "Habitación 0: Inicio",
     "section": "",
-    "text": "Despiertas poco a poco en un cuarto oscuro. Solo recuerdas que aceptaste un desafío, algo llamado PySchool.\nEn la muralla, hay una puerta y una consola con un teclado.\nExtrañado, te acercas a la consola y ves que sobre la pantalla hay una nota:\n\n¡Bienvenido a PySchool!\nCada habitación tiene un enigma, que podrás resolver con Python.\nPuedes realizar tantos intentos como desees.\nCada habitación tiene algunas explicaciones y pistas.\n¡Buena suerte, pythonista!\n\n\n\n\n\n\n\nTip\n\n\n\n\n\nEn estas celdas, encontrarás algunas pistas y explicaciones.\nLa primera habitación es muy fácil. Solo tienes que ejecutar la celda haciendo click en “Run Code”.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Despiertas poco a poco en un cuarto oscuro.\nSolo recuerdas que aceptaste un desafío, algo llamado PySchool.\nLas murallas son de piedra, y no hay ventanas. Una débil luz emana de una antorcha colgada en la pared. En una de las murallas, hay una puerta y una consola electrónica emitiendo un parpadeo de luz.\nTe acercas a la consola y observas que sobre la pantalla hay una nota:\n\n¡Bienvenido a PySchool!\nCada habitación tiene un enigma, que deberás resolver con Python.\nPuedes realizar tantos intentos como desees.\nCada habitación tiene algunas explicaciones y pistas.\n¡Buena suerte, futuro pythonista!\n\n\n\n\n\n\n\nPistas y Explicaciones\n\n\n\n\n\nEn este tipo de celdas expandibles, encontrarás algunas pistas, explicaciones y enlaces de interés.\nLa primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciendo click en “Run Code”.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
     ]
@@ -32,21 +32,21 @@
   {
     "objectID": "rooms/1.html",
     "href": "rooms/1.html",
-    "title": "Habitación 0: Inicio",
+    "title": "Habitación 1: Hola Mundo",
     "section": "",
-    "text": "Esta habitación tiene un enigma extremadamente difícil…\n¿Cuánto es 2 + 3?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Al responder correctamente el enigma, la puerta se abre. Al cruzar la puerta, la puerta se cierra y te encuentras en una nueva habitación, exactamente como la habitación anterior, con una nueva nota sobre la pantalla electrónica:\n\nLa primera tarea de todo pythonista es escribir “Hola Mundo”.\nCambia el valor de la variable respuesta por \"Hola Mundo\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Hola Mundo\"\no\nrespuesta='Hola Mundo'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSalón anterior Siguiente salón",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Habitación 1: Hola Mundo</span>"
     ]
   },
   {
     "objectID": "rooms/2.html",
     "href": "rooms/2.html",
-    "title": "Habitación 1: Lorem Ipsum",
+    "title": "Habitación 2: Números",
     "section": "",
-    "text": "Regresar al salón anterior\n¿Cuánto es 2? (Intenta como un string)\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Comienza a volverse monótono. La puerta vuelve a abrirse, y te encuentras en una nueva habitación con una nueva nota:\n\nPython puede usarse como una calculadora muy potente.\nEn esta habitación, te pediremos que calcules el siguiente número:\n\\[\n\\frac{1.23 + 2.34}{1 + 43/2} + 3 \\times 2^{1.5}\n\\]\n\n\n\n\n\n\n\nTip\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSalón anterior Siguiente salón",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 1: Lorem Ipsum</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 2: Números</span>"
     ]
   },
   {
@@ -74,7 +74,7 @@
     "href": "rooms/end.html",
     "title": "Fin",
     "section": "",
-    "text": "Regresar al salón anterior\nFelicidades, has escapado del escape room de Python.\n¿Quieres volver al inicio?\nRegresar al Inicio",
+    "text": "El sol golpea tus ojos. Has logrado escapar la última habitación.\nUna vibración emerge del suelo y ves como la pirámide se desintegra.\nEn unos segundos la imponente pirámide se ha convertido en un montón de rocas y polvo.\nJamás te creerán tu gran aventura, pero tú sabes que has superado el reto y el conocimiento de Python que desde hoy te acompaña.\n\nRegresar al Inicio",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]

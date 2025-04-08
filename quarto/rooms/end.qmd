@@ -1,10 +1,11 @@
 # Fin
 
-<a href="2.html" class="btn btn-info">Regresar al salón anterior</a>
+El sol golpea tus ojos. Has logrado escapar la última habitación.  
+Una vibración emerge del suelo y ves como la pirámide se desintegra.  
+En unos segundos la imponente pirámide se ha convertido en un montón de rocas y polvo.  
+Jamás te creerán tu gran aventura, pero tú sabes que has superado el reto y el conocimiento de Python que desde hoy te acompaña.
 
-Felicidades, has escapado del escape room de Python.
-
-¿Quieres volver al inicio? 
-
-<a href="../index.html" class="btn btn-info">Regresar al Inicio</a>
+<center>
+<a href="../index.html" class="btn btn-info" w-100 h-100>Regresar al Inicio</a>
+</center>
 
