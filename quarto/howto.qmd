@@ -70,13 +70,31 @@ print(f"{a:.2f}")
 <img src="./images/cover.png" width="100">
 </center>
 
+## Texto que parece botones pero no son botones
+
+<div class="btn btn-success">Success</div>
+<div class="btn btn-info">Info</div>
+<div class="btn btn-warning">Warning</div>
+<div class="btn btn-danger">Danger</div>
+<br>
+<p class="btn btn-success">Success</p>
+<p class="btn btn-info">Info</p>
+<p class="btn btn-warning">Warning</p>
+<p class="btn btn-danger">Danger</p>
+<br>
+<span class="btn btn-success">Success</span>
+<span class="btn btn-info">Info</span>
+<span class="btn btn-warning">Warning</span>
+<span class="btn btn-danger">Danger</span>
+
 ## Botones
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
+
 <button type="button" class="btn btn-success">Success</button>
 <button type="button" class="btn btn-info">Info</button>
 <button type="button" class="btn btn-warning">Warning</button>
 <button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-light">Light</button>
 <button type="button" class="btn btn-dark">Dark</button>
 <button type="button" class="btn btn-link">Link</button>
@@ -320,26 +338,5 @@ Using callouts is an effective way to highlight content that your reader give sp
   <div class="card-header">Header</div>
   <div class="card-body">
   Some quick example text to build on the card title and make up the bulk of the card's content.
-  </div>
-</div>
-
-## Texto expandible
-
-El elemento de texto expandible posee un título (que siempre esta visible) y un contenido que se puede expandir y contraer.
-
-### Un único ítem
-
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-        Título del item
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-        <strong>Este es el cuerpo del acordeón del primer ítem.</strong> Se muestra por defecto, hasta que el plugin de colapso agrega las clases apropiadas que usamos para estilizar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquier parte de esto con CSS personalizado o anulando nuestras variables predeterminadas. También es importante destacar que prácticamente cualquier HTML puede ir dentro de la <code>.accordion-body</code>, aunque la transición limita el desbordamiento.
-      </div>
-    </div>
   </div>
 </div>

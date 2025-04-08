@@ -44,7 +44,7 @@
     "href": "rooms/2.html",
     "title": "Habitación 2: Números",
     "section": "",
-    "text": "Comienza a volverse monótono. La puerta vuelve a abrirse, y te encuentras en una nueva habitación con una nueva nota:\n\nPython puede usarse como una calculadora muy potente.\nEn esta habitación, te pediremos que calcules el siguiente número:\n\\[\n\\frac{1.23 + 2.34}{1 + 43/2} + 3 \\times 2^{1.5}\n\\]\n\n\n\n\n\n\n\nTip\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSalón anterior Siguiente salón",
+    "text": "Comienzas a entender la rutina. Respondes correctamente, se abre una puerta, y apenas cruzas la puerta, la habitación se cierra.\nEn la nueva habitación hay una nueva nota esperándote:\n\nPython puede usarse como una calculadora muy potente.\n¿Puedes calcular el siguiente número?\n\\[\n\\frac{1.23 + 2.34}{1 + 43/2} + 3 \\times 2^{1.5}\n\\]\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSalón anterior Siguiente salón",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 2: Números</span>"
     ]
@@ -130,11 +130,21 @@
     ]
   },
   {
+    "objectID": "howto.html#texto-que-parece-botones-pero-no-son-botones",
+    "href": "howto.html#texto-que-parece-botones-pero-no-son-botones",
+    "title": "¿Cómo crear una habitación?",
+    "section": "Texto que parece botones pero no son botones",
+    "text": "Texto que parece botones pero no son botones\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n Success Info Warning Danger",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+    ]
+  },
+  {
     "objectID": "howto.html#botones",
     "href": "howto.html#botones",
     "title": "¿Cómo crear una habitación?",
     "section": "Botones",
-    "text": "Botones\n\nPrimary\n\n\nSecondary\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nLight\n\n\nDark\n\n\nLink\n\nLa clase btn-lg y btn-sm hace el botón más grande y chico respectivamente:\n\nLarge button Default button Small button\n\nTípicamente los botones se combinan con un hipervínculo:\n\nIniciar el escape room\n\nPara hacer un botón hipervínculo que ocupe todo el ancho de la pantalla, se puede usar:\n\nIniciar el escape room",
+    "text": "Botones\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nPrimary\n\n\nSecondary\n\n\nLight\n\n\nDark\n\n\nLink\n\nLa clase btn-lg y btn-sm hace el botón más grande y chico respectivamente:\n\nLarge button Default button Small button\n\nTípicamente los botones se combinan con un hipervínculo:\n\nIniciar el escape room\n\nPara hacer un botón hipervínculo que ocupe todo el ancho de la pantalla, se puede usar:\n\nIniciar el escape room",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
@@ -185,16 +195,6 @@
     "title": "¿Cómo crear una habitación?",
     "section": "Tarjetas (cards) sin fondo",
     "text": "Tarjetas (cards) sin fondo\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
-    ]
-  },
-  {
-    "objectID": "howto.html#texto-expandible",
-    "href": "howto.html#texto-expandible",
-    "title": "¿Cómo crear una habitación?",
-    "section": "Texto expandible",
-    "text": "Texto expandible\nEl elemento de texto expandible posee un título (que siempre esta visible) y un contenido que se puede expandir y contraer.\n\nUn único ítem\n\n\n&lt;h2 class=\"accordion-header\" id=\"headingOne\"&gt;\n  &lt;button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"&gt;\n    Título del item\n  &lt;/button&gt;\n&lt;/h2&gt;\n&lt;div id=\"collapseOne\" class=\"accordion-collapse collapse\" aria-labelledby=\"headingOne\" data-bs-parent=\"#accordionExample\" style=\"\"&gt;\n  &lt;div class=\"accordion-body\"&gt;\n    &lt;strong&gt;Este es el cuerpo del acordeón del primer ítem.&lt;/strong&gt; Se muestra por defecto, hasta que el plugin de colapso agrega las clases apropiadas que usamos para estilizar cada elemento. Estas clases controlan la apariencia general, así como la visualización y ocultación a través de transiciones CSS. Puedes modificar cualquier parte de esto con CSS personalizado o anulando nuestras variables predeterminadas. También es importante destacar que prácticamente cualquier HTML puede ir dentro de la &lt;code&gt;.accordion-body&lt;/code&gt;, aunque la transición limita el desbordamiento.\n  &lt;/div&gt;\n&lt;/div&gt;",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]

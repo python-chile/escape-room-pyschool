@@ -4,7 +4,7 @@
 ########################################################
 
 def text(text="", type="info"):
-    text_str = f'<div class="alert alert-{type}" w-100 h-100>{text}</div>'
+    text_str = f'<div class="btn btn-{type}" w-100 h-100>{text}</div>'
     print(text_str)
 
 
