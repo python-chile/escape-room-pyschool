@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>¿Cómo crear una habitación?</title>
+<title>🐍 PySchool - Python en Ciencia de Datos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../material/anexos/cierre_evento.html" rel="next">
+<link href="../../material/talleres/taller_2.html" rel="prev">
+<link href="../../images/pc.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -229,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"a = 3.14**2\nprint(f\"{a:.2f}\")","options":{"read-only":"false","warning":"true","dpi":72,"out-height":"","label":"","results":"markup","autorun":"","message":"true","fig-width":7,"comment":"","fig-cap":"","classes":"","context":"interactive","out-width":"700px","output":"true","fig-height":5},"id":1}];
+globalThis.qpyodideCellDetails = [{"options":{"warning":"true","context":"interactive","out-height":"","read-only":"false","classes":"","autorun":"","output":"true","label":"","message":"true","fig-height":5,"fig-width":7,"comment":"","dpi":72,"out-width":"700px","fig-cap":"","results":"markup"},"id":1,"code":"import pandas as pd\npd.set_option('display.max_columns', None)\n\n# Cargar el conjunto de datos de Pokémon\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\npokemon_data = pd.read_csv(url)\n\n# Mostrar las primeras filas del conjunto de datos\npokemon_data.head()"},{"options":{"warning":"true","context":"interactive","out-height":"","read-only":"false","classes":"","autorun":"","output":"true","label":"","message":"true","fig-height":5,"fig-width":7,"comment":"","dpi":72,"out-width":"700px","fig-cap":"","results":"markup"},"id":2,"code":"# Mostrar la descripción estadística del conjunto de datos\npokemon_data.describe()"},{"options":{"warning":"true","context":"interactive","out-height":"","read-only":"false","classes":"","autorun":"","output":"true","label":"","message":"true","fig-height":5,"fig-width":7,"comment":"","dpi":72,"out-width":"700px","fig-cap":"","results":"markup"},"id":3,"code":"import matplotlib.pyplot as plt\n\n# Contar la cantidad de Pokémon por tipo\npokemon_por_tipo = pokemon_data['Type 1'].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(11, 6))\npokemon_por_tipo.plot(kind='bar', color='#66c2a5')\nplt.title('Cantidad de Pokémon por Tipo', fontsize=14)\nplt.xlabel('Tipo', fontsize=12)\nplt.ylabel('Cantidad', fontsize=12)\nplt.xticks(rotation=45)\nplt.grid(axis='y', linestyle='--', alpha=0.7)\nplt.show()"},{"options":{"warning":"true","context":"interactive","out-height":"","read-only":"false","classes":"","autorun":"","output":"true","label":"","message":"true","fig-height":5,"fig-width":7,"comment":"","dpi":72,"out-width":"700px","fig-cap":"","results":"markup"},"id":4,"code":"# Calcular el promedio de estadísticas por tipo\npromedio_estadisticas = pokemon_data.groupby('Type 1')[['HP', 'Attack', 'Defense', 'Speed']].mean()\n\n# Crear un gráfico de barras apiladas\ncolors = ['#fc8d62', '#66c2a5', '#8da0cb', '#e78ac3']\npromedio_estadisticas.plot(kind='bar', stacked=True, figsize=(11, 6), color=colors)\nplt.title('Promedio de Estadísticas por Tipo de Pokémon', fontsize=14)\nplt.xlabel('Tipo', fontsize=12)\nplt.ylabel('Promedio de Estadísticas', fontsize=12)\nplt.legend(title='Estadísticas', loc='upper left')\nplt.grid(axis='y', linestyle='--', alpha=0.7)\nplt.show()"},{"options":{"warning":"true","context":"interactive","out-height":"","read-only":"false","classes":"","autorun":"","output":"true","label":"","message":"true","fig-height":5,"fig-width":7,"comment":"","dpi":72,"out-width":"700px","fig-cap":"","results":"markup"},"id":5,"code":"# Crear un gráfico de dispersión de ataque vs defensa\nplt.figure(figsize=(11, 6))\nplt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], color='#8da0cb', alpha=0.7, edgecolor='k', linewidth=0.5)\nplt.title('Ataque vs Defensa de Pokémon', fontsize=14)\nplt.xlabel('Ataque', fontsize=12)\nplt.ylabel('Defensa', fontsize=12)\nplt.grid(True, linestyle='--', alpha=0.7)\nplt.show()"},{"options":{"warning":"true","context":"interactive","out-height":"","read-only":"false","classes":"","autorun":"","output":"true","label":"","message":"true","fig-height":5,"fig-width":7,"comment":"","dpi":72,"out-width":"700px","fig-cap":"","results":"markup"},"id":6,"code":"import numpy as np\n\n# Agregar columnas de peso y altura simuladas\npokemon_data['Weight'] = np.random.uniform(5, 150, len(pokemon_data))  # Peso en kg\npokemon_data['Height'] = np.random.uniform(0.3, 2.5, len(pokemon_data))  # Altura en m\n\n# Crear un gráfico de dispersión de peso vs altura\nplt.figure(figsize=(11, 6))\nplt.scatter(pokemon_data['Weight'], pokemon_data['Height'], color='#66c2a5', alpha=0.7, edgecolor='k', linewidth=0.5)\nplt.title('Peso vs Altura de Pokémon', fontsize=14)\nplt.xlabel('Peso (kg)', fontsize=12)\nplt.ylabel('Altura (m)', fontsize=12)\nplt.grid(True, linestyle='--', alpha=0.7)\nplt.show()"},{"options":{"warning":"true","context":"interactive","out-height":"","read-only":"false","classes":"","autorun":"","output":"true","label":"","message":"true","fig-height":5,"fig-width":7,"comment":"","dpi":72,"out-width":"700px","fig-cap":"","results":"markup"},"id":7,"code":"# Obtener los 10 Pokémon con mayor ataque\ntop_ataque = pokemon_data.nlargest(10, 'Attack')[['Name', 'Type 1', 'Attack', 'Defense', 'HP']]\n\n# Mostrar la tabla\ntop_ataque"},{"options":{"warning":"true","context":"interactive","out-height":"","read-only":"false","classes":"","autorun":"","output":"true","label":"","message":"true","fig-height":5,"fig-width":7,"comment":"","dpi":72,"out-width":"700px","fig-cap":"","results":"markup"},"id":8,"code":"# Obtener los 10 Pokémon con mayor defensa\ntop_defensa = pokemon_data.nlargest(10, 'Defense')[['Name', 'Type 1', 'Defense', 'Attack', 'HP']]\n\n# Mostrar la tabla\ntop_defensa"}];
 
 
 </script>
@@ -366,7 +368,7 @@ globalThis.qpyodideInstance = await import(
     // await loadedPyodide.runPythonAsync("globalScope = {}"); 
     
     // Update status to reflect the next stage of the procedure
-    qpyodideUpdateStatusHeaderSpinner("Cargando trampas...");
+    qpyodideUpdateStatusHeaderSpinner("Initializing Python Packages");
 
     // Load the `micropip` package to allow installation of packages.
     await mainPyodide.loadPackage("micropip");
@@ -375,7 +377,6 @@ globalThis.qpyodideInstance = await import(
     // Load the `pyodide_http` package to shim uses of `requests` and `urllib3`.
     // This allows for `pd.read_csv(url)` to work flawlessly.
     // Details: https://github.com/coatless-quarto/pyodide/issues/9
-    qpyodideUpdateStatusHeaderSpinner("Cargando serpientes...");
     await mainPyodide.loadPackage("pyodide_http");
     await mainPyodide.runPythonAsync(`
     import pyodide_http
@@ -392,14 +393,6 @@ globalThis.qpyodideInstance = await import(
     from matplotlib import pyplot as plt
     `);
 
-    // Load the verification file
-    await mainPyodide.runPythonAsync(`
-    import urllib.request
-    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verificar.py"
-    urllib.request.urlretrieve(url, "verificar.py");
-    `);
-    qpyodideUpdateStatusHeader("Cargando las habitaciones...");
-     
     // Unlock interactive buttons
     qpyodideSetInteractiveButtonState(
       `<i class="fa-solid fa-play qpyodide-icon-run-code"></i> <span>Run Code</span>`, 
@@ -407,7 +400,9 @@ globalThis.qpyodideInstance = await import(
     );
 
     // Set document status to viable
-    qpyodideUpdateStatusHeader("🟢 Escape room listo");
+    qpyodideUpdateStatusHeader(
+      "🟢 Ready!"
+    );
 
     // Assign Pyodide into the global environment
     globalThis.mainPyodide = mainPyodide;
@@ -428,10 +423,9 @@ globalThis._qpyodideGetInstance = function() {
 </script>
 
 
-<link rel="stylesheet" href="style.css">
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -440,7 +434,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./howto.html"><span class="chapter-title">¿Cómo crear una habitación?</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../material/talleres/intro.html">🚀 Talleres</a></li><li class="breadcrumb-item"><a href="../../material/talleres/taller_3.html"><span class="chapter-title">Python en Ciencia de Datos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -450,9 +444,17 @@ globalThis._qpyodideGetInstance = function() {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../../">🐍 PySchool</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/python-chile/PySchool2024" title="Ejecutar el código" class="quarto-navigation-tool px-1" aria-label="Ejecutar el código"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Buscar"></div>
@@ -462,39 +464,76 @@ globalThis._qpyodideGetInstance = function() {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="../../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🏠 Home</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">🚀 Talleres</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pyschool.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="../../material/talleres/intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Primeros Pasos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/0.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 0: Inicio</span></a>
+  <a href="../../material/talleres/taller_1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introducción a Python</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 1: Hola Mundo</span></a>
+  <a href="../../material/talleres/taller_2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Python en Ciencia</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 2: Números</span></a>
+  <a href="../../material/talleres/taller_3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Python en Ciencia de Datos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">📜 Anexos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/end.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="../../material/anexos/cierre_evento.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Cierre PySchool</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./howto.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">¿Cómo crear una habitación?</span></a>
+  <a href="../../material/anexos/aprendizaje.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Seguir aprendiendo</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../material/anexos/tecnologia.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sobre la página</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../material/anexos/autoria.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Autoría</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../material/anexos/colaborar.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Colaborar</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -502,7 +541,7 @@ globalThis._qpyodideGetInstance = function() {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/loader.js"></script>
 <script type="module" id="qpyodide-monaco-editor-init">
 
@@ -514,14 +553,14 @@ globalThis._qpyodideGetInstance = function() {
   });
 </script>
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../material/talleres/intro.html">🚀 Talleres</a></li><li class="breadcrumb-item"><a href="../../material/talleres/taller_3.html"><span class="chapter-title">Python en Ciencia de Datos</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">¿Cómo crear una habitación?</span></h1>
+<h1 class="title"><span class="chapter-title">Python en Ciencia de Datos</span></h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     
   
@@ -533,469 +572,223 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>Esta página contiene todos los distintos elementos, para que puedas examinar el código y ver lo que se puede hacer.</p>
-<section id="tema-theme" class="level2">
-<h2 class="anchored" data-anchor-id="tema-theme">Tema (Theme)</h2>
-<p>El tema es <a href="https://bootswatch.com/sketchy/">sketchy</a>, pero podría ser cualquier <a href="https://quarto.org/docs/output-formats/html-themes.html">otro</a>. Ya está configurado en el archivo <code>_quarto.yml</code>.</p>
-<p>En <a href="https://bootswatch.com/sketchy/">sketchy doc</a> hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.</p>
-</section>
-<section id="texto" class="level2">
-<h2 class="anchored" data-anchor-id="texto">Texto</h2>
-<p>Es posible usar markdown normal, o html. Las clases de bootstrap están disponibles.</p>
-<p>Este es el texto típico en <strong>negritas</strong> e <em>itálicas</em>.</p>
-<p>
-Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-</p>
-<p>
-<small>Esta línea de texto está destinada a ser tratada como letra pequeña.</small>
-</p>
-<p>
-Lo siguiente es <strong>representado como texto en negritas</strong>.
-</p>
-<p>
-Lo siguiente es <em>representado como texto en cursiva</em>.
-</p>
-<p>
-Lo siguiente es un enlace <a href="#">aquí</a>.
-</p>
-<p><mark>Este texto está subrayado</mark></p>
-</section>
-<section id="colores" class="level2">
-<h2 class="anchored" data-anchor-id="colores">Colores</h2>
-<p class="text-primary">
-.text-primary
-</p>
-<p class="text-primary-emphasis">
-.text-primary-emphasis
-</p>
-<p class="text-secondary">
-.text-secondary
-</p>
-<p class="text-secondary-emphasis">
-.text-secondary-emphasis
-</p>
-<p class="text-success">
-.text-success
-</p>
-<p class="text-success-emphasis">
-.text-success-emphasis
-</p>
-<p class="text-danger">
-.text-danger
-</p>
-<p class="text-danger-emphasis">
-.text-danger-emphasis
-</p>
-<p class="text-warning">
-.text-warning
-</p>
-<p class="text-warning-emphasis">
-.text-warning-emphasis
-</p>
-<p class="text-info">
-.text-info
-</p>
-<p class="text-info-emphasis">
-.text-info-emphasis
-</p>
-<p class="text-light">
-.text-light
-</p>
-<p class="text-light">
-.text-light-emphasis
-</p>
-<p class="text-dark">
-.text-dark
-</p>
-<p class="text-dark">
-.text-dark-emphasis
-</p>
-<p class="text-body">
-.text-body
-</p>
-<p class="text-body">
-.text-body-emphasis
-</p>
-<p class="text-body-secondary">
-.text-body-secondary
-</p>
-<p class="text-body-tertiary">
-.text-body-tertiary
-</p>
-<figure class="figure">
-<blockquote class="blockquote">
-<p class="mb-0">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-</p>
-</blockquote>
-<figcaption class="blockquote-footer">
-Someone famous in <cite title="Source Title">Source Title</cite>
-</figcaption>
-</figure>
-</section>
-<section id="celdas-de-python" class="level2">
-<h2 class="anchored" data-anchor-id="celdas-de-python">Celdas de Python</h2>
-<div id="qpyodide-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="imagenes" class="level2">
-<h2 class="anchored" data-anchor-id="imagenes">Imagenes</h2>
-<center>
-<img src="./images/cover.png" width="100">
-</center>
-</section>
-<section id="texto-que-parece-botones-pero-no-son-botones" class="level2">
-<h2 class="anchored" data-anchor-id="texto-que-parece-botones-pero-no-son-botones">Texto que parece botones pero no son botones</h2>
-<div class="btn btn-success">
-Success
-</div>
-<div class="btn btn-info">
-Info
-</div>
-<div class="btn btn-warning">
-Warning
-</div>
-<div class="btn btn-danger">
-Danger
-</div>
-<br>
-<p class="btn btn-success">
-Success
-</p>
-<p class="btn btn-info">
-Info
-</p>
-<p class="btn btn-warning">
-Warning
-</p>
-<p class="btn btn-danger">
-Danger
-</p>
-<p><br> <span class="btn btn-success">Success</span> <span class="btn btn-info">Info</span> <span class="btn btn-warning">Warning</span> <span class="btn btn-danger">Danger</span></p>
-</section>
-<section id="botones" class="level2">
-<h2 class="anchored" data-anchor-id="botones">Botones</h2>
-<button type="button" class="btn btn-success">
-Success
-</button>
-<button type="button" class="btn btn-info">
-Info
-</button>
-<button type="button" class="btn btn-warning">
-Warning
-</button>
-<button type="button" class="btn btn-danger">
-Danger
-</button>
-<button type="button" class="btn btn-primary">
-Primary
-</button>
-<button type="button" class="btn btn-secondary">
-Secondary
-</button>
-<button type="button" class="btn btn-light">
-Light
-</button>
-<button type="button" class="btn btn-dark">
-Dark
-</button>
-<button type="button" class="btn btn-link">
-Link
-</button>
-<p>La clase <code>btn-lg</code> y <code>btn-sm</code> hace el botón más grande y chico respectivamente:</p>
-<div class="d-grid gap-2">
-<p><button class="btn btn-lg btn-primary" type="button">Large button</button> <button class="btn btn-primary" type="button">Default button</button> <button class="btn btn-sm btn-primary" type="button">Small button</button></p>
-</div>
-<p>Típicamente los botones se combinan con un hipervínculo:</p>
-<center>
-<a href="rooms/start.html" class="btn btn-info">Iniciar el escape room</a>
-</center>
-<p>Para hacer un botón hipervínculo que ocupe todo el ancho de la pantalla, se puede usar:</p>
-<div class="d-grid gap-2 w-100">
-<p><a href="rooms/start.html" class="btn btn-info w-100" type="button">Iniciar el escape room</a></p>
-</div>
-</section>
-<section id="mensajes-de-quarto---callouts" class="level2">
-<h2 class="anchored" data-anchor-id="mensajes-de-quarto---callouts">Mensajes de quarto - Callouts</h2>
-<p>Los mensajes de quarto son una forma de mostrar mensajes en la página.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<p>🎯 <strong>Objetivos del capítulo</strong></p>
+<ul>
+<li>Explorar y analizar un conjunto de datos de Pokémon utilizando Python.</li>
+<li>Aprender técnicas básicas de exploración y visualización de datos.</li>
+<li>Comprender cómo aplicar análisis de datos para obtener información relevante.</li>
+<li>Desarrollar habilidades prácticas para visualizar datos de manera efectiva.</li>
+</ul>
+<section id="exploración-y-visualización-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="exploración-y-visualización-de-datos">📊 Exploración y Visualización de Datos</h2>
+<p>Primero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon. Este ejercicio es excelente para practicar la manipulación de datos y la visualización con las bibliotecas <code>pandas</code> y <code>matplotlib</code>.</p>
+<section id="cargar-el-conjunto-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="cargar-el-conjunto-de-datos">Cargar el Conjunto de Datos</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Note that there are five types of callouts, including: <code>note</code>, <code>warning</code>, <code>important</code>, <code>tip</code>, and <code>caution</code>.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip with Title
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is an example of a callout with a title.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Expand To Learn About Collapse
+Desafío:
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>This is an example of a ‘folded’ caution callout that can be expanded by the user. You can use <code>collapse="true"</code> to collapse it by default or <code>collapse="false"</code> to make a collapsible callout that is expanded by default.</p>
+<p>El objetivo de este ejercicio es cargar un conjunto de datos de Pokémon desde una URL y mostrar las primeras filas para obtener una vista previa de los datos.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip callout-titled" title="Tip with Title">
-<div class="callout-header d-flex align-content-center">
+<ol type="1">
+<li><strong>Importar bibliotecas</strong>: Usar <code>pandas</code> para manipulación de datos.</li>
+<li><strong>Cargar datos</strong>: Leer el conjunto de datos desde una URL.</li>
+<li><strong>Mostrar datos</strong>: Mostrar las primeras filas del conjunto de datos.</li>
+</ol>
+<div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="descripción-del-conjunto-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="descripción-del-conjunto-de-datos">Descripción del Conjunto de Datos</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip with Title
+Desafío:
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>This is a callout with a title.</p>
+<p>El objetivo de este ejercicio es obtener una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.</p>
 </div>
 </div>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+</div>
+<ol type="1">
+<li><strong>Descripción estadística</strong>: Usar <code>describe</code> para obtener estadísticas básicas del conjunto de datos.</li>
+</ol>
+<div id="qpyodide-insertion-location-2"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+</section>
+<section id="análisis-y-visualización-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-y-visualización-de-datos">📈 Análisis y Visualización de Datos</h2>
+<section id="tipos-de-pokémon" class="level3">
+<h3 class="anchored" data-anchor-id="tipos-de-pokémon">Tipos de Pokémon</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pay Attention
+Desafío:
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Using callouts is an effective way to highlight content that your reader give special consideration or attention.</p>
+<p>El objetivo de este ejercicio es contar cuántos Pokémon de cada tipo hay en el conjunto de datos y visualizar estos datos en un gráfico de barras.</p>
 </div>
 </div>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
+</div>
+<ol type="1">
+<li><strong>Contar Pokémon por tipo</strong>: Usar <code>value_counts</code> para contar los Pokémon por tipo.</li>
+<li><strong>Crear gráfico de barras</strong>: Usar <code>matplotlib</code> para visualizar la cantidad de Pokémon por tipo.</li>
+</ol>
+<div id="qpyodide-insertion-location-3"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="promedio-de-estadísticas-por-tipo" class="level3">
+<h3 class="anchored" data-anchor-id="promedio-de-estadísticas-por-tipo">Promedio de Estadísticas por Tipo</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pay Attention
+Desafío:
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Using callouts is an effective way to highlight content that your reader give special consideration or attention.</p>
+<p>El objetivo de este ejercicio es calcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo en un gráfico de barras apiladas.</p>
 </div>
 </div>
+</div>
+<ol type="1">
+<li><strong>Calcular promedios</strong>: Usar <code>groupby</code> y <code>mean</code> para calcular el promedio de estadísticas por tipo.</li>
+<li><strong>Gráfico de barras apiladas</strong>: Usar <code>plot</code> para visualizar los promedios.</li>
+</ol>
+<div id="qpyodide-insertion-location-4"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="mensajes" class="level2">
-<h2 class="anchored" data-anchor-id="mensajes">Mensajes</h2>
-<section id="descartables" class="level3">
-<h3 class="anchored" data-anchor-id="descartables">Descartables</h3>
-<div class="alert alert-dismissible alert-warning">
-<h4 class="alert-heading anchored">
-Warning!
-</h4>
-<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-<p class="mb-0">
-Best check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.
-</p>
+<section id="estadísticas-de-ataque-y-defensa" class="level3">
+<h3 class="anchored" data-anchor-id="estadísticas-de-ataque-y-defensa">Estadísticas de Ataque y Defensa</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="alert alert-dismissible alert-danger">
-<p><button type="button" class="btn-close" data-bs-dismiss="alert"></button> <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.</p>
+<div class="callout-title-container flex-fill">
+Desafío:
 </div>
-<div class="alert alert-dismissible alert-success">
-<p><button type="button" class="btn-close" data-bs-dismiss="alert"></button> <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.</p>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div class="alert alert-dismissible alert-info">
-<p><button type="button" class="btn-close" data-bs-dismiss="alert"></button> <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it’s not super important.</p>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es comparar las estadísticas de ataque y defensa de los Pokémon en un gráfico de dispersión.</p>
 </div>
-<div class="alert alert-dismissible alert-primary">
-<p><button type="button" class="btn-close" data-bs-dismiss="alert"></button> <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.</p>
 </div>
+</div>
+<ol type="1">
+<li><strong>Gráfico de dispersión</strong>: Usar <code>scatter</code> para visualizar la relación entre ataque y defensa.</li>
+</ol>
+<div id="qpyodide-insertion-location-5"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="fijos" class="level3">
-<h3 class="anchored" data-anchor-id="fijos">Fijos</h3>
-<div class="alert alert-warning">
-<h4 class="alert-heading anchored">
-Warning!
-</h4>
-<p class="mb-0">
-Best check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.
-</p>
+<section id="peso-y-altura-de-los-pokémon" class="level3">
+<h3 class="anchored" data-anchor-id="peso-y-altura-de-los-pokémon">Peso y Altura de los Pokémon</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="alert alert-danger">
-<p><strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.</p>
+<div class="callout-title-container flex-fill">
+Desafío:
 </div>
-<div class="alert alert-success">
-<p><strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.</p>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div class="alert alert-info">
-<p><strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it’s not super important.</p>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es explorar la relación entre el peso y la altura de los Pokémon utilizando estadísticas simuladas.</p>
 </div>
-<div class="alert alert-primary">
-<p><strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.</p>
 </div>
-</section>
-</section>
-<section id="badges" class="level2">
-<h2 class="anchored" data-anchor-id="badges">Badges</h2>
-<section id="badges-cuadrados" class="level3">
-<h3 class="anchored" data-anchor-id="badges-cuadrados">Badges cuadrados</h3>
-<p><span class="badge bg-primary">Primary</span> <span class="badge bg-secondary">Secondary</span> <span class="badge bg-success">Success</span> <span class="badge bg-danger">Danger</span> <span class="badge bg-warning">Warning</span> <span class="badge bg-info">Info</span> <span class="badge bg-light">Light</span> <span class="badge bg-dark">Dark</span></p>
-</section>
-<section id="badges-redondeados" class="level3">
-<h3 class="anchored" data-anchor-id="badges-redondeados">Badges redondeados</h3>
-<p><span class="badge rounded-pill bg-primary">Primary</span> <span class="badge rounded-pill bg-secondary">Secondary</span> <span class="badge rounded-pill bg-success">Success</span> <span class="badge rounded-pill bg-danger">Danger</span> <span class="badge rounded-pill bg-warning">Warning</span> <span class="badge rounded-pill bg-info">Info</span> <span class="badge rounded-pill bg-light">Light</span> <span class="badge rounded-pill bg-dark">Dark</span></p>
+</div>
+<ol type="1">
+<li><strong>Simular datos</strong>: Crear columnas de peso y altura simuladas.</li>
+<li><strong>Gráfico de dispersión</strong>: Usar <code>scatter</code> para visualizar la relación entre peso y altura.</li>
+</ol>
+<div id="qpyodide-insertion-location-6"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 </section>
-<section id="tarjetas-cards" class="level2">
-<h2 class="anchored" data-anchor-id="tarjetas-cards">Tarjetas (cards)</h2>
-<div class="card text-white bg-primary mb-1">
-<div class="card-header">
-Header
+<section id="tablas-y-gráficos-interactivos" class="level2">
+<h2 class="anchored" data-anchor-id="tablas-y-gráficos-interactivos">📊 Tablas y Gráficos Interactivos</h2>
+<section id="tabla-de-pokémon-con-mayor-ataque" class="level3">
+<h3 class="anchored" data-anchor-id="tabla-de-pokémon-con-mayor-ataque">Tabla de Pokémon con Mayor Ataque</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
+<div class="callout-title-container flex-fill">
+Desafío:
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div class="card text-white bg-secondary mb-2">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card text-white bg-success mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es mostrar los 10 Pokémon con la mayor estadística de ataque.</p>
 </div>
 </div>
-<div class="card text-white bg-danger mb-3">
-<div class="card-header">
-Header
 </div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card text-white bg-warning mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card text-white bg-info mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card bg-light mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card text-white bg-dark mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
+<ol type="1">
+<li><strong>Top 10 en ataque</strong>: Usar <code>nlargest</code> para obtener los Pokémon con mayor ataque.</li>
+<li><strong>Mostrar tabla</strong>: Mostrar una tabla con los resultados.</li>
+</ol>
+<div id="qpyodide-insertion-location-7"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="tarjetas-cards-sin-fondo" class="level2">
-<h2 class="anchored" data-anchor-id="tarjetas-cards-sin-fondo">Tarjetas (cards) sin fondo</h2>
-<div class="card border-primary mb-1">
-<div class="card-header">
-Header
+<section id="tabla-de-pokémon-con-mayor-defensa" class="level3">
+<h3 class="anchored" data-anchor-id="tabla-de-pokémon-con-mayor-defensa">Tabla de Pokémon con Mayor Defensa</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
+<div class="callout-title-container flex-fill">
+Desafío:
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div class="card border-secondary mb-2">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card border-success mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es mostrar los 10 Pokémon con la mayor estadística de defensa.</p>
 </div>
 </div>
-<div class="card border-danger mb-3">
-<div class="card-header">
-Header
 </div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card border-warning mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card border-info mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card border-light mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
-<div class="card border-dark mb-3">
-<div class="card-header">
-Header
-</div>
-<div class="card-body">
-Some quick example text to build on the card title and make up the bulk of the card’s content.
-</div>
-</div>
+<ol type="1">
+<li><strong>Top 10 en defensa</strong>: Usar <code>nlargest</code> para obtener los Pokémon con mayor defensa.</li>
+<li><strong>Mostrar tabla</strong>: Mostrar una tabla con los resultados.</li>
+</ol>
+<div id="qpyodide-insertion-location-8"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1408,6 +1201,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation column-page-right">
+  <div class="nav-page nav-page-previous">
+      <a href="../../material/talleres/taller_2.html" class="pagination-link" aria-label="Python en Ciencia">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Python en Ciencia</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../material/anexos/cierre_evento.html" class="pagination-link" aria-label="Cierre PySchool">
+        <span class="nav-page-text"><span class="chapter-title">Cierre PySchool</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <script type="module">
 /**

@@ -31,10 +31,3 @@ print(respuesta)
 import verificar
 verificar.salon_1(respuesta)
 ```
-
----
-
-<center>
-<a href="0.html" class="btn btn-info">Salón anterior</a>
-<a href="2.html" class="btn btn-info">Siguiente salón</a>
-</center>

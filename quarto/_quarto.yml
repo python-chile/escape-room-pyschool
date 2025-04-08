@@ -23,8 +23,6 @@ book:
     - rooms/0.qmd
     - rooms/1.qmd
     - rooms/2.qmd
-    - other/autoria.qmd
-    - other/cierre_evento.qmd
     - rooms/end.qmd
     - howto.qmd
 
