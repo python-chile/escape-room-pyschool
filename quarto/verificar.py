@@ -1,17 +1,34 @@
-# types: alert, danger, success, info, primary
+# types: warning, danger, success, info, primary
+########################################################
+# UTILIDADES
+########################################################
 
 def text(text="", type="info"):
-    class_str = f'alert alert-{type}'
-    text_str = f'<span class="{class_str}" w-100 h-100>{text}</span>'
+    text_str = f'<div class="alert alert-{type}" w-100 h-100>{text}</div>'
     print(text_str)
 
 
 def hyperlink(text, url, type="info"):
-    print(f'<a href="{url}" class="btn btn-{type} w-100 h-100">{text}</a>')
+    text_str = f'<a href="{url}" class="btn btn-{type} w-100 h-100">{text}</a>'
+    print(text_str)
+
+
+########################################################
+# SALONES
+########################################################
+
+def salon_0(answer):
+    if answer == "PySchool2025":
+        hyperlink("¡Correcto! Avanza a la siguiente página", "1.html", "success")
+    elif answer == None:
+        text("No es correcto. Intenta de nuevo.", "danger")
+    else:
+        text("Estás probando nuevas respuestas, muy bien. Recuerda que la respuesta es PySchool2025", "warning")
+
 
 def salon_1(answer):
     if answer == 5:
-        hyperlink("¡Correcto! Avanza a la siguiente página", "2.html","success")
+        hyperlink("¡Correcto! Avanza a la siguiente página", "2.html", "success")
     elif answer == None:
         text("No es correcto. Intenta de nuevo.", "danger")
     else:

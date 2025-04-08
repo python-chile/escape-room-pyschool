@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Cierre PySchool</title>
+<title>Habitación 0: Inicio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -229,7 +229,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"from random import randint\n\nnumero_participantes = 2\nnumero_premiado = randint(1, numero_participantes)\n\nprint(f\"El estudiante premiado es: {numero_premiado}\")","options":{"fig-cap":"","context":"interactive","out-width":"700px","fig-width":7,"fig-height":5,"read-only":"false","label":"","message":"true","dpi":72,"results":"markup","autorun":"","comment":"","classes":"","out-height":"","output":"true","warning":"true"},"id":1}];
+globalThis.qpyodideCellDetails = [{"id":1,"options":{"label":"","read-only":"false","message":"true","results":"markup","dpi":72,"context":"interactive","output":"true","out-width":"700px","warning":"true","out-height":"","fig-width":7,"comment":"","fig-height":5,"fig-cap":"","autorun":"","classes":""},"code":"import verificar\nrespuesta = \"PySchool2025\"\nverificar.salon_0(respuesta)"}];
 
 
 </script>
@@ -427,35 +427,6 @@ globalThis._qpyodideGetInstance = function() {
 
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -469,7 +440,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../other/cierre_evento.html"><span class="chapter-title">PySchool 2025</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/0.html"><span class="chapter-title">Habitación 0: Inicio</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -501,7 +472,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/0.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 0: Inicio</span></a>
+  <a href="../rooms/0.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación 0: Inicio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -521,7 +492,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../other/cierre_evento.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="../other/cierre_evento.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -555,7 +526,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Cierre PySchool</span></h1>
+<h1 class="title"><span class="chapter-title">Habitación 0: Inicio</span></h1>
 </div>
 
 
@@ -572,35 +543,39 @@ window.Quarto = {
 </header>
 
 
-<section id="retroalimentación" class="level3">
-<h3 class="anchored" data-anchor-id="retroalimentación">🎯 <strong>Retroalimentación</strong></h3>
-<p>Nos encantaría saber que te ha parecido PySchool, y que podemos mejorar. Agradeceríamos contestaras la siguiente encuesta:</p>
-<center>
-<a href="https://forms.gle/MjQFihE1RiKzVgid9" target="_blank" rel="noopener noreferrer"> <img src="../../images/qr_retroalimentacion.png" width="400">
-<p>
-https://forms.gle/MjQFihE1RiKzVgid9
-</p>
-</a>
-</center>
-</section>
-<section id="código-para-sorteo" class="level3">
-<h3 class="anchored" data-anchor-id="código-para-sorteo">Código para sorteo</h3>
-<p>Para sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función <code>random.randint(a, b)</code> que retorna un número entero aleatorio <span class="math inline">\(N\)</span> que cumpla la condición <span class="math inline">\(a &lt;= N &lt;= b\)</span>.</p>
+<p>Despiertas poco a poco en un cuarto oscuro. Solo recuerdas que aceptaste un desafío, algo llamado PySchool.</p>
+<p>En la muralla, hay una puerta y una consola con un teclado.</p>
+<p>Extrañado, te acercas a la consola y ves que sobre la pantalla hay una nota:</p>
+<div class="alert alert-dismissible alert-info">
+<pre><code>&lt;button type="button" class="btn-close" data-bs-dismiss="alert"&gt;&lt;/button&gt;
+&lt;strong&gt;¡Bienvenido a PySchool!&lt;/strong&gt;
+&lt;br&gt;
+Cada habitación tiene un enigma, que podrás resolver con Python. 
+Puedes realizar tantos intentos como desees. 
+Cada habitación tiene algunas explicaciones y pistas.
+¡Buena suerte, pythonista!</code></pre>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>En estas celdas, encontrarás algunas pistas y explicaciones.</p>
+<p>La primera habitación es muy fácil. Solo tienes que ejecutar la celda haciendo click en “Run Code”.</p>
+</div>
+</div>
+</div>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="condiciones-de-uso-de-giftcards" class="level3">
-<h3 class="anchored" data-anchor-id="condiciones-de-uso-de-giftcards">Condiciones de uso de giftcards</h3>
-<p>Las condiciones de uso de las giftcards para uso en el local <a href="https://cafe-robots-y-galletas.odoo.com/">café-robots-galletas</a> tienen las siguientes condiciones:</p>
-<ul>
-<li>Cada giftcard es válida para un único uso.</li>
-<li>La giftcard no se puede cambiar por dinero en efectivo, ni se entregará vuelto.</li>
-<li>La giftcard se puede usar para cualquier producto en venta en el local.</li>
-<li>Cada giftcard tiene vigencia de 3 meses (hasta el 31 de octubre).</li>
-</ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
