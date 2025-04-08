@@ -1,18 +1,29 @@
 ---
-title: "Habitación 0: Inicio"
+title: "Habitación 1: Hola Mundo"
 ---
 
-Esta habitación tiene un enigma extremadamente difícil...
+La primera habitación de todo pythonista es "Hola Mundo".
 
-¿Cuánto es 2 + 3?
+Cambia el valor de la variable `respuesta` por `"Hola Mundo"` y ejecuta la celda.
+
+::: {.callout-tip collapse="true"}
+Recuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.  
+Puedes escribir 
+```python 
+respuesta="Hola Mundo"
+```
+o 
+```python 
+respuesta='Hola Mundo'
+```
+:::
 
 ```{pyodide-python}
-import verificar
-
-var1 = 2
-var2 = 3
 # Escribe tu respuesta aquí
 respuesta = None
+print(respuesta)
 
+# Verifica la respuesta
+import verificar
 verificar.salon_1(respuesta)
 ```

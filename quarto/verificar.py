@@ -20,28 +20,31 @@ def hyperlink(text, url, type="info"):
 def salon_0(answer):
     if answer == "PySchool2025":
         hyperlink("¡Correcto! Avanza a la siguiente página", "1.html", "success")
-    elif answer == None:
-        text("No es correcto. Intenta de nuevo.", "danger")
     else:
-        text("Estás probando nuevas respuestas, muy bien. Recuerda que la respuesta es PySchool2025", "warning")
+        incorrect_answer = f"""Estás probando nuevas respuestas, muy bien.  
+        Recuerda que la respuesta es PySchool2025"""
+        text(incorrect_answer, "warning")
 
 
 def salon_1(answer):
-    if answer == 5:
+    if answer == "Hola Mundo":
         hyperlink("¡Correcto! Avanza a la siguiente página", "2.html", "success")
     elif answer == None:
-        text("No es correcto. Intenta de nuevo.", "danger")
+        text("Indica la solución asignando algún valor a la variable `respuesta`.", "info")
     else:
-        text("Tienes que escribir la respuesta en el cuadro de texto.", "alert")
+        text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 
 
 def salon_2(answer):
-    if answer == "2":
+    #\frac{1.23 + 2.34}{1 + 43/2} + 3 \times 2^{1.5}
+    true_answer = (1.23 + 2.34) / (1 + 43/2) + 3 * 2**1.5
+    epsilon = 0.000001
+    if abs(answer - true_answer) < epsilon:
         hyperlink("¡Correcto! Avanza a la siguiente página", "end.html", "success")
     elif answer == None:
-        text("No es correcto. Intenta de nuevo.", "danger")
+        text("Indica la solución asignando algún valor a la variable `respuesta`.", "info")
     else:
-        text("No no no...", "alert")
+        text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 
 
 if __name__ == "__main__":

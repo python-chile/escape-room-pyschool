@@ -24,7 +24,10 @@ La primera habitación es muy fácil. Solo tienes que ejecutar la celda haciendo
 :::
 
 ```{pyodide-python}
-import verificar
+# Escribe tu respuesta aquí
 respuesta = "PySchool2025"
+
+# Verifica la respuesta
+import verificar
 verificar.salon_0(respuesta)
 ```

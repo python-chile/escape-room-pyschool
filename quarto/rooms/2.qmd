@@ -2,9 +2,22 @@
 title: "Habitación 1: Lorem Ipsum"
 ---
 
-<a href="start.html" class="btn btn-info">Regresar al salón anterior</a>
+Python puede usarse como una calculadora muy potente. 
 
-¿Cuánto es 2? (Intenta como un string)
+En esta habitación, te pediremos que calcules el siguiente número:
+
+$$
+\frac{1.23 + 2.34}{1 + 43/2} + 3 \times 2^{1.5}
+$$
+
+::: {.callout-tip collapse="true"}
+Las operaciones matemáticas en Python se realizan con los operadores habituales:
+* `+` para la suma
+* `-` para la resta
+* `*` para la multiplicación
+* `/` para la división
+* `**` para la potencia
+:::
 
 ```{pyodide-python}
 import verificar
@@ -14,3 +27,9 @@ respuesta = None
 
 verificar.salon_2(respuesta)
 ```
+
+---
+
+<center>
+<a href="1.html" class="btn btn-info">Regresar al salón anterior</a>
+</center>
