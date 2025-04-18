@@ -21,10 +21,10 @@ book:
     - index.qmd
     - pyschool.qmd
     - rooms/template.qmd
-    - rooms/0.qmd
-    - rooms/1.qmd
-    - rooms/2.qmd
-    - rooms/end.qmd
+    - rooms/sala_00.qmd
+    - rooms/sala_01.qmd
+    - rooms/sala_02.qmd
+    - rooms/sala_end.qmd
     - howto.qmd
 
 # Format Configuration

@@ -61,11 +61,13 @@ globalThis.qpyodideInstance = await import(
     `);
 
     // Load the verification file
+    qpyodideUpdateStatusHeaderSpinner("Cargando desafío...");
     await mainPyodide.runPythonAsync(`
     import urllib.request
-    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verificar.py"
-    urllib.request.urlretrieve(url, "verificar.py");
+    url =  "`+window.GLOBAL_URL+`"
+    urllib.request.urlretrieve(url, "sala.py");
     `);
+    console.log("Completed loading the answers from " + window.GLOBAL_URL);
     qpyodideUpdateStatusHeader("Cargando las habitaciones...");
      
     // Unlock interactive buttons

@@ -2,7 +2,7 @@
 <div style="height: 200px;"></div>
 
 <center>
-<a href="rooms/0.html" class="btn btn-warning btn-lg w-100"> Iniciar Escape Room</a>
+<a href="rooms/sala_00.html" class="btn btn-warning btn-lg w-100"> Iniciar Escape Room</a>
 </center>
 
 <!-- Large jump -->

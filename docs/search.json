@@ -22,16 +22,16 @@
   {
     "objectID": "rooms/template.html",
     "href": "rooms/template.html",
-    "title": "Habitación N: Templata",
+    "title": "Habitación N: Template",
     "section": "",
     "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación N: Templata</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación N: Template</span>"
     ]
   },
   {
-    "objectID": "rooms/0.html",
-    "href": "rooms/0.html",
+    "objectID": "rooms/sala_00.html",
+    "href": "rooms/sala_00.html",
     "title": "Habitación 0: Inicio",
     "section": "",
     "text": "Despiertas poco a poco en un cuarto oscuro.\nSolo recuerdas que aceptaste un desafío, algo llamado PySchool.\nLas murallas son de piedra, y no hay ventanas. Una débil luz emana de una antorcha colgada en la pared. En una de las murallas, hay una puerta y una consola electrónica emitiendo un parpadeo de luz.\nTe acercas a la consola y observas que sobre la pantalla hay una nota:\n\n¡Bienvenido a PySchool!\nCada habitación tiene un enigma, que deberás resolver con Python.\nPuedes realizar tantos intentos como desees.\nCada habitación tiene algunas explicaciones y pistas.\n¡Buena suerte, futuro pythonista!\n\n\n\n\n\n\n\nPistas y Explicaciones\n\n\n\n\n\nEn este tipo de celdas expandibles, encontrarás algunas pistas, explicaciones y enlaces de interés.\nLa primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciendo click en “Run Code”.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
@@ -40,8 +40,8 @@
     ]
   },
   {
-    "objectID": "rooms/1.html",
-    "href": "rooms/1.html",
+    "objectID": "rooms/sala_01.html",
+    "href": "rooms/sala_01.html",
     "title": "Habitación 1: Hola Mundo",
     "section": "",
     "text": "Al responder correctamente el enigma, la puerta se abre. Al cruzar la puerta, la puerta se cierra y te encuentras en una nueva habitación, exactamente como la habitación anterior, con una nueva nota sobre la pantalla electrónica:\n\nLa primera tarea de todo pythonista es escribir “Hola Mundo”.\nCambia el valor de la variable respuesta por \"Hola Mundo\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Hola Mundo\"\no\nrespuesta='Hola Mundo'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
@@ -50,8 +50,8 @@
     ]
   },
   {
-    "objectID": "rooms/2.html",
-    "href": "rooms/2.html",
+    "objectID": "rooms/sala_02.html",
+    "href": "rooms/sala_02.html",
     "title": "Habitación 2: Números",
     "section": "",
     "text": "Comienzas a entender la rutina. Respondes correctamente, se abre una puerta, y apenas cruzas la puerta, la habitación se cierra.\nEn la nueva habitación hay una nueva nota esperándote:\n\nPython puede usarse como una calculadora muy potente.\n¿Puedes calcular el siguiente número?\n\\[\n\\frac{1.23 + 2.34}{1 + 43/2} + 3 \\times 2^{1.5}\n\\]\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
@@ -60,8 +60,8 @@
     ]
   },
   {
-    "objectID": "rooms/end.html",
-    "href": "rooms/end.html",
+    "objectID": "rooms/sala_end.html",
+    "href": "rooms/sala_end.html",
     "title": "Fin",
     "section": "",
     "text": "El sol golpea tus ojos. Has logrado escapar la última habitación.\nUna vibración emerge del suelo y ves como la pirámide se desintegra.\nEn unos segundos la imponente pirámide se ha convertido en un montón de rocas y polvo.\nJamás te creerán tu gran aventura, pero tú sabes que has superado el reto y el conocimiento de Python que desde hoy te acompaña.\n\nRegresar al Inicio",

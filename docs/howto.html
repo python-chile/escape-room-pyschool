@@ -229,7 +229,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"options":{"label":"","classes":"","message":"true","out-height":"","fig-cap":"","context":"interactive","results":"markup","output":"true","out-width":"700px","read-only":"false","fig-width":7,"autorun":"","dpi":72,"fig-height":5,"warning":"true","comment":""},"code":"a = 3.14**2\nprint(f\"{a:.2f}\")"}];
+globalThis.qpyodideCellDetails = [{"options":{"warning":"true","fig-width":7,"autorun":"","fig-height":5,"results":"markup","read-only":"false","out-width":"700px","output":"true","dpi":72,"context":"interactive","message":"true","out-height":"","comment":"","fig-cap":"","label":"","classes":""},"id":1,"code":"a = 3.14**2\nprint(f\"{a:.2f}\")"}];
 
 
 </script>
@@ -393,11 +393,13 @@ globalThis.qpyodideInstance = await import(
     `);
 
     // Load the verification file
+    qpyodideUpdateStatusHeaderSpinner("Cargando desafío...");
     await mainPyodide.runPythonAsync(`
     import urllib.request
-    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verificar.py"
-    urllib.request.urlretrieve(url, "verificar.py");
+    url =  "`+window.GLOBAL_URL+`"
+    urllib.request.urlretrieve(url, "sala.py");
     `);
+    console.log("Completed loading the answers from " + window.GLOBAL_URL);
     qpyodideUpdateStatusHeader("Cargando las habitaciones...");
      
     // Unlock interactive buttons
@@ -472,27 +474,27 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/template.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación N: Templata</span></a>
+  <a href="./rooms/template.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación N: Template</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/0.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 0: Inicio</span></a>
+  <a href="./rooms/sala_00.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 0: Inicio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 1: Hola Mundo</span></a>
+  <a href="./rooms/sala_01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 1: Hola Mundo</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 2: Números</span></a>
+  <a href="./rooms/sala_02.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 2: Números</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rooms/end.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="./rooms/sala_end.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
   </div>
 </li>
         <li class="sidebar-item">

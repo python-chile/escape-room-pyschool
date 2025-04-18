@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Habitación N: Templata</title>
+<title>Habitación N: Template</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,6 +101,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Buscar"
   }
 }</script>
+<script type="module">
+window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+</script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/editor/editor.main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
   
@@ -263,7 +266,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"code":"# Escribe tu respuesta aquí\nrespuesta = None\nprint(respuesta)\n\n# Verifica la respuesta\nimport sala\nsala.revisar(respuesta)","options":{"fig-height":5,"context":"interactive","output":"true","out-width":"700px","results":"markup","read-only":"false","label":"","comment":"","fig-width":7,"out-height":"","autorun":"","message":"true","dpi":72,"classes":"","fig-cap":"","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"id":1,"code":"# Escribe tu respuesta aquí\nrespuesta = None\nprint(respuesta)\n\n# Verifica la respuesta\nimport sala\nsala.revisar(respuesta)","options":{"autorun":"","out-width":"700px","output":"true","results":"markup","warning":"true","label":"","context":"interactive","message":"true","comment":"","fig-width":7,"classes":"","read-only":"false","fig-cap":"","dpi":72,"fig-height":5,"out-height":""}}];
 
 
 </script>
@@ -427,11 +430,13 @@ globalThis.qpyodideInstance = await import(
     `);
 
     // Load the verification file
+    qpyodideUpdateStatusHeaderSpinner("Cargando desafío...");
     await mainPyodide.runPythonAsync(`
     import urllib.request
-    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/verificar.py"
-    urllib.request.urlretrieve(url, "verificar.py");
+    url =  "`+window.GLOBAL_URL+`"
+    urllib.request.urlretrieve(url, "sala.py");
     `);
+    console.log("Completed loading the answers from " + window.GLOBAL_URL);
     qpyodideUpdateStatusHeader("Cargando las habitaciones...");
      
     // Unlock interactive buttons
@@ -474,7 +479,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/template.html"><span class="chapter-title">Habitación N: Templata</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/template.html"><span class="chapter-title">Habitación N: Template</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -506,27 +511,27 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/template.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación N: Templata</span></a>
+  <a href="../rooms/template.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación N: Template</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/0.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 0: Inicio</span></a>
+  <a href="../rooms/sala_00.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 0: Inicio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 1: Hola Mundo</span></a>
+  <a href="../rooms/sala_01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 1: Hola Mundo</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 2: Números</span></a>
+  <a href="../rooms/sala_02.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 2: Números</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/end.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="../rooms/sala_end.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -542,15 +547,6 @@ globalThis._qpyodideGetInstance = function() {
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<script>
-// Load the answers
-mainPyodide.runPythonAsync(`
-    import urllib.request
-    url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py"
-    urllib.request.urlretrieve(url, "sala.py");
-    `);
-console.log("Completed loading the answers");
-</script>
 <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/loader.js"></script>
 <script type="module" id="qpyodide-monaco-editor-init">
 
@@ -564,7 +560,7 @@ console.log("Completed loading the answers");
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Habitación N: Templata</span></h1>
+<h1 class="title"><span class="chapter-title">Habitación N: Template</span></h1>
 </div>
 
 

@@ -1,5 +1,10 @@
 ---
 title: "Habitación 0: Inicio"
+include-in-header:
+  text: |
+    <script type="module">
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_00.py";
+    </script>
 ---
 
 Despiertas poco a poco en un cuarto oscuro.  
@@ -26,6 +31,6 @@ La primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciend
 respuesta = "PySchool2025"
 
 # Verifica la respuesta
-import verificar
-verificar.salon_0(respuesta)
+import sala
+sala.revisar(respuesta)
 ```
