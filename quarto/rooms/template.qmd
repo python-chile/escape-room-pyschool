@@ -1,0 +1,29 @@
+---
+title: "Habitación 1: Hola Mundo"
+include-in-header:
+  file: template.js
+---
+
+Texto de la habitación.
+
+<div class="alert alert-info">
+Desafío de la habitación.
+</div>
+
+::: {.callout-tip title="Pista" collapse="true"}
+Pista de la habitación
+
+```python 
+respuesta="Hola Mundo"
+```
+:::
+
+```{pyodide-python}
+# Escribe tu respuesta aquí
+respuesta = None
+print(respuesta)
+
+# Verifica la respuesta
+import sala
+sala.revisar(respuesta)
+```
