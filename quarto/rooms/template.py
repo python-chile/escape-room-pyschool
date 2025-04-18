@@ -9,9 +9,9 @@ def hyperlink(text, url, type="info"):
 
 
 def revisar(respuesta):
-    if answer == None:
+    if respuesta == None:
         text("Intenta cambiar el valor de la variable `respuesta`.", "info")
-    elif answer == True:
+    elif respuesta == True:
         hyperlink("¡Correcto! Avanza a la siguiente página", "2.html", "success")
     else:
         text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")

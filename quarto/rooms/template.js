@@ -1,8 +1,9 @@
+<script>
 // Load the answers
-await mainPyodide.runPythonAsync(`
+mainPyodide.runPythonAsync(`
     import urllib.request
     url = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py"
     urllib.request.urlretrieve(url, "sala.py");
     `);
-    qpyodideUpdateStatusHeader("Cargando las habitaciones...");
-    
+console.log("Completed loading the answers");
+</script>

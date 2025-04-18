@@ -20,13 +20,23 @@
     ]
   },
   {
+    "objectID": "rooms/template.html",
+    "href": "rooms/template.html",
+    "title": "Habitación N: Templata",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación N: Templata</span>"
+    ]
+  },
+  {
     "objectID": "rooms/0.html",
     "href": "rooms/0.html",
     "title": "Habitación 0: Inicio",
     "section": "",
     "text": "Despiertas poco a poco en un cuarto oscuro.\nSolo recuerdas que aceptaste un desafío, algo llamado PySchool.\nLas murallas son de piedra, y no hay ventanas. Una débil luz emana de una antorcha colgada en la pared. En una de las murallas, hay una puerta y una consola electrónica emitiendo un parpadeo de luz.\nTe acercas a la consola y observas que sobre la pantalla hay una nota:\n\n¡Bienvenido a PySchool!\nCada habitación tiene un enigma, que deberás resolver con Python.\nPuedes realizar tantos intentos como desees.\nCada habitación tiene algunas explicaciones y pistas.\n¡Buena suerte, futuro pythonista!\n\n\n\n\n\n\n\nPistas y Explicaciones\n\n\n\n\n\nEn este tipo de celdas expandibles, encontrarás algunas pistas, explicaciones y enlaces de interés.\nLa primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciendo click en “Run Code”.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
     ]
   },
   {
@@ -36,7 +46,7 @@
     "section": "",
     "text": "Al responder correctamente el enigma, la puerta se abre. Al cruzar la puerta, la puerta se cierra y te encuentras en una nueva habitación, exactamente como la habitación anterior, con una nueva nota sobre la pantalla electrónica:\n\nLa primera tarea de todo pythonista es escribir “Hola Mundo”.\nCambia el valor de la variable respuesta por \"Hola Mundo\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Hola Mundo\"\no\nrespuesta='Hola Mundo'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Habitación 1: Hola Mundo</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 1: Hola Mundo</span>"
     ]
   },
   {
@@ -46,7 +56,7 @@
     "section": "",
     "text": "Comienzas a entender la rutina. Respondes correctamente, se abre una puerta, y apenas cruzas la puerta, la habitación se cierra.\nEn la nueva habitación hay una nueva nota esperándote:\n\nPython puede usarse como una calculadora muy potente.\n¿Puedes calcular el siguiente número?\n\\[\n\\frac{1.23 + 2.34}{1 + 43/2} + 3 \\times 2^{1.5}\n\\]\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 2: Números</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitación 2: Números</span>"
     ]
   },
   {
@@ -56,7 +66,7 @@
     "section": "",
     "text": "El sol golpea tus ojos. Has logrado escapar la última habitación.\nUna vibración emerge del suelo y ves como la pirámide se desintegra.\nEn unos segundos la imponente pirámide se ha convertido en un montón de rocas y polvo.\nJamás te creerán tu gran aventura, pero tú sabes que has superado el reto y el conocimiento de Python que desde hoy te acompaña.\n\nRegresar al Inicio",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
   },
   {
@@ -66,7 +76,7 @@
     "section": "",
     "text": "Tema (Theme)\nEl tema es sketchy, pero podría ser cualquier otro. Ya está configurado en el archivo _quarto.yml.\nEn sketchy doc hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -76,7 +86,7 @@
     "section": "Texto",
     "text": "Texto\nEs posible usar markdown normal, o html. Las clases de bootstrap están disponibles.\nEste es el texto típico en negritas e itálicas.\n\nNullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.\n\n\nEsta línea de texto está destinada a ser tratada como letra pequeña.\n\n\nLo siguiente es representado como texto en negritas.\n\n\nLo siguiente es representado como texto en cursiva.\n\n\nLo siguiente es un enlace aquí.\n\nEste texto está subrayado",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -86,7 +96,7 @@
     "section": "Colores",
     "text": "Colores\n\n.text-primary\n\n\n.text-primary-emphasis\n\n\n.text-secondary\n\n\n.text-secondary-emphasis\n\n\n.text-success\n\n\n.text-success-emphasis\n\n\n.text-danger\n\n\n.text-danger-emphasis\n\n\n.text-warning\n\n\n.text-warning-emphasis\n\n\n.text-info\n\n\n.text-info-emphasis\n\n\n.text-light\n\n\n.text-light-emphasis\n\n\n.text-dark\n\n\n.text-dark-emphasis\n\n\n.text-body\n\n\n.text-body-emphasis\n\n\n.text-body-secondary\n\n\n.text-body-tertiary\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.\n\n\n\nSomeone famous in Source Title",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -96,7 +106,7 @@
     "section": "Celdas de Python",
     "text": "Celdas de Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -106,7 +116,7 @@
     "section": "Imagenes",
     "text": "Imagenes",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -116,7 +126,7 @@
     "section": "Texto que parece botones pero no son botones",
     "text": "Texto que parece botones pero no son botones\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n Success Info Warning Danger",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -126,7 +136,7 @@
     "section": "Botones",
     "text": "Botones\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nPrimary\n\n\nSecondary\n\n\nLight\n\n\nDark\n\n\nLink\n\nLa clase btn-lg y btn-sm hace el botón más grande y chico respectivamente:\n\nLarge button Default button Small button\n\nTípicamente los botones se combinan con un hipervínculo:\n\nIniciar el escape room\n\nPara hacer un botón hipervínculo que ocupe todo el ancho de la pantalla, se puede usar:\n\nIniciar el escape room",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -136,7 +146,7 @@
     "section": "Mensajes de quarto - Callouts",
     "text": "Mensajes de quarto - Callouts\nLos mensajes de quarto son una forma de mostrar mensajes en la página.\n\n\n\n\n\n\nNota\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is a callout with a title.\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nUsing callouts is an effective way to highlight content that your reader give special consideration or attention.\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nUsing callouts is an effective way to highlight content that your reader give special consideration or attention.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -146,7 +156,7 @@
     "section": "Mensajes",
     "text": "Mensajes\n\nDescartables\n\n\nWarning!\n\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n Well done! You successfully read this important alert message.\n\n\n Heads up! This alert needs your attention, but it’s not super important.\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n\nFijos\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\nOh snap! Change a few things up and try submitting again.\n\n\nWell done! You successfully read this important alert message.\n\n\nHeads up! This alert needs your attention, but it’s not super important.\n\n\nOh snap! Change a few things up and try submitting again.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -156,7 +166,7 @@
     "section": "Badges",
     "text": "Badges\n\nBadges cuadrados\nPrimary Secondary Success Danger Warning Info Light Dark\n\n\nBadges redondeados\nPrimary Secondary Success Danger Warning Info Light Dark",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -166,7 +176,7 @@
     "section": "Tarjetas (cards)",
     "text": "Tarjetas (cards)\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -176,7 +186,7 @@
     "section": "Tarjetas (cards) sin fondo",
     "text": "Tarjetas (cards) sin fondo\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   }
 ]

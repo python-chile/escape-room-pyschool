@@ -20,6 +20,7 @@ book:
   chapters:
     - index.qmd
     - pyschool.qmd
+    - rooms/template.qmd
     - rooms/0.qmd
     - rooms/1.qmd
     - rooms/2.qmd

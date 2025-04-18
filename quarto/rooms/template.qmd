@@ -1,6 +1,6 @@
 ---
-title: "Habitación 1: Hola Mundo"
-include-in-header:
+title: "Habitación N: Templata"
+include-before-body:
   file: template.js
 ---
 
@@ -14,7 +14,7 @@ Desafío de la habitación.
 Pista de la habitación
 
 ```python 
-respuesta="Hola Mundo"
+respuesta=True
 ```
 :::
 
