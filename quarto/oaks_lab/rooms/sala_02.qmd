@@ -1,0 +1,66 @@
+---
+title: "Habitación 2: Tipos de Pokémon"
+---
+
+El sistema del laboratorio sigue bloqueado...  
+En la pantalla aparece un nuevo mensaje del Profesor Oak:
+
+<div class="alert alert-info">
+"Un buen Científico de Datos debe ser capaz de responder preguntas simples con datos.  
+¿Cuántos Pokémon de cada tipo existen?"
+</div>
+
+::: {.callout-tip title="Contar y Graficar Datos" collapse="true"}
+
+Para contar cuántos Pokémon hay por tipo puedes usar:
+
+```python
+conteo = df['Type 1'].value_counts()
+```
+
+Para graficar los resultados:
+
+```python
+import matplotlib.pyplot as plt
+
+conteo.plot(kind='bar')
+plt.show()
+```
+:::
+
+---
+
+## Desafío de la Sala
+
+1. Crea la variable `conteo` que contenga la cantidad de Pokémon por `Type 1`.  
+2. Genera un gráfico de barras con ese conteo.  
+3. Verifica tu respuesta.
+
+---
+
+```{pyodide-python}
+# Cargar nuevamente el dataset
+import pandas as pd
+import matplotlib.pyplot as plt
+
+url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
+df = pd.read_csv(url)
+
+# Contar Pokémon por tipo
+conteo = None  # Usa df['Type 1'].value_counts()
+
+# Crear gráfico de barras
+conteo.plot(kind='bar')
+plt.title('Cantidad de Pokémon por Tipo')
+plt.xlabel('Tipo')
+plt.ylabel('Cantidad')
+plt.xticks(rotation=45)
+plt.show()
+
+# Número total de tipos de Pokémon
+respuesta = None  # ¿Cuántos tipos hay?
+
+# Verifica tu respuesta
+import verificar
+verificar.salon_22(respuesta)
+```

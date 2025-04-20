@@ -14,11 +14,12 @@ project:
 
 # Book Configuration
 book:
-  sidebar: false        # show sidebar navigation
+  #sidebar: false        # show sidebar navigation
   #reader-mode: true    # focuses content (like Read the Docs)
   favicon: "images/favicon.png"
   chapters:
     - index.qmd
+    - index2.qmd
     - pyschool.qmd
     - rooms/template.qmd
     - rooms/sala_00.qmd
@@ -36,7 +37,7 @@ format:
     toc: false
     #page-layout: full
     page-navigation: false
-    sidebar-width: 0px
+    #sidebar-width: 0px
 
 # Extensions
 filters: 

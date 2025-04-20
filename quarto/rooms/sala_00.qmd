@@ -5,6 +5,9 @@ include-in-header:
     <script type="module">
     window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_00.py";
     </script>
+    <style>
+    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
+    </style>
 ---
 
 Despiertas poco a poco en un cuarto oscuro.  

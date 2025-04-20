@@ -1,0 +1,74 @@
+---
+title: "Habitación 0: Inicio"
+include-in-header:
+  text: |
+    <script type="module">
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/oaks_lab/rooms/sala_00.py";
+    </script>
+    <style>
+    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
+    </style>
+---
+
+Despiertas dentro de un laboratorio muy conocido...  
+¡Es el Laboratorio del Profesor Oak!  
+Sin embargo, algo no anda bien... Las puertas están bloqueadas y el sistema de datos está caído.
+
+Un mensaje aparece en la pantalla principal:
+
+<div class="alert alert-info">
+Para restaurar el sistema y poder avanzar, debes cargar correctamente los datos de Pokémon y revisar los primeros registros.
+</div>
+
+::: {.callout-tip title="¿Cómo se cargan datos en Python?" collapse="true"}
+En Ciencia de Datos usamos `pandas` para trabajar con archivos y tablas.
+
+Pasos típicos:
+
+1. Importar la librería:
+
+```python
+import pandas as pd
+```
+
+2. Leer un archivo `.csv`:
+
+```python
+pokemon_data = pd.read_csv('url_o_ruta_del_archivo')
+```
+
+3. Ver las primeras filas:
+
+```python
+pokemon_data.head()
+```
+:::
+
+---
+
+## Desafío de la Sala
+
+Completa las siguientes variables:
+
+- `url`: con la dirección del archivo de datos.  
+- `df`: con el resultado de leer los datos usando `pd.read_csv(url)`.  
+
+Luego muestra las primeras filas usando `.head()`.
+
+---
+
+```{pyodide-python}
+# Completa los valores correctos
+import pandas as pd
+pd.set_option('display.max_columns', None)
+
+url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
+df = pd.read_csv(url)
+
+# Mostrar las primeras filas
+df.head()
+
+# Verifica tu respuesta
+import sala
+sala.verificar(url, df)
+```

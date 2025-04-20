@@ -1,0 +1,11 @@
+# Objetivos del capítulo
+
+- Introducir los conceptos esenciales de Python aplicados al análisis de datos.  
+- Aprender a trabajar con conjuntos de datos reales y entender su estructura.  
+- Desarrollar habilidades de exploración, visualización y análisis de información.  
+- Escribir y ejecutar código directamente en el navegador utilizando `Quarto-Pyodide`, sin necesidad de instalaciones adicionales.
+
+<center>
+<a href="rooms/sala_00.html" class="btn btn-warning btn-lg w-100">🚀 Iniciar Escape Room</a>
+</center>
+

@@ -5,6 +5,9 @@ include-in-header:
     <script type="module">
     window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_02.py";
     </script>
+    <style>
+    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
+    </style>
 ---
 
 Comienzas a entender la rutina. Respondes correctamente, se abre una puerta, y apenas cruzas la puerta, la habitación se cierra.  

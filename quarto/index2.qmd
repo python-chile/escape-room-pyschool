@@ -1,10 +1,5 @@
 ---
 title: "PySchool 2025"
-include-in-header:
-  text: |
-    <style>
-    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
-    </style>
 ---
 
 <div style="height: 200px;"></div>
