@@ -1,4 +1,12 @@
-# Objetivos del capítulo
+---
+title: "Laboratorio del Profesor Oak"
+subtitle: "Objetivos"
+include-in-header:
+  text: |
+    <style>
+    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
+    </style>
+---
 
 - Introducir los conceptos esenciales de Python aplicados al análisis de datos.  
 - Aprender a trabajar con conjuntos de datos reales y entender su estructura.  

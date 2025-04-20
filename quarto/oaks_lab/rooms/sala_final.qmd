@@ -1,4 +1,11 @@
-# Habitación Final
+---
+title: "Habitación Final"
+include-in-header:
+  text: |
+    <style>
+    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
+    </style>
+---
 
 La última puerta se abre lentamente...  
 Sientes una brisa fresca y el sonido de la naturaleza vuelve a rodearte.  

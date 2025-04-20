@@ -1,5 +1,5 @@
 ---
-title: "Habitación N: Template"
+title: "Habitación 10:"
 include-in-header:
   text: |
     <script type="module">

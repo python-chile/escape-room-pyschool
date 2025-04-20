@@ -1,5 +1,5 @@
 ---
-title: ¿Cómo crear una habitación?
+title: Elementos disponibles
 ---
 
 Esta página contiene todos los distintos elementos, para que puedas examinar el código y ver lo que se puede hacer.
