@@ -2,7 +2,7 @@
 
 PyScape es un juego de escape interactivo basado en la web construido con Python y Quarto. Los jugadores resuelven rompecabezas y desafíos escribiendo y ejecutando código Python directamente en su navegador.
 
-[Demo](https://sebastiandres.github.io/pyschool_escape_room/)
+[Demo](https://sebastiandres.github.io/pyscape/)
 
 Note: for a English version of the README, please refer to [README-en.md](README-en.md)
 
