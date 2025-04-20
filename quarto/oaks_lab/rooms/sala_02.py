@@ -4,7 +4,7 @@ def verificar(respuesta):
     if respuesta is None:
         text("Debes asignar el número total de tipos de Pokémon a la variable `respuesta`.", "info")
     elif respuesta == 18:
-        hyperlink("¡Correcto! Existen 18 tipos de Pokémon. Avanza a la siguiente sala.", "3.html", "success")
+        hyperlink("¡Correcto! Existen 18 tipos de Pokémon. Avanza a la siguiente sala.", "sala_03.html", "success")
     else:
         text("La puerta sigue cerrada... Revisa bien los datos y cuenta nuevamente los tipos de Pokémon.", "warning")
 

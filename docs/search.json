@@ -60,13 +60,163 @@
     ]
   },
   {
+    "objectID": "rooms/sala_03.html",
+    "href": "rooms/sala_03.html",
+    "title": "Habitación 3:",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitación 3:</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_04.html",
+    "href": "rooms/sala_04.html",
+    "title": "Habitación 4:",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Habitación 4:</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_05.html",
+    "href": "rooms/sala_05.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_06.html",
+    "href": "rooms/sala_06.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_07.html",
+    "href": "rooms/sala_07.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_08.html",
+    "href": "rooms/sala_08.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_09.html",
+    "href": "rooms/sala_09.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_10.html",
+    "href": "rooms/sala_10.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_11.html",
+    "href": "rooms/sala_11.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_12.html",
+    "href": "rooms/sala_12.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_13.html",
+    "href": "rooms/sala_13.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_14.html",
+    "href": "rooms/sala_14.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_15.html",
+    "href": "rooms/sala_15.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_16.html",
+    "href": "rooms/sala_16.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
+    "objectID": "rooms/sala_17.html",
+    "href": "rooms/sala_17.html",
+    "title": "Habitación N: Template",
+    "section": "",
+    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Habitación N: Template</span>"
+    ]
+  },
+  {
     "objectID": "rooms/sala_end.html",
     "href": "rooms/sala_end.html",
     "title": "Fin",
     "section": "",
     "text": "El sol golpea tus ojos. Has logrado escapar la última habitación.\nUna vibración emerge del suelo y ves como la pirámide se desintegra.\nEn unos segundos la imponente pirámide se ha convertido en un montón de rocas y polvo.\nJamás te creerán tu gran aventura, pero tú sabes que has superado el reto y el conocimiento de Python que desde hoy te acompaña.\n\nRegresar al Inicio",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
   },
   {
@@ -76,7 +226,7 @@
     "section": "",
     "text": "Introducir los conceptos esenciales de Python aplicados al análisis de datos.\n\nAprender a trabajar con conjuntos de datos reales y entender su estructura.\n\nDesarrollar habilidades de exploración, visualización y análisis de información.\n\nEscribir y ejecutar código directamente en el navegador utilizando Quarto-Pyodide, sin necesidad de instalaciones adicionales.\n\n\n🚀 Iniciar Escape Room",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
   },
   {
@@ -86,7 +236,7 @@
     "section": "",
     "text": "Desafío de la Sala\nCompleta las siguientes variables:\nLuego muestra las primeras filas usando .head().",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
     ]
   },
   {
@@ -96,7 +246,7 @@
     "section": "",
     "text": "url: con la dirección del archivo de datos.\n\ndf: con el resultado de leer los datos usando pd.read_csv(url).\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
     ]
   },
   {
@@ -106,7 +256,7 @@
     "section": "",
     "text": "Desafío de la Sala\nYa cargaste los datos en la sala anterior (df).\nAhora:",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Habitación 1: Explorador de Datos</span>"
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Habitación 1: Explorador de Datos</span>"
     ]
   },
   {
@@ -116,7 +266,7 @@
     "section": "",
     "text": "Crea una variable llamada info que almacene el resultado de df.info() (solo ejecutarlo está bien).\n\nCrea una variable llamada desc que almacene el resultado de df.describe().\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Habitación 1: Explorador de Datos</span>"
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Habitación 1: Explorador de Datos</span>"
     ]
   },
   {
@@ -126,7 +276,7 @@
     "section": "",
     "text": "Desafío de la Sala",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Habitación 2: Tipos de Pokémon</span>"
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Habitación 2: Tipos de Pokémon</span>"
     ]
   },
   {
@@ -136,7 +286,57 @@
     "section": "",
     "text": "Crea la variable conteo que contenga la cantidad de Pokémon por Type 1.\n\nGenera un gráfico de barras con ese conteo.\n\nVerifica tu respuesta.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Habitación 2: Tipos de Pokémon</span>"
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Habitación 2: Tipos de Pokémon</span>"
+    ]
+  },
+  {
+    "objectID": "oaks_lab/rooms/sala_03.html",
+    "href": "oaks_lab/rooms/sala_03.html",
+    "title": "Habitación 3: Estadísticas de Combate",
+    "section": "",
+    "text": "Desafío de la Sala",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Habitación 3: Estadísticas de Combate</span>"
+    ]
+  },
+  {
+    "objectID": "oaks_lab/rooms/sala_03.html#desafío-de-la-sala",
+    "href": "oaks_lab/rooms/sala_03.html#desafío-de-la-sala",
+    "title": "Habitación 3: Estadísticas de Combate",
+    "section": "",
+    "text": "Agrupa los Pokémon por Type 1 y calcula el promedio de HP, Attack, Defense, Speed.\n\nGuarda ese resultado en promedio.\n\nDefine la variable respuesta_ataque con el tipo de Pokémon que tiene mayor promedio de ataque.\n\nDefine la variable respuesta_defensa con el tipo de Pokémon que tiene menor promedio de defensa.\n\nMuestra el resultado.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Habitación 3: Estadísticas de Combate</span>"
+    ]
+  },
+  {
+    "objectID": "oaks_lab/rooms/sala_04.html",
+    "href": "oaks_lab/rooms/sala_04.html",
+    "title": "Habitación 4: Visualización de Combate",
+    "section": "",
+    "text": "¿Qué haremos?",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Habitación 4: Visualización de Combate</span>"
+    ]
+  },
+  {
+    "objectID": "oaks_lab/rooms/sala_04.html#qué-haremos",
+    "href": "oaks_lab/rooms/sala_04.html#qué-haremos",
+    "title": "Habitación 4: Visualización de Combate",
+    "section": "",
+    "text": "Elegir dos estadísticas de combate (col_x y col_y) — por ejemplo Attack y Defense.\n\nCrear un gráfico de dispersión para ver cómo se relacionan.\n\nCrear una nueva columna llamada suma sumando esas dos estadísticas.\n\nMostrar los 5 mejores Pokémon con mayor suma.\n\nDefinir en respuesta el nombre del Pokémon con la mayor suma.\n\n\n\n\n\n\n\n\nRecuerda\n\n\n\nEl gráfico de dispersión nos permite observar:\n\nSi las estadísticas están relacionadas.\n\nSi sumar tiene sentido o si las variables son muy distintas.\n\nLuego de observar, podemos ordenar la tabla y tomar una mejor decisión.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Habitación 4: Visualización de Combate</span>"
+    ]
+  },
+  {
+    "objectID": "oaks_lab/rooms/sala_04.html#tu-código",
+    "href": "oaks_lab/rooms/sala_04.html#tu-código",
+    "title": "Habitación 4: Visualización de Combate",
+    "section": "Tu Código",
+    "text": "Tu Código\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Habitación 4: Visualización de Combate</span>"
     ]
   },
   {
@@ -146,7 +346,7 @@
     "section": "",
     "text": "La última puerta se abre lentamente…\nSientes una brisa fresca y el sonido de la naturaleza vuelve a rodearte.\nHas logrado superar todos los desafíos del laboratorio del Profesor Oak.\nNo solo atrapaste datos… aprendiste a analizarlos, entenderlos y usarlos a tu favor.\nFrente a ti, una gran Pokébola holográfica aparece en el cielo y proyecta un mensaje:\n\n“Los verdaderos Maestros Pokémon no solo entrenan en batalla… también dominan el poder de los datos.”\n\nSabes que esta aventura no fue solo un juego.\nHas dado tus primeros pasos como Científico de Datos Pokémon.\nY esto… es solo el comienzo.\n\n🏆 Cierre PySchool",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>PySchool 2025</span>"
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
   },
   {
@@ -156,7 +356,7 @@
     "section": "",
     "text": "Tema (Theme)\nEl tema es sketchy, pero podría ser cualquier otro. Ya está configurado en el archivo _quarto.yml.\nEn sketchy doc hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -166,7 +366,7 @@
     "section": "Texto",
     "text": "Texto\nEs posible usar markdown normal, o html. Las clases de bootstrap están disponibles.\nEste es el texto típico en negritas e itálicas.\n\nNullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.\n\n\nEsta línea de texto está destinada a ser tratada como letra pequeña.\n\n\nLo siguiente es representado como texto en negritas.\n\n\nLo siguiente es representado como texto en cursiva.\n\n\nLo siguiente es un enlace aquí.\n\nEste texto está subrayado",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -176,7 +376,7 @@
     "section": "Colores",
     "text": "Colores\n\n.text-primary\n\n\n.text-primary-emphasis\n\n\n.text-secondary\n\n\n.text-secondary-emphasis\n\n\n.text-success\n\n\n.text-success-emphasis\n\n\n.text-danger\n\n\n.text-danger-emphasis\n\n\n.text-warning\n\n\n.text-warning-emphasis\n\n\n.text-info\n\n\n.text-info-emphasis\n\n\n.text-light\n\n\n.text-light-emphasis\n\n\n.text-dark\n\n\n.text-dark-emphasis\n\n\n.text-body\n\n\n.text-body-emphasis\n\n\n.text-body-secondary\n\n\n.text-body-tertiary\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.\n\n\n\nSomeone famous in Source Title",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -186,7 +386,7 @@
     "section": "Celdas de Python",
     "text": "Celdas de Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -196,7 +396,7 @@
     "section": "Imagenes",
     "text": "Imagenes",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -206,7 +406,7 @@
     "section": "Texto que parece botones pero no son botones",
     "text": "Texto que parece botones pero no son botones\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n Success Info Warning Danger",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -216,7 +416,7 @@
     "section": "Botones",
     "text": "Botones\n\nSuccess\n\n\nInfo\n\n\nWarning\n\n\nDanger\n\n\nPrimary\n\n\nSecondary\n\n\nLight\n\n\nDark\n\n\nLink\n\nLa clase btn-lg y btn-sm hace el botón más grande y chico respectivamente:\n\nLarge button Default button Small button\n\nTípicamente los botones se combinan con un hipervínculo:\n\nIniciar el escape room\n\nPara hacer un botón hipervínculo que ocupe todo el ancho de la pantalla, se puede usar:\n\nIniciar el escape room",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -226,7 +426,7 @@
     "section": "Mensajes de quarto - Callouts",
     "text": "Mensajes de quarto - Callouts\nLos mensajes de quarto son una forma de mostrar mensajes en la página.\n\n\n\n\n\n\nNota\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is a callout with a title.\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nUsing callouts is an effective way to highlight content that your reader give special consideration or attention.\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nUsing callouts is an effective way to highlight content that your reader give special consideration or attention.",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -236,7 +436,7 @@
     "section": "Mensajes",
     "text": "Mensajes\n\nDescartables\n\n\nWarning!\n\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n Well done! You successfully read this important alert message.\n\n\n Heads up! This alert needs your attention, but it’s not super important.\n\n\n Oh snap! Change a few things up and try submitting again.\n\n\n\nFijos\n\n\nWarning!\n\n\nBest check yo self, you’re not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.\n\n\n\nOh snap! Change a few things up and try submitting again.\n\n\nWell done! You successfully read this important alert message.\n\n\nHeads up! This alert needs your attention, but it’s not super important.\n\n\nOh snap! Change a few things up and try submitting again.",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -246,7 +446,7 @@
     "section": "Badges",
     "text": "Badges\n\nBadges cuadrados\nPrimary Secondary Success Danger Warning Info Light Dark\n\n\nBadges redondeados\nPrimary Secondary Success Danger Warning Info Light Dark",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -256,7 +456,7 @@
     "section": "Tarjetas (cards)",
     "text": "Tarjetas (cards)\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -266,7 +466,7 @@
     "section": "Tarjetas (cards) sin fondo",
     "text": "Tarjetas (cards) sin fondo\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\n\n\n\nHeader\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>¿Cómo crear una habitación?</span>"
     ]
   },
   {
@@ -276,7 +476,7 @@
     "section": "",
     "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Habitación N: Template</span>"
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Habitación N: Template</span>"
     ]
   }
 ]

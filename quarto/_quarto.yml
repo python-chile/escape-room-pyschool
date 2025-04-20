@@ -24,11 +24,28 @@ book:
     - rooms/sala_00.qmd
     - rooms/sala_01.qmd
     - rooms/sala_02.qmd
+    - rooms/sala_03.qmd 
+    - rooms/sala_04.qmd
+    - rooms/sala_05.qmd
+    - rooms/sala_06.qmd
+    - rooms/sala_07.qmd
+    - rooms/sala_08.qmd
+    - rooms/sala_09.qmd
+    - rooms/sala_10.qmd
+    - rooms/sala_11.qmd
+    - rooms/sala_12.qmd
+    - rooms/sala_13.qmd
+    - rooms/sala_14.qmd
+    - rooms/sala_15.qmd
+    - rooms/sala_16.qmd
+    - rooms/sala_17.qmd
     - rooms/sala_end.qmd
     - oaks_lab/oaks_lab.qmd
     - oaks_lab/rooms/sala_00.qmd
     - oaks_lab/rooms/sala_01.qmd
     - oaks_lab/rooms/sala_02.qmd
+    - oaks_lab/rooms/sala_03.qmd
+    - oaks_lab/rooms/sala_04.qmd
     - oaks_lab/rooms/sala_final.qmd
     - howto.qmd
     - rooms/template.qmd

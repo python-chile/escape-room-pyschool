@@ -12,7 +12,7 @@ def verificar(col_x, col_y, respuesta):
         respuesta_correcta = df.loc[df['suma'].idxmax(), 'Name']
         
         if respuesta == respuesta_correcta:
-            hyperlink("¡Perfecto! Has dominado la visualización y el análisis de datos. Avanza a la siguiente sala.", "end.html", "success")
+            hyperlink("¡Perfecto! Has dominado la visualización y el análisis de datos. Avanza a la siguiente sala.", "sala_final.html", "success")
         else:
             text("Revisa bien... parece que no sumaste correctamente o elegiste mal el Pokémon.", "warning")
 

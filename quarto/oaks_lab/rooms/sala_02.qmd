@@ -1,5 +1,14 @@
 ---
 title: "Habitación 2: Tipos de Pokémon"
+include-in-header:
+  text: |
+    <script type="module">
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/oaks_lab/rooms/sala_02.py";
+    </script>
+    <style>
+    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
+    </style>
+
 ---
 
 El sistema del laboratorio sigue bloqueado...  
@@ -61,6 +70,6 @@ plt.show()
 respuesta = None  # ¿Cuántos tipos hay?
 
 # Verifica tu respuesta
-import verificar
-verificar.salon_22(respuesta)
+import sala
+sala.verificar(respuesta)
 ```

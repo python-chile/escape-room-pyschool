@@ -1,5 +1,13 @@
 ---
 title: "Habitación 1: Explorador de Datos"
+include-in-header:
+  text: |
+    <script type="module">
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/oaks_lab/rooms/sala_01.py";
+    </script>
+    <style>
+    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
+    </style>
 ---
 
 El sistema se ha reiniciado parcialmente...  
@@ -58,6 +66,6 @@ desc = None
 print(desc)
 
 # Verifica tu respuesta
-import verificar
-verificar.salon_11(desc)
+import sala
+sala.verificar(desc)
 ```

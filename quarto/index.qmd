@@ -11,7 +11,7 @@ include-in-header:
 
 <center>
 <a href="rooms/sala_00.html" target="_blank"><img src="./images/rooms_600x800.png" height="400"></a>
-<a href="https://pythonchile.cl" target="_blank"><img src="./images/oak_600x800.png" height="400"></a>
+<a href="oaks_lab/oaks_lab.html" target="_blank"><img src="./images/oak_600x800.png" height="400"></a>
 </center>
 
 <!-- Large jump -->
