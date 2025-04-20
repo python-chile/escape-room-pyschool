@@ -1,0 +1,35 @@
+---
+title: "Habitación 3: "
+include-in-header:
+  text: |
+    <script type="module">
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_03.py";
+    </script>
+    <style>
+    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
+    </style>
+---
+
+Texto de la habitación.
+
+<div class="alert alert-info">
+Desafío de la habitación.
+</div>
+
+::: {.callout-tip title="Pista" collapse="true"}
+Pista de la habitación
+
+```python 
+respuesta=True
+```
+:::
+
+```{pyodide-python}
+# Escribe tu respuesta aquí
+respuesta = True #None
+print(respuesta)
+
+# Verifica la respuesta
+import sala
+sala.revisar(respuesta)
+```

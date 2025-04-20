@@ -67,7 +67,7 @@ globalThis.qpyodideInstance = await import(
     url =  "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/helpers.py"
     urllib.request.urlretrieve(url, "helpers.py");
     `);
-    console.log("Completed loading the helpers from " + url);
+    console.log("Completed loading the helpers from helpers.py");
     qpyodideUpdateStatusHeader("Cargando archivos...");
     
     // Load the verification file

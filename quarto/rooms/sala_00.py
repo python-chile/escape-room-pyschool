@@ -1,9 +1,5 @@
 from helpers import text, hyperlink
 
-########################################################
-# SALONES
-########################################################
-
 def revisar(answer):
     if answer == "PySchool2025":
         hyperlink("¡Correcto! Avanza a la siguiente página", "sala_01.html", "success")
