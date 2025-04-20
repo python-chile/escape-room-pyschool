@@ -60,6 +60,16 @@ globalThis.qpyodideInstance = await import(
     from matplotlib import pyplot as plt
     `);
 
+    // Load the helpers file
+    qpyodideUpdateStatusHeaderSpinner("Cargando desafío...");
+    await mainPyodide.runPythonAsync(`
+    import urllib.request
+    url =  "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/helpers.py"
+    urllib.request.urlretrieve(url, "helpers.py");
+    `);
+    console.log("Completed loading the helpers from " + url);
+    qpyodideUpdateStatusHeader("Cargando archivos...");
+    
     // Load the verification file
     qpyodideUpdateStatusHeaderSpinner("Cargando desafío...");
     await mainPyodide.runPythonAsync(`

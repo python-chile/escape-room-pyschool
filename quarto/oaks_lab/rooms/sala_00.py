@@ -17,6 +17,6 @@ def verificar(url, df):
     if url is None or df is None:
         text("Debes asignar un valor a las variables `url` y `df`.", "info")
     elif url == url_correcta and len(df.columns) >= 10:
-        hyperlink("¡Correcto! Has restaurado el sistema del laboratorio. Avanza a la siguiente sala.", "1.html", "success")
+        hyperlink("¡Correcto! Has restaurado el sistema del laboratorio.\nAvanza a la siguiente sala.", "sala_01.html", "success")
     else:
-        text("Revisa bien las instrucciones... ¿Estás seguro que cargaste los datos correctamente?", "warning")
+        text("Revisa bien las instrucciones...\n¿Estás seguro que cargaste los datos correctamente?", "warning")

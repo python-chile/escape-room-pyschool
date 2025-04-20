@@ -21,12 +21,17 @@ book:
     - index.qmd
     - index2.qmd
     - pyschool.qmd
-    - rooms/template.qmd
     - rooms/sala_00.qmd
     - rooms/sala_01.qmd
     - rooms/sala_02.qmd
     - rooms/sala_end.qmd
+    - oaks_lab/oaks_lab.qmd
+    - oaks_lab/rooms/sala_00.qmd
+    - oaks_lab/rooms/sala_01.qmd
+    - oaks_lab/rooms/sala_02.qmd
+    - oaks_lab/rooms/sala_final.qmd
     - howto.qmd
+    - rooms/template.qmd
 
 # Format Configuration
 format:

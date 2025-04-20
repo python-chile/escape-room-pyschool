@@ -1,17 +1,4 @@
-# types: warning, danger, success, info, primary
-########################################################
-# UTILIDADES
-########################################################
-
-def text(text="", type="info"):
-    text_str = f'<div class="btn btn-{type}" w-100 h-100>{text}</div>'
-    print(text_str)
-
-
-def hyperlink(text, url, type="info"):
-    text_str = f'<a href="{url}" class="btn btn-{type} w-100 h-100">{text}</a>'
-    print(text_str)
-
+from helpers import text, hyperlink
 
 ########################################################
 # SALONES
