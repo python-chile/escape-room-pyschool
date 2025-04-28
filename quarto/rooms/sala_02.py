@@ -5,7 +5,7 @@ def revisar(answer):
     true_answer = (1.23 + 2.34) / (1 + 43/2) + 3 * 2**1.5
     epsilon = 0.000001
     if type(answer) in [float, int] and abs(answer - true_answer) < epsilon:
-        hyperlink("¡Correcto! Avanza a la siguiente página", "sala_end.html", "success")
+        hyperlink("¡Correcto! Avanza a la siguiente página", "sala_03.html", "success")
     elif answer == None:
         text("Indica la solución asignando algún valor a la variable `respuesta`.", "info")
     else:
