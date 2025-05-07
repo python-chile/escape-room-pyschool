@@ -60,6 +60,10 @@ El diseño se basa en el [sketchy theme](https://bootswatch.com/sketchy/) de boo
    ```bash
    make view
    ```
+   O con localhost:
+   ````bash
+   cd quarto && quarto preview
+   ````
    O abre `docs/index.html` en tu navegador.
 
 ## Estructura del Proyecto
