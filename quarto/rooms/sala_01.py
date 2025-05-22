@@ -1,7 +1,7 @@
 from helpers import text, hyperlink
 
 def revisar(answer):
-    if answer == "Hola Mundo":
+    if answer == "Cerrado":
         hyperlink("¡Correcto! Avanza a la siguiente página", "sala_02.html", "success")
     elif answer == None:
         text("Indica la solución asignando algún valor a la variable `respuesta`.", "info")
@@ -10,5 +10,5 @@ def revisar(answer):
 
 if __name__ == "__main__":
     revisar(None)
-    revisar("Hola Mundo")
-    revisar("Hola")
+    revisar("Cerrado")
+    revisar("cerrado")

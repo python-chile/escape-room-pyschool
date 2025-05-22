@@ -10,23 +10,38 @@ include-in-header:
     </style>
 ---
 
-Al responder correctamente el enigma, la puerta se abre. Al cruzar la puerta, la puerta se cierra y 
-te encuentras en una nueva habitación, exactamente como la habitación anterior, con una nueva nota sobre la pantalla electrónica:
+<center>
+<img src="./img_sala_01.png" width="270">
+</center>
+
+¡Haz llegado a la primera sala y con ello tu primer obstáculo!.
+
+En un apartado encuentras el mapa general de la estación pero ...
+
+<div class="text-center text-danger font-weight-bold">
+**Peligro**
+
+Se ha detectado pérdida de oxígeno en la sala M09. Activar puertas de emergencias.
+</div>
+
+Un compañero tuyo te ha confirmado que debido a una grieta en la puerta principal, el oxígeno se está escapando.
+
+¡Rápido! Debes activar las puertas de emergencia para que no seguir perdiendo oxígeno. Indica al sistema que cierre lo más pronto posible.
 
 <div class="alert alert-info">
-La primera tarea de todo pythonista es escribir "Hola Mundo".  
-Cambia el valor de la variable `respuesta` por `"Hola Mundo"` y ejecuta la celda.
+La primera tarea es escribir "Cerrado".
+Cambia el valor de la variable `respuesta` por `"Cerrado"` y ejecuta la celda.
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
 Recuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.  
 Puedes escribir 
 ```python 
-respuesta="Hola Mundo"
+respuesta="Cerrado"
 ```
 o
 ```python 
-respuesta='Hola Mundo'
+respuesta='Cerrado'
 ```
 :::
 
