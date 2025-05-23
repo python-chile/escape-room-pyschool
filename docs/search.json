@@ -89,7 +89,7 @@
     "href": "rooms/sala_05.html",
     "title": "Habitación 5:",
     "section": "",
-    "text": "¡Estupendo! ya estás dominando las operaciones matemáticas.\n\n\n\n\n\nUna compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.\n\nOcupa las funciónes sum(a) y range(b,c). Donde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nTen cuidado con la función range(b,c) ya que el rango es antes del valor de c.\nPor ejemplo\nsuma = sum(range(5,10)) # range cuenta de 5 a 9.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Estupendo! ya estás dominando las operaciones matemáticas.\n\n\n\n\n\nUna compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.\n\nAsigna los valores correspondientes a las variables a y b.\n\n\n\n\n\n\n\nCalcular promedio con funciones de python\n\n\n\n\n\n\nrange(a,b) crea un rango numérico desde a hasta el valor anterior de b. Por ejemplo range(5,10) crea rango del 5 al 9.\nfor numero in range(a,b) es un bucle que recorre todos los valores dando por la función range(a,b).\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Habitación 5:</span>"
