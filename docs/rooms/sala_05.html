@@ -235,7 +235,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"# Escribe tu respuesta aquí\n\nsuma = 0\nfor numero in range(a,b):\n    suma = suma + suma # Acumula los valores\n\nrespuesta = suma\nprint(respuesta)\n\n# Verifica la respuesta\nimport sala\nsala.revisar(respuesta)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"code":"# Escribe tu respuesta aquí\n\na=0     # indica valor inicial del rango\nb=1     # indica que su valor anterior es el final del rango\nsuma = 0\n\nfor numero in range(a,b): # variable numero repite el valor actual de range(a,b)\n    suma = numero + suma # acumula los valores de los números\n\nrespuesta = suma\nprint(respuesta)\n\n# Verifica la respuesta\nimport sala\nsala.revisar(respuesta)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -729,7 +729,7 @@ Calcular promedio con funciones de python
 <div class="callout-body-container callout-body">
 <ul>
 <li><code>range(a,b)</code> crea un rango numérico desde <code>a</code> hasta el valor anterior de <code>b</code>. Por ejemplo <code>range(5,10)</code> crea rango del 5 al 9.</li>
-<li><code>for numero in range(a,b)</code> es un bucle que recorre todos los valores dando por la función <code>range(a,b)</code>.</li>
+<li><code>for numero in range(a,b)</code> es un ciclo que repite todos los valores dado por la función <code>range(a,b)</code>.</li>
 </ul>
 </div>
 </div>

@@ -28,18 +28,18 @@ Asigna los valores correspondientes a las variables `a` y `b`.
 
 ::: {.callout-tip title="Calcular promedio con funciones de python" collapse="true"}
 * `range(a,b)` crea un rango numérico desde `a` hasta el valor anterior de `b`. Por ejemplo `range(5,10)` crea rango del 5 al 9.
-* `for numero in range(a,b)` es un bucle que recorre todos los valores dando por la función `range(a,b)`.
+* `for numero in range(a,b)` es un ciclo que repite todos los valores dado por la función `range(a,b)`.
 :::
 
 ```{pyodide-python}
 # Escribe tu respuesta aquí
 
-a=0
-b=1
+a=0     # indica valor inicial del rango
+b=1     # indica que su valor anterior es el final del rango
 suma = 0
 
-for numero in range(a,b):
-    suma = numero + suma # Acumula los valores de los números
+for numero in range(a,b): # variable numero repite el valor actual de range(a,b)
+    suma = numero + suma # acumula los valores de los números
 
 respuesta = suma
 print(respuesta)
