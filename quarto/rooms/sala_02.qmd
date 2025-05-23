@@ -27,7 +27,7 @@ $$
 $$
 
 <div class="alert alert-info">
-Asigna a cada variable su respectivo valor numérico según la fórmula.
+Asigna a cada variable su respectivo valor numérico según la fórmula. Por ejemplo a = 55.
 </div>
 
 ::: {.callout-tip title="Operaciones matemáticas en Python" collapse="true"}

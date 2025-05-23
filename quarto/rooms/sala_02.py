@@ -2,7 +2,7 @@ from helpers import text, hyperlink
 
 def revisar(answer):
     if answer == 7680:
-        hyperlink("¡Correcto! Avanza a la siguiente página", "sala_03.html", "success")
+        hyperlink("¡Correcto! Haz click aquí para avanzar al siguiente desafío", "sala_03.html", "success")
     elif answer == None:
         text("Indica la solución asignando algún valor a la variable `respuesta`.", "info")
     else:

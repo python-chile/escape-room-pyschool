@@ -30,10 +30,8 @@ $$
 Reemplaza la palabra `None` armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor.
 </div>
 
-::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
-
-* Recuerda que los números decimales se escriben con "." por ejemplo 1,2 -> 1.2
+::: {.callout-tip title="Números decimales en código" collapse="true"}
+Los números decimales se escriben con ".". Por ejemplo para **33,5** se puede escribir como `a = 33.5`.
 :::
 
 ```{pyodide-python}
