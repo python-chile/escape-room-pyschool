@@ -56,7 +56,7 @@
     "href": "rooms/sala_02.html",
     "title": "Habitación 2: Números",
     "section": "",
-    "text": "¡Muy bien! Haz logrado llegar al segundo desafío.\n\n\n\n\n\nLa compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:\n\\[\n(201 + 759) \\times 2^{3}\n\\]\n\nDebes reemplazar la palabra None por la fórmula que se muestra arriba, pero cuidado que algunos caracteres matemáticos cambian en el código.\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Muy bien! Haz logrado llegar al segundo desafío.\n\n\n\n\n\nLa compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:\n\\[\n(201 + 759) \\times 2^{3}\n\\]\n\nAsigna a cada variable su respectivo valor numérico según la fórmula.\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitación 2: Números</span>"
@@ -67,7 +67,7 @@
     "href": "rooms/sala_03.html",
     "title": "Habitación 3:",
     "section": "",
-    "text": "¡Excelente! Veamos otro desafío con números.\n\n\n\n\n\nLa temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\frac{1,23 + 2,34}{1 + 43/2} + 3 \\times 2^{1,5}\n\\]\n\nIgual que el desafío anterior, se debe reemplazar la palabra None por la fórmula que se muestra arriba.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\n\nRecuerda que los números decimales se escriben con “.” por ejemplo 1,2 -&gt; 1.2\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Excelente! Veamos otro desafío con números.\n\n\n\n\n\nLa temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\frac{1,23 + 2,34}{1 + 43/2} + 3 \\times 2^{1,5}\n\\]\n\nReemplaza la palabra None armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\n\nRecuerda que los números decimales se escriben con “.” por ejemplo 1,2 -&gt; 1.2\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitación 3:</span>"

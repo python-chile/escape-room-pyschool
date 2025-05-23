@@ -27,7 +27,7 @@ $$
 $$
 
 <div class="alert alert-info">
-Igual que el desafío anterior, se debe reemplazar la palabra `None` por la fórmula que se muestra arriba.
+Reemplaza la palabra `None` armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor.
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
@@ -38,7 +38,11 @@ Pista de la habitación
 
 ```{pyodide-python}
 # Escribe tu respuesta aquí
-respuesta = 0
+a = 0
+b = 1
+c = 1
+d = 0
+respuesta = None
 print(respuesta)
 
 # Verifica la respuesta

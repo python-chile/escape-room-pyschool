@@ -27,7 +27,7 @@ $$
 $$
 
 <div class="alert alert-info">
-Debes reemplazar la palabra `None` por la fórmula que se muestra arriba, pero cuidado que algunos caracteres matemáticos cambian en el código.
+Asigna a cada variable su respectivo valor numérico según la fórmula.
 </div>
 
 ::: {.callout-tip title="Operaciones matemáticas en Python" collapse="true"}
@@ -42,7 +42,11 @@ Las operaciones matemáticas en Python se realizan con los operadores habituales
 
 ```{pyodide-python}
 # Escribe tu respuesta aquí
-respuesta = None
+a = 0
+b = 1
+c = 1
+d = 0
+respuesta = (a + b) * c**d
 
 # Verifica la respuesta
 import sala
