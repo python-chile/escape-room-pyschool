@@ -26,10 +26,10 @@ Una compuerta solo se abrirá si ingresas la suma de la secuencia desde el núme
 Ocupa las funciónes sum(a) y range(b,c). Donde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números.
 </div>
 
-::: {.callout-tip title="Pista" collapse="true"}
+::: {.callout-tip title="Rango que toma la función rage(b,c)" collapse="true"}
 Pista de la habitación
 
-Ten cuidado con la función range(b,c) ya que el rango es antes del valor de **c**.
+Ten cuidado con la función `range(b,c)` ya que el rango es antes del valor de **c**, por lo que debes poner el siguiente valor si quieres incluir al valor de `c``.
 
 Por ejemplo
 ```python 

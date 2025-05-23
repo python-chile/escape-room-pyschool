@@ -33,7 +33,7 @@ Se ha detectado pérdida de oxígeno en la sala B9-2.
 ¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.
 
 <div class="alert alert-info">
-La primera tarea es escribir "Cerrado".
+La primera tarea es escribir "Cerrar".
 Cambia el valor de la variable `respuesta` por `"Cerrar"` y ejecuta la celda.
 </div>
 
