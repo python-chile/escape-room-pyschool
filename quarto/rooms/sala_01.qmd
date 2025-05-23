@@ -16,15 +16,13 @@ include-in-header:
 
 ¡Haz llegado a la primera sala y con ello tu primer obstáculo!.
 
-En un apartado encuentras el mapa general de la estación pero ...
+En un apartado encuentras el mapa general de la estación pero un compañero tuyo llega corriendo para avisar sobre una grieta en una puerta ...
 
 <div class="text-center text-danger font-weight-bold">
 **Peligro**
 
-Se ha detectado pérdida de oxígeno en la sala M09. Activar puertas de emergencias.
+Se ha detectado pérdida de oxígeno en la sala B9-2.
 </div>
-
-Un compañero tuyo te ha confirmado que debido a una grieta en la puerta principal, el oxígeno se está escapando.
 
 ¡Rápido! Debes activar las puertas de emergencia para que no seguir perdiendo oxígeno. Indica al sistema que cierre lo más pronto posible.
 

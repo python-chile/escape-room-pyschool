@@ -14,9 +14,7 @@ include-in-header:
 <img src="./img_sala_00.png" width="270">
 </center>
 
-Estas dentro de la estación espacial, seleccionado entre las mejores personas capacitadas para poder reparar a tiempo
-la falla presentada en que ¡afecta la desestabilización respecto a la órbita!. Tú, junto a tu equipo deben ser
-capaces de configurar el sistema para que se pueda mantener en órbita la estación.
+Año 2079. La estación espacial OASIS-9, que orbita la luna Europa, sufre una serie de fallas tras una tormenta solar. El comandante en jefe activa el protocolo de emergencia "PYTHON-18": cada sala del sistema principal se bloquea hasta que uno de los miembros de la tripulación resuelve un acertijo lógico o computacional. Solo así podrán restablecer los sistemas antes de que se agote el soporte vital...
 
 ¡Bienvenido joven astronauta! Estas a punto de iniciarte en la programación, y que mejor que participar en la solución de la estación espacial.
 
