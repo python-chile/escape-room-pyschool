@@ -34,7 +34,7 @@
     "href": "rooms/sala_00.html",
     "title": "Habitación 0: Inicio",
     "section": "",
-    "text": "Año 2079. La estación espacial OASIS-9, que orbita la luna Europa, sufre una serie de fallas tras una tormenta solar. El comandante en jefe activa el protocolo de emergencia “PYTHON-18”: cada sala del sistema principal se bloquea hasta que uno de los miembros de la tripulación resuelve un acertijo lógico o computacional. Solo así podrán restablecer los sistemas antes de que se agote el soporte vital…\n¡Bienvenido joven astronauta! Estas a punto de iniciarte en la programación, y que mejor que participar en la solución de la estación espacial.\n\n¡Bienvenido a PySchool!\nCada habitación tiene un enigma, que deberás resolver con Python en conjunto a explicaciones y pistas que se presenten. Puedes realizar tantos intentos como desees.\n¡Buena suerte, futuro pythonista!\n\n\n\n\n\n\n\nPistas y Explicaciones\n\n\n\n\n\nEn este tipo de celdas expandibles, encontrarás algunas pistas, explicaciones y enlaces de interés.\nLa primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciendo click en “Run Code”.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Bienvenido joven astronauta!  Estas a punto de iniciarte en la programación, y qué mejor que participar en la solución de la estación espacial.\n\n\n\n\n\n\n\nAño 2079. La estación espacial OASIS-9, que orbita la luna Europa, sufre una serie de fallas tras una tormenta solar. El comandante en jefe activa el protocolo de emergencia “PYSCHOOL-25”: cada sala del sistema principal se bloquea hasta que uno de los miembros de la tripulación resuelve un acertijo lógico o computacional. Solo así podrán restablecer los sistemas antes de que se agote el soporte vital…\n\n\n\n¡Bienvenido a PySchool!\nCada habitación tiene un enigma, que deberás resolver con Python en conjunto a explicaciones y pistas que se presenten. Puedes realizar tantos intentos como desees.\n¡Buena suerte, futuro pythonista!\n\n\n\n\n\n\n\nPistas y Explicaciones\n\n\n\n\n\nEn este tipo de celdas expandibles, encontrarás algunas pistas, explicaciones y enlaces de interés.\nLa primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciendo click en “Run Code”.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
@@ -45,7 +45,7 @@
     "href": "rooms/sala_01.html",
     "title": "Habitación 1: Hola Mundo",
     "section": "",
-    "text": "¡Haz llegado a la primera sala y con ello tu primer obstáculo!.\nEn un apartado encuentras el mapa general de la estación pero un compañero tuyo llega corriendo para avisar sobre una grieta en una puerta …\n\nPeligro\nSe ha detectado pérdida de oxígeno en la sala B9-2.\n\n¡Rápido! Debes activar las puertas de emergencia para que no seguir perdiendo oxígeno. Indica al sistema que cierre lo más pronto posible.\n\nLa primera tarea es escribir “Cerrado”. Cambia el valor de la variable respuesta por \"Cerrado\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Cerrado\"\no\nrespuesta='Cerrado'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Haz llegado a la primera sala y con ello tu primer obstáculo!.\n\n\n\n\n\n\nLa terminal del sistema de oxígeno muestra un valor erróneo de presión …\n\nPeligro\nSe ha detectado pérdida de oxígeno en la sala B9-2.\n\n¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.\n\nLa primera tarea es escribir “Cerrado”. Cambia el valor de la variable respuesta por \"Cerrado\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Cerrado\"\no\nrespuesta='Cerrado'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 1: Hola Mundo</span>"
@@ -56,7 +56,7 @@
     "href": "rooms/sala_02.html",
     "title": "Habitación 2: Números",
     "section": "",
-    "text": "La compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:\n\\[\n(201 + 759) \\times 2^{3}\n\\]\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Muy bien! Haz logrado llegar al segundo desafío.\n\n\n\n\n\nLa compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:\n\\[\n(201 + 759) \\times 2^{3}\n\\]\n\nDebes reemplazar la palabra None por la fórmula que se muestra arriba, pero cuidado que algunos caracteres matemáticos cambian en el código.\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitación 2: Números</span>"
@@ -67,7 +67,7 @@
     "href": "rooms/sala_03.html",
     "title": "Habitación 3:",
     "section": "",
-    "text": "La temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\frac{1,23 + 2,34}{1 + 43/2} + 3 \\times 2^{1,5}\n\\]\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\n\nRecuerda que los números decimales se escriben con “.” por ejemplo 1,2 -&gt; 1.2\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Excelente! Veamos otro desafío con números.\n\n\n\n\n\nLa temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\frac{1,23 + 2,34}{1 + 43/2} + 3 \\times 2^{1,5}\n\\]\n\nIgual que el desafío anterior, se debe reemplazar la palabra None por la fórmula que se muestra arriba.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\n\nRecuerda que los números decimales se escriben con “.” por ejemplo 1,2 -&gt; 1.2\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitación 3:</span>"
@@ -78,7 +78,7 @@
     "href": "rooms/sala_04.html",
     "title": "Habitación 4:",
     "section": "",
-    "text": "El sistema de soporte vital está recibiendo lecturas inconsistentes de temperatura. Necesitas calcular el promedio para tomar decisiones automáticas.\n\\[\n19,5 - 22,3 - 12 - 10,01 - 32 - 29,99 - 20,89\n\\]\n\n\n\n\n\n\nPista\n\n\n\n\n\nInserta todos los números dados dentro de los corchetes. Recuerda que los decimales se escriben con punto.\nPor ejemplo\nnumeros = [1, 2, 3, 4]\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Vas muy bien! es momento de agregar un nuevo nivel a los números.\n\n\n\n\n\nEl sistema de soporte vital está recibiendo lecturas inconsistentes de temperatura. Necesitas calcular el promedio para tomar decisiones automáticas.\n\\[\n19,5 - 22,3 - 12 - 10,01 - 32 - 29,99 - 20,89\n\\]\n\nAgrega los números en los corchetes [] que están asignados a la variable numeros, y sepáralos con el caracter ,.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPara escribir los números dentro de[] sigue el siguiente ejemplo:\nnumeros = [1, 2, 3, 4]\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Habitación 4:</span>"
@@ -89,7 +89,7 @@
     "href": "rooms/sala_05.html",
     "title": "Habitación 5:",
     "section": "",
-    "text": "Una compuerta solo se abrirá si ingresas la suma de una secuencia que solo un humano sabría calcular.\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nOcupa las funciónes sum(a) y range(b,c).\nDonde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números. Ten cuidado con la función range(b,c) ya que el rango es antes del valor de c.\nPor ejemplo\nsuma = sum(range(5,10)) # range cuenta de 5 a 9.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Estupendo! ya estás dominando las operaciones matemáticas.\n\n\n\n\n\nUna compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.\n\nOcupa las funciónes sum(a) y range(b,c). Donde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nTen cuidado con la función range(b,c) ya que el rango es antes del valor de c.\nPor ejemplo\nsuma = sum(range(5,10)) # range cuenta de 5 a 9.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Habitación 5:</span>"

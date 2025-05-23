@@ -5,7 +5,7 @@ def revisar(respuesta):
     if respuesta == None:
         text("Intenta cambiar el valor de la variable `respuesta`.", "info")
     elif respuesta == suma:
-        hyperlink("¡Correcto! Avanza a la siguiente página", "2.html", "success")
+        hyperlink("¡Correcto! Avanza a la siguiente página", "sala_06.html", "success")
     else:
         text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 

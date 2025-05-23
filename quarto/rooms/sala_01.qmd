@@ -10,13 +10,19 @@ include-in-header:
     </style>
 ---
 
+<h2>
+¡Haz llegado a la primera sala y con ello tu primer obstáculo!.
+</h2>
+
+<br/>
+
 <center>
-<img src="./img_sala_01.png" width="270">
+<img src="./sala_01.png" width="650">
 </center>
 
-¡Haz llegado a la primera sala y con ello tu primer obstáculo!.
+<br/>
 
-En un apartado encuentras el mapa general de la estación pero un compañero tuyo llega corriendo para avisar sobre una grieta en una puerta ...
+La terminal del sistema de oxígeno muestra un valor erróneo de presión ...
 
 <div class="text-center text-danger font-weight-bold">
 **Peligro**
@@ -24,7 +30,7 @@ En un apartado encuentras el mapa general de la estación pero un compañero tuy
 Se ha detectado pérdida de oxígeno en la sala B9-2.
 </div>
 
-¡Rápido! Debes activar las puertas de emergencia para que no seguir perdiendo oxígeno. Indica al sistema que cierre lo más pronto posible.
+¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.
 
 <div class="alert alert-info">
 La primera tarea es escribir "Cerrado".

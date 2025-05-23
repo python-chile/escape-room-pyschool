@@ -10,14 +10,26 @@ include-in-header:
     </style>
 ---
 
+<h2>
+¡Estupendo! ya estás dominando las operaciones matemáticas.
+</h2>
+
+<center>
+<img src="./sala_05.png" width="650">
+</center>
+
+<br/>
+
 Una compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.
+
+<div class="alert alert-info">
+Ocupa las funciónes sum(a) y range(b,c). Donde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números.
+</div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
 Pista de la habitación
 
-Ocupa las funciónes sum(a) y range(b,c).
-
-Donde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números. Ten cuidado con la función range(b,c) ya que el rango es antes del valor de **c**.
+Ten cuidado con la función range(b,c) ya que el rango es antes del valor de **c**.
 
 Por ejemplo
 ```python 
