@@ -10,17 +10,12 @@ include-in-header:
     </style>
 ---
 
-Comienzas a entender la rutina. Respondes correctamente, se abre una puerta, y apenas cruzas la puerta, la habitación se cierra.  
-En la nueva habitación hay una nueva nota esperándote:
-
-<div class="alert alert-info">
-Python puede usarse como una calculadora muy potente.  
-¿Puedes calcular el siguiente número?
+La compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:
 
 $$
 \frac{1.23 + 2.34}{1 + 43/2} + 3 \times 2^{1.5}
 $$
-</div>
+
 ::: {.callout-tip title="Operaciones matemáticas en Python" collapse="true"}
 Las operaciones matemáticas en Python se realizan con los operadores habituales:
 
