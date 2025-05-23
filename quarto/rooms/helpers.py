@@ -6,5 +6,5 @@ def text(text="", type="info"):
 
 
 def hyperlink(text, url, type="info"):
-    text_str = f'<a href="{url}" class="btn btn-{type} w-100 h-100">{text} -> </a>'
+    text_str = f'<a href="{url}" class="btn btn-{type} w-100 h-100">{text}</a>'
     print(text_str)
