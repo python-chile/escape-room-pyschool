@@ -10,23 +10,22 @@ include-in-header:
     </style>
 ---
 
-Texto de la habitación.
+La temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.
 
-<div class="alert alert-info">
-Desafío de la habitación.
-</div>
+$$
+\frac{1,23 + 2,34}{1 + 43/2} + 3 \times 2^{1,5}
+$$
 
 ::: {.callout-tip title="Pista" collapse="true"}
 Pista de la habitación
 
-```python 
-respuesta=True
+* Recuerda que los números decimales se escriben con "." por ejemplo 1,2 -> 1.2
 ```
 :::
 
 ```{pyodide-python}
 # Escribe tu respuesta aquí
-respuesta = True #None
+respuesta = 0
 print(respuesta)
 
 # Verifica la respuesta

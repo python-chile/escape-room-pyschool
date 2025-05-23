@@ -13,7 +13,7 @@ include-in-header:
 La compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:
 
 $$
-\frac{1.23 + 2.34}{1 + 43/2} + 3 \times 2^{1.5}
+(201 + 759) \times 2^{3}
 $$
 
 ::: {.callout-tip title="Operaciones matemáticas en Python" collapse="true"}
