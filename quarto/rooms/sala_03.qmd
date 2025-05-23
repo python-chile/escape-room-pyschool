@@ -20,7 +20,6 @@ $$
 Pista de la habitación
 
 * Recuerda que los números decimales se escriben con "." por ejemplo 1,2 -> 1.2
-```
 :::
 
 ```{pyodide-python}

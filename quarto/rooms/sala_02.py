@@ -10,7 +10,6 @@ def revisar(answer):
 
 
 if __name__ == "__main__":
-
     revisar(None)
-    revisar(5)
+    revisar((201 + 759) * 2 ** 3)
     revisar("2")
