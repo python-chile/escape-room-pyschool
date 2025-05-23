@@ -10,7 +10,7 @@ include-in-header:
     </style>
 ---
 
-Una compuerta solo se abrirá si ingresas la suma de una secuencia que solo un humano sabría calcular.
+Una compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.
 
 ::: {.callout-tip title="Pista" collapse="true"}
 Pista de la habitación

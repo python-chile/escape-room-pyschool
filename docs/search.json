@@ -89,7 +89,7 @@
     "href": "rooms/sala_05.html",
     "title": "Habitación 5:",
     "section": "",
-    "text": "Una compuerta solo se abrirá si ingresas la suma de una secuencia que solo un humano sabría calcular.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nOcupa las funciónes sum(a) y range(b,c).\nDonde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números. Ten cuidado con la función range(b,c) ya que el rango es antes del valor de c.\nPor ejemplo\nsuma = sum(range(5,10)) # range cuenta de 5 a 9.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Una compuerta solo se abrirá si ingresas la suma de una secuencia que solo un humano sabría calcular.\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nOcupa las funciónes sum(a) y range(b,c).\nDonde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números. Ten cuidado con la función range(b,c) ya que el rango es antes del valor de c.\nPor ejemplo\nsuma = sum(range(5,10)) # range cuenta de 5 a 9.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Habitación 5:</span>"
