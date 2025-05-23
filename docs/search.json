@@ -78,7 +78,7 @@
     "href": "rooms/sala_04.html",
     "title": "Habitación 4:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "El sistema de soporte vital está recibiendo lecturas inconsistentes de temperatura. Necesitas calcular el promedio para tomar decisiones automáticas.\n\\[\n19,5 - 22,3 - 12 - 10,01 - 32 - 29,99 - 20,89\n\\]\n\n\n\n\n\n\nPista\n\n\n\n\n\nInserta todos los números dados dentro de los corchetes. Recuerda que los decimales se escriben con punto.\nPor ejemplo\nnumeros = [1, 2, 3, 4]\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Habitación 4:</span>"

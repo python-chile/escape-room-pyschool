@@ -10,24 +10,29 @@ include-in-header:
     </style>
 ---
 
-Texto de la habitación.
+El sistema de soporte vital está recibiendo lecturas inconsistentes de temperatura. Necesitas calcular el promedio para tomar decisiones automáticas.
 
-<div class="alert alert-info">
-Desafío de la habitación.
-</div>
+$$
+19,5 - 22,3 - 12 - 10,01 - 32 - 29,99 - 20,89
+$$
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
 
+Inserta todos los números dados dentro de los corchetes. Recuerda que los decimales se escriben con punto.
+
+Por ejemplo
 ```python 
-respuesta=True
+numeros = [1, 2, 3, 4]
 ```
 :::
 
 ```{pyodide-python}
 # Escribe tu respuesta aquí
-respuesta = True #None
+import statistics
+numeros = [0]
+respuesta = statistics.mean(numeros)
 print(respuesta)
+
 
 # Verifica la respuesta
 import sala
