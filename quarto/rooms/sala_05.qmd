@@ -3,24 +3,25 @@ title: "Habitación 5:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_05.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Texto de la habitación.
-
-<div class="alert alert-info">
-Desafío de la habitación.
-</div>
+Una compuerta solo se abrirá si ingresas la suma de una secuencia que solo un humano sabría calcular.
 
 ::: {.callout-tip title="Pista" collapse="true"}
 Pista de la habitación
 
+Ocupa las funciónes sum(a) y range(b,c).
+
+Donde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números. Ten cuidado con la función range(b,c) ya que el rango es antes del valor de **c**.
+
+Por ejemplo
 ```python 
-respuesta=True
+suma = sum(range(5,10)) # range cuenta de 5 a 9.
 ```
 :::
 
