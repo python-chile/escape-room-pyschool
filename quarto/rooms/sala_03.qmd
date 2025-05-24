@@ -23,11 +23,11 @@ include-in-header:
 La temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.
 
 $$
-\frac{1,23 + 2,34}{1 + 43/2} + 3 \times 2^{1,5}
+\left( \frac{(1,23 + 2,34)}{(1 + (43/2))} \right) + (3 \times 2^{1,5})
 $$
 
 <div class="alert alert-info">
-Reemplaza la palabra `None` armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor.
+Reemplaza la palabra `None` armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor y cuidado, respesta los paréntesis `()`.
 </div>
 
 ::: {.callout-tip title="Números decimales en código" collapse="true"}
@@ -37,9 +37,13 @@ Los números decimales se escriben con ".". Por ejemplo para **33,5** se puede e
 ```{pyodide-python}
 # Escribe tu respuesta aquí
 a = 0
-b = 1
-c = 1
+b = 0
+c = 0
 d = 0
+e = 0
+f = 0
+g = 0
+h = 0
 respuesta = None
 print(respuesta)
 
