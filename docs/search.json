@@ -45,7 +45,7 @@
     "href": "rooms/sala_01.html",
     "title": "Habitación 1: Hola Mundo",
     "section": "",
-    "text": "¡Haz llegado a la primera sala y con ello tu primer obstáculo!.\n\n\n\n\n\n\nLa terminal del sistema de oxígeno muestra un valor erróneo de presión …\n\nPeligro\nSe ha detectado pérdida de oxígeno en la sala B9-2.\n\n¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.\n\nLa primera tarea es escribir “Cerrar”. Cambia el valor de la variable respuesta por \"Cerrar\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Ejemplo\"\no\nrespuesta='Ejemplo'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Has llegado a la primera sala y con ello tu primer obstáculo!.\n\n\n\n\n\n\nLa terminal del sistema de oxígeno muestra un valor erróneo de presión …\n\nPeligro\nSe ha detectado pérdida de oxígeno en la sala B9-2.\n\n¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.\n\nLa primera tarea es escribir “Cerrar”. Cambia el valor de la variable respuesta por \"Cerrar\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Ejemplo\"\no\nrespuesta='Ejemplo'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 1: Hola Mundo</span>"

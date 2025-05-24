@@ -15,7 +15,7 @@ include-in-header:
 </h2>
 
 <center>
-<img src="./sala_05.png" width="650">
+<img src="./sala_06.png" width="650">
 </center>
 
 <br/>

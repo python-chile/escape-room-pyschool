@@ -1,9 +1,7 @@
 from helpers import text, hyperlink
 
 def revisar(answer):
-    if type(answer) != str or type(answer) != int:
-        text("Indica un valor válido para la variable `respuesta`.", "info")
-    elif answer == "PySchool2025":
+    if answer == "PySchool2025":
         hyperlink("¡Correcto! Haz click aquí para avanzar al siguiente desafío", "sala_01.html", "success")
     else:
         incorrect_answer = f"""Estás probando nuevas respuestas, muy bien.  

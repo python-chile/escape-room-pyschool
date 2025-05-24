@@ -11,7 +11,7 @@ include-in-header:
 ---
 
 <h2>
-¡Haz llegado a la primera sala y con ello tu primer obstáculo!.
+¡Has llegado a la primera sala y con ello tu primer obstáculo!.
 </h2>
 
 <br/>
