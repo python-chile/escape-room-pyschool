@@ -100,7 +100,7 @@
     "href": "rooms/sala_06.html",
     "title": "Habitación 6:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Ya te estas acercando a la mitad de los desafíos!.\n\n\n\n\n\nUn sistema cifrado transmite la secuencia de Fibonacci. Debes extraer y analizar ciertas posiciones para encontrar una clave.\n\nDe la lista de Fibonacci generada, extrae los elementos (números) en los índices 0, 2, 10, -2. Luego promedia los números extraídos.\n\n\n\n\n\n\n\nAcceder a elementos de una lista\n\n\n\n\n\nPara acceder a un elemento se neceita indicar su índice, los índices comienzan desde el valor 0 hasta n-1 dónde n igual a cantidad de elementos de la lista.\nEn Python los indices pueden ser también negativos -1, -2, -3, ..., -n pero estos se cuentan de derecha a izquierda.\nteniendo la siguiente lista lista = [1, 2, 3, 4, 5, 6]\níndices positivos:\n\n0 para obtener 1\n2 para obtener 3\n3 para obtener 4\n\níndices negativos:\n\n-6 para obtener 1\n-3 para obtener 4\n-1 para obtener 6\n\nEjemplo\nlista = [1, 2, 3, 4]\nlista[0] # Obtiene valor 1\nlista[3] # Obtiene valor 3\nlista[-3] # Obtiene valor 2\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Habitación 6:</span>"
