@@ -10,7 +10,7 @@ include-in-header:
     </style>
 ---
 
-Texto de la habitación.
+Por la terminal se .
 
 <div class="alert alert-info">
 Desafío de la habitación.
