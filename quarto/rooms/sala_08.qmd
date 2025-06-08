@@ -3,14 +3,28 @@ title: "Habitación 8:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_08.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Texto de la habitación.
+<h2>
+¡Ya te estas acercando a la mitad de los desafíos!.
+</h2>
+
+<center>
+<img src="./sala_06.png" width="650">
+</center>
+
+<br/>
+
+Tripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar,
+tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.
+
+- Credencial de autorización
+- Traje apto para altas temperaturas
 
 <div class="alert alert-info">
 Desafío de la habitación.
@@ -25,11 +39,14 @@ respuesta=True
 :::
 
 ```{pyodide-python}
-# Escribe tu respuesta aquí
-respuesta = None
-print(respuesta)
+
+def autorizar_acceso(tarjeta, traje):
+
+    # Escribe tu respuesta aquí
+    if tarjeta == None && traje == None:
+        return "Acceso permitido"
 
 # Verifica la respuesta
 import sala
-sala.revisar(respuesta)
+sala.revisar(autorizar_acceso)
 ```

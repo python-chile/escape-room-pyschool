@@ -67,7 +67,7 @@
     "href": "rooms/sala_03.html",
     "title": "Habitación 3:",
     "section": "",
-    "text": "¡Excelente! Veamos otro desafío con números.\n\n\n\n\n\nLa temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\left( \\frac{(1,23 + 2,34)}{(1 + (43/2))}) \\right) + (3 \\times 2^{1,5})\n\\]\n\nReemplaza la palabra None armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor y cuidado, respesta los paréntesis ().\n\n\n\n\n\n\n\nNúmeros decimales en código\n\n\n\n\n\nLos números decimales se escriben con “.”. Por ejemplo para 33,5 se puede escribir como a = 33.5.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Excelente! Veamos otro desafío con números.\n\n\n\n\n\nLa temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\left( \\frac{(1,23 + 2,34)}{(1 + (43/2))} \\right) + (3 \\times 2^{1,5})\n\\]\n\nReemplaza la palabra None armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor y cuidado, respesta los paréntesis ().\n\n\n\n\n\n\n\nNúmeros decimales en código\n\n\n\n\n\nLos números decimales se escriben con “.”. Por ejemplo para 33,5 se puede escribir como a = 33.5.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitación 3:</span>"
@@ -122,7 +122,7 @@
     "href": "rooms/sala_08.html",
     "title": "Habitación 8:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Ya te estas acercando a la mitad de los desafíos!.\n\n\n\n\n\nTripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar, tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.\n\nCredencial de autorización\nTraje apto para altas temperaturas\n\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Habitación 8:</span>"
