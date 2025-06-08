@@ -269,7 +269,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"\ndef autorizar_acceso(tarjeta, traje):\n\n    # Reemplaza las palabras None por los valores correctos\n    if tarjeta == None and traje == None:\n        return True\n    else:\n        return False\n\n# Verifica la respuesta\nimport sala\nsala.revisar(autorizar_acceso)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"code":"\ndef autorizar_acceso(tarjeta, resistencia_traje):\n\n    # Reemplaza las palabras None por los valores correctos\n    if tarjeta == None and resistencia_traje == None:\n        return True\n    else:\n        return False\n\n# Verifica la respuesta\nimport sala\nsala.revisar(autorizar_acceso)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -746,13 +746,15 @@ Has llegado a la mitad ¡Vamos por un segundo aire!.
 </center>
 <p><br></p>
 <p>Tripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar, tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.</p>
-<p>Se debe revisar lo siguiente:</p>
+<p>Van a ingresar tres tripulantes:</p>
 <ul>
-<li>Credencial de autorización</li>
-<li>Traje apto para altas temperaturas</li>
+<li>Tripulante uno tiene <strong>credencial</strong> con acceso permitido y <strong>traje</strong> con <em>alta</em> resistencia</li>
+<li>Tripulante dos tiene <strong>credencial</strong> con acceso permitido y <strong>traje</strong> con baja resistencia</li>
+<li>Tripulante tres tiene <strong>credencial</strong> con acceso denegado y <strong>traje</strong> con alta resistencia</li>
 </ul>
 <div class="alert alert-info">
-<p>Debes aplicar las sentencias <code>if - else</code> para verificar que la credencial sea igual a <code>True</code> y traje sea igual a <code>"Alto"</code> para permitiri acceso a la sala.</p>
+<p>Debes aplicar las sentencias <code>if - else</code> para verificar que la credencial sea igual a <code>True</code> y resistencia_traje sea igual a <code>"Alta"</code> para permitiri acceso a la sala.</p>
+<p>Puedes conectar condiciones a través de un <code>and</code>.</p>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Pista">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -766,6 +768,7 @@ Pista
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
+<p>Reemplazar la palabra <code>None</code> por <code>True</code> o <code>"Alta"</code> dependiendo de la variable con la que se iguala.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>respuesta<span class="op">=</span><span class="va">True</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>

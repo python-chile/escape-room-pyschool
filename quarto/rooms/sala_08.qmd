@@ -25,9 +25,9 @@ tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activ
 
 Van a ingresar tres tripulantes:
 
-- Tripulante uno tiene acceso permitido y traje con alta resistencia
-- Tripulante dos tiene acceso permitido y traje con baja resistencia
-- Tripulante tres tiene acceso denegado y traje con alta resistencia
+- Tripulante uno tiene **credencial** con acceso permitido y **traje** con _alta_ resistencia
+- Tripulante dos tiene **credencial** con acceso permitido y **traje** con baja resistencia
+- Tripulante tres tiene **credencial** con acceso denegado y **traje** con alta resistencia
 
 <div class="alert alert-info">
 Debes aplicar las sentencias `if - else` para verificar que la credencial sea igual a `True` y resistencia_traje sea igual a `"Alta"` para permitiri acceso a la sala.
@@ -46,7 +46,7 @@ respuesta=True
 
 ```{pyodide-python}
 
-def autorizar_acceso(tarjeta, traje):
+def autorizar_acceso(tarjeta, resistencia_traje):
 
     # Reemplaza las palabras None por los valores correctos
     if tarjeta == None and resistencia_traje == None:
