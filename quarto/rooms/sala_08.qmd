@@ -11,7 +11,7 @@ include-in-header:
 ---
 
 <h2>
-¡Ya te estas acercando a la mitad de los desafíos!.
+Has llegado a la mitad ¡Vamos por un segundo aire!.
 </h2>
 
 <center>
@@ -23,15 +23,21 @@ include-in-header:
 Tripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar,
 tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.
 
-- Credencial de autorización
-- Traje apto para altas temperaturas
+Van a ingresar tres tripulantes:
+
+- Tripulante uno tiene acceso permitido y traje con alta resistencia
+- Tripulante dos tiene acceso permitido y traje con baja resistencia
+- Tripulante tres tiene acceso denegado y traje con alta resistencia
 
 <div class="alert alert-info">
-Desafío de la habitación.
+Debes aplicar las sentencias `if - else` para verificar que la credencial sea igual a `True` y resistencia_traje sea igual a `"Alta"` para permitiri acceso a la sala.
+
+Puedes conectar condiciones a través de un `and`.
+
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
+Reemplazar la palabra `None` por `True` o `"Alta"` dependiendo de la variable con la que se iguala.
 
 ```python 
 respuesta=True
@@ -42,9 +48,11 @@ respuesta=True
 
 def autorizar_acceso(tarjeta, traje):
 
-    # Escribe tu respuesta aquí
-    if tarjeta == None && traje == None:
-        return "Acceso permitido"
+    # Reemplaza las palabras None por los valores correctos
+    if tarjeta == None and resistencia_traje == None:
+        return True
+    else:
+        return False
 
 # Verifica la respuesta
 import sala

@@ -102,7 +102,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <script type="module">
-window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_08.py";
 </script>
 <style>
 #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
@@ -269,7 +269,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"\ndef autorizar_acceso(tarjeta, traje):\n\n    # Escribe tu respuesta aquí\n    if tarjeta == None && traje == None:\n        return \"Acceso permitido\"\n\n# Verifica la respuesta\nimport sala\nsala.revisar(autorizar_acceso)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"code":"\ndef autorizar_acceso(tarjeta, traje):\n\n    # Reemplaza las palabras None por los valores correctos\n    if tarjeta == None and traje == None:\n        return True\n    else:\n        return False\n\n# Verifica la respuesta\nimport sala\nsala.revisar(autorizar_acceso)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -739,19 +739,20 @@ globalThis._qpyodideGetInstance = function() {
 
 
 <h2 class="anchored">
-¡Ya te estas acercando a la mitad de los desafíos!.
+Has llegado a la mitad ¡Vamos por un segundo aire!.
 </h2>
 <center>
 <img src="./sala_06.png" width="650">
 </center>
 <p><br></p>
 <p>Tripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar, tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.</p>
+<p>Se debe revisar lo siguiente:</p>
 <ul>
 <li>Credencial de autorización</li>
 <li>Traje apto para altas temperaturas</li>
 </ul>
 <div class="alert alert-info">
-<p>Desafío de la habitación.</p>
+<p>Debes aplicar las sentencias <code>if - else</code> para verificar que la credencial sea igual a <code>True</code> y traje sea igual a <code>"Alto"</code> para permitiri acceso a la sala.</p>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Pista">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -765,7 +766,6 @@ Pista
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Pista de la habitación</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>respuesta<span class="op">=</span><span class="va">True</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>

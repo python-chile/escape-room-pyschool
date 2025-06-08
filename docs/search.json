@@ -122,7 +122,7 @@
     "href": "rooms/sala_08.html",
     "title": "Habitación 8:",
     "section": "",
-    "text": "¡Ya te estas acercando a la mitad de los desafíos!.\n\n\n\n\n\nTripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar, tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.\n\nCredencial de autorización\nTraje apto para altas temperaturas\n\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Has llegado a la mitad ¡Vamos por un segundo aire!.\n\n\n\n\n\nTripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar, tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.\nSe debe revisar lo siguiente:\n\nCredencial de autorización\nTraje apto para altas temperaturas\n\n\nDebes aplicar las sentencias if - else para verificar que la credencial sea igual a True y traje sea igual a \"Alto\" para permitiri acceso a la sala.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Habitación 8:</span>"
@@ -177,7 +177,7 @@
     "href": "rooms/sala_13.html",
     "title": "Habitación 13:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Están llegando mensajes desde la base central pero no tienen sentido a simple vista… ¡El sistema de recepción de mensajería está dañado y está mostrando de forma errónea los mensajes! Al parecer solo se cambiaron las letras dentro de la misma palabra, es decir, ¡anagramas!\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Habitación 13:</span>"

@@ -1,7 +1,5 @@
 from helpers import text, hyperlink
 
-
-
 def revisar(autorizar_acceso):
 
     acceso_tripulante_uno = autorizar_acceso(True, "Alta")
@@ -13,10 +11,10 @@ def revisar(autorizar_acceso):
     else:
         text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 
-def autorizar_acceso(tarjeta, traje):
+def autorizar_acceso(tarjeta, resistencia_traje):
 
     # Escribe tu respuesta aquí
-    if tarjeta == True and traje == "Alto":
+    if tarjeta == True and resistencia_traje == "Alta":
         return True
     else:
         return False
