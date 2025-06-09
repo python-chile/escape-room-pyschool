@@ -28,7 +28,6 @@ respuesta=True
 
 ```{pyodide-python}
 objetos = ["MEDIANO_3", "MEDIANO_1", "MEDIANO_3", "GRANDE_1", "PEQUEÑO_10", "GRANDE_10", "GRANDE_3", "PEQUEÑO_1", "PEQUEÑO_10"]
-lista_ordenada = []
 
 # Escribe tu respuesta aquí
 respuesta = None
