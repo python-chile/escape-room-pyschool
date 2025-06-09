@@ -11,6 +11,6 @@ def revisar(respuesta):
 
 if __name__ == "__main__":
     objetos = ["MEDIANO_3", "MEDIANO_1", "MEDIANO_3", "GRANDE_1", "PEQUEÑO_10", "GRANDE_10", "GRANDE_3", "PEQUEÑO_1", "PEQUEÑO_10"]
-    print(sorted(objetos, reverse=True))
     lista = ["GRANDE_10", "GRANDE_1", "GRANDE_3"]
     print(lista)
+    revisar(lista)

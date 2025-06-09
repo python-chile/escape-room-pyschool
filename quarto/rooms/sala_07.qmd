@@ -27,7 +27,7 @@ respuesta=True
 :::
 
 ```{pyodide-python}
-objetos = ["3_MEDIANO", "1_MEDIANO", "3_MEDIANO", "1_GRANDE", "10_PEQUEÑO", "10_GRANDE", "3_GRANDE", "1_OQOO", "10_PEQUEÑO"]
+objetos = ["MEDIANO_3", "MEDIANO_1", "MEDIANO_3", "GRANDE_1", "PEQUEÑO_10", "GRANDE_10", "GRANDE_3", "PEQUEÑO_1", "PEQUEÑO_10"]
 lista_ordenada = []
 
 # Escribe tu respuesta aquí

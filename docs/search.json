@@ -111,7 +111,7 @@
     "href": "rooms/sala_07.html",
     "title": "Habitación 7:",
     "section": "",
-    "text": "Se han detectado grupos de objetos cercanos a la estación espacial, y se deben ingresar los datos al escaner para detectar que resultan un peligro o no.\n\nOrdenar ocupando la función sorted(lista) donde lista es la variable que contiene el listado de objetos.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Se han detectado objetos cercanos a la estación espacial, y se deben ingresar los datos al escaner para detectar que resultan un peligro o no.\nCrea una lista ordenada por las letras teniendo de referencia desde Z hastaA con los objetos que sean grandes.\n\nOrdenar ocupando la función sorted(lista) donde lista es la variable que contiene el listado de objetos.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Habitación 7:</span>"
