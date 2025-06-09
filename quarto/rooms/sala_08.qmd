@@ -30,7 +30,7 @@ Van a ingresar tres tripulantes:
 - Tripulante tres tiene **credencial** con acceso denegado y **traje** con alta resistencia
 
 <div class="alert alert-info">
-Debes aplicar las sentencias `if - else` para verificar que la credencial sea igual a `True` y resistencia_traje sea igual a `"Alta"` para permitiri acceso a la sala.
+Debes aplicar las sentencias `if - else` para verificar que la `credencial` sea igual a `True` y `resistencia_traje` sea igual a `"Alta"` para permitir acceso a la sala.
 
 Puedes conectar condiciones a través de un `and`.
 
