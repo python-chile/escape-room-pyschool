@@ -1,6 +1,7 @@
 from helpers import text, hyperlink
 
 def revisar(respuesta):
+
     lista = ['linterna', 'monitor principal', 'antena', 'filtro gases', 'lentes infrarojo', 'teclado']
     if respuesta == lista:
         hyperlink("¡Correcto! Avanza a la siguiente página", "sala_10.html", "success")

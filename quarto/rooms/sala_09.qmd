@@ -3,7 +3,7 @@ title: "Habitación 9:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_09.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
@@ -29,7 +29,6 @@ respuesta=True
 objetos = ["linterna", "audífonos", "monitor principal", "motor de enfriador","monitor de repuesto", "antena", "filtro gases", "lentes infrarojo", "teclado"]
 reparados= ["monitor de repuesto", "audífonos", "motor de enfriador"]
 por_reparar = []
-print(respuesta)
 
 for objeto in objetos:
     if objeto not in reparados:
