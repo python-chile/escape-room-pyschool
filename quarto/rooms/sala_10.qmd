@@ -3,14 +3,17 @@ title: "Habitación 10:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_10.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Texto de la habitación.
+Hay problemas nuevamente con el escaner de objetos, no reconoce ciertos textos, hay que calibrarlo pronto.
+
+Debes convertir el texto que contenga la palabra `meteorito` en minúsculas con la función `.lower()`
+y el texto que contenga `asteroide` en mayúsculas con la función `.upper()`
 
 <div class="alert alert-info">
 Desafío de la habitación.
@@ -25,11 +28,15 @@ respuesta=True
 :::
 
 ```{pyodide-python}
-# Escribe tu respuesta aquí
-respuesta = None
-print(respuesta)
+# Palabras de ejemplo que se detectan asteroide urania, leda asteroide, meteorito arlong, dronino meteorito
+
+def trasnformar_palabras(palabra):
+
+    # Escribe aquí tus sentencias if
+
+    return palabra # No modificar
 
 # Verifica la respuesta
 import sala
-sala.revisar(respuesta)
+sala.revisar(transformar_palabras)
 ```
