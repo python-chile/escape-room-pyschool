@@ -144,7 +144,7 @@
     "href": "rooms/sala_10.html",
     "title": "Habitación 10:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Hay problemas nuevamente con el escaner de objetos, no reconoce ciertos textos, hay que calibrarlo pronto.\nDebes convertir el texto que contenga la palabra meteorito en minúsculas con la función .lower() y el texto que contenga asteroide en mayúsculas con la función .upper()\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Habitación 10:</span>"

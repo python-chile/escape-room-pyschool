@@ -30,7 +30,7 @@ respuesta=True
 ```{pyodide-python}
 # Palabras de ejemplo que se detectan asteroide urania, leda asteroide, meteorito arlong, dronino meteorito
 
-def trasnformar_palabras(palabra):
+def transformar_palabras(palabra):
 
     # Escribe aquí tus sentencias if
 
