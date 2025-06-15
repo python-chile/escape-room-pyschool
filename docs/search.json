@@ -24,7 +24,7 @@
     "href": "pyschool.html",
     "title": "Autoría",
     "section": "",
-    "text": "Reconocimientos adicionales\nQueremos extender un agradecimiento especial a todos los colaboradores y miembros de nuestra comunidad que han enriquecido este proyecto con sus ideas, sugerencias y aportes de código. Su participación ha sido crucial y es enormemente valorada.\nPara obtener más información sobre los autores y colaboradores, o para descubrir cómo puedes contribuir, te invitamos a visitar la página oficial de Python Chile. ¡Agradecemos tu apoyo y nos complace contar contigo en nuestra comunidad!",
+    "text": "Reconocimientos adicionales\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC.\nNuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nEste proyecto es una iniciativa protegida por derechos de autor bajo la organización Python Chile. Los contribuyentes clave incluyen a Francisco Alfaro y Sebastián Flores, cuya dedicación ha sido esencial para el desarrollo y mantenimiento continuo del proyecto.\nQueremos extender un agradecimiento especial a todos los colaboradores y miembros de nuestra comunidad que han enriquecido este proyecto con sus ideas, sugerencias y aportes de código. Su participación ha sido crucial y es enormemente valorada.\nPara obtener más información sobre los autores y colaboradores, o para descubrir cómo puedes contribuir, te invitamos a visitar la página oficial de Python Chile. ¡Agradecemos tu apoyo y nos complace contar contigo en nuestra comunidad!",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "rooms/sala_00.html",
     "title": "Habitación 0: Inicio",
     "section": "",
-    "text": "Despiertas poco a poco en un cuarto oscuro.\nSolo recuerdas que aceptaste un desafío, algo llamado PySchool.\nLas murallas son de piedra, y no hay ventanas. Una débil luz emana de una antorcha colgada en la pared. En una de las murallas, hay una puerta y una consola electrónica emitiendo un parpadeo de luz.\nTe acercas a la consola y observas que sobre la pantalla hay una nota:\n\n¡Bienvenido a PySchool!\nCada habitación tiene un enigma, que deberás resolver con Python.\nPuedes realizar tantos intentos como desees.\nCada habitación tiene algunas explicaciones y pistas.\n¡Buena suerte, futuro pythonista!\n\n\n\n\n\n\n\nPistas y Explicaciones\n\n\n\n\n\nEn este tipo de celdas expandibles, encontrarás algunas pistas, explicaciones y enlaces de interés.\nLa primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciendo click en “Run Code”.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Bienvenido joven astronauta!  Estas a punto de iniciarte en la programación, y qué mejor que participar en la solución de la estación espacial.\n\n\n\n\n\n\n\nAño 2079. La estación espacial OASIS-9, que orbita la luna Europa, sufre una serie de fallas tras una tormenta solar. El comandante en jefe activa el protocolo de emergencia “PYSCHOOL-25”: cada sala del sistema principal se bloquea hasta que uno de los miembros de la tripulación resuelve un acertijo lógico o computacional. Solo así podrán restablecer los sistemas antes de que se agote el soporte vital…\n\n\n\n¡Bienvenido a PySchool!\nCada habitación tiene un enigma, que deberás resolver con Python en conjunto a explicaciones y pistas que se presenten. Puedes realizar tantos intentos como desees.\n¡Buena suerte, futuro pythonista!\n\n\n\n\n\n\n\nPistas y Explicaciones\n\n\n\n\n\nEn este tipo de celdas expandibles, encontrarás algunas pistas, explicaciones y enlaces de interés.\nLa primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciendo click en “Run Code”.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
@@ -45,7 +45,7 @@
     "href": "rooms/sala_01.html",
     "title": "Habitación 1: Hola Mundo",
     "section": "",
-    "text": "Al responder correctamente el enigma, la puerta se abre. Al cruzar la puerta, la puerta se cierra y te encuentras en una nueva habitación, exactamente como la habitación anterior, con una nueva nota sobre la pantalla electrónica:\n\nLa primera tarea de todo pythonista es escribir “Hola Mundo”.\nCambia el valor de la variable respuesta por \"Hola Mundo\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Hola Mundo\"\no\nrespuesta='Hola Mundo'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Has llegado a la primera sala y con ello tu primer obstáculo!.\n\n\n\n\n\n\nLa terminal del sistema de oxígeno muestra un valor erróneo de presión …\n\nPeligro\nSe ha detectado pérdida de oxígeno en la sala B9-2.\n\n¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.\n\nLa primera tarea es escribir “Cerrar”. Cambia el valor de la variable respuesta por \"Cerrar\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Ejemplo\"\no\nrespuesta='Ejemplo'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 1: Hola Mundo</span>"
@@ -56,7 +56,7 @@
     "href": "rooms/sala_02.html",
     "title": "Habitación 2: Números",
     "section": "",
-    "text": "Comienzas a entender la rutina. Respondes correctamente, se abre una puerta, y apenas cruzas la puerta, la habitación se cierra.\nEn la nueva habitación hay una nueva nota esperándote:\n\nPython puede usarse como una calculadora muy potente.\n¿Puedes calcular el siguiente número?\n\\[\n\\frac{1.23 + 2.34}{1 + 43/2} + 3 \\times 2^{1.5}\n\\]\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Muy bien! Haz logrado llegar al segundo desafío.\n\n\n\n\n\nLa compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:\n\\[\n(201 + 759) \\times 2^{3}\n\\]\n\nAsigna a cada variable su respectivo valor numérico según la fórmula. Por ejemplo a = 55.\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitación 2: Números</span>"
@@ -67,7 +67,7 @@
     "href": "rooms/sala_03.html",
     "title": "Habitación 3:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Excelente! Veamos otro desafío con números.\n\n\n\n\n\nLa temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\left( \\frac{(1,23 + 2,34)}{(1 + (43/2))} \\right) + (3 \\times 2^{1,5})\n\\]\n\nReemplaza la palabra None armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor y cuidado, respesta los paréntesis ().\n\n\n\n\n\n\n\nNúmeros decimales en código\n\n\n\n\n\nLos números decimales se escriben con “.”. Por ejemplo para 33,5 se puede escribir como a = 33.5.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitación 3:</span>"
@@ -78,7 +78,7 @@
     "href": "rooms/sala_04.html",
     "title": "Habitación 4:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Vas muy bien! es momento de agregar un nuevo nivel a los números.\n\n\n\n\n\nEl sistema de soporte vital está recibiendo lecturas inconsistentes de temperatura. Necesitas calcular el promedio para tomar decisiones automáticas.\n\\[\n19,5 - 22,3 - 12 - 10,01 - 32 - 29,99 - 20,89\n\\]\n\nAgrega los números en los corchetes [] que están asignados a la variable numeros, y sepáralos con el caracter ,.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPara escribir los números dentro de[] sigue el siguiente ejemplo:\nnumeros = [1, 2, 3, 4]\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Habitación 4:</span>"
@@ -89,7 +89,7 @@
     "href": "rooms/sala_05.html",
     "title": "Habitación 5:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Estupendo! ya estás dominando las operaciones matemáticas.\n\n\n\n\n\nUna compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.\n\nAsigna los valores correspondientes a las variables a y b.\n\n\n\n\n\n\n\nCalcular promedio con funciones de python\n\n\n\n\n\n\nrange(a,b) crea un rango numérico desde a hasta el valor anterior de b. Por ejemplo range(5,10) crea rango del 5 al 9.\nfor numero in range(a,b) es un ciclo que repite todos los valores dado por la función range(a,b).\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Habitación 5:</span>"
@@ -100,7 +100,7 @@
     "href": "rooms/sala_06.html",
     "title": "Habitación 6:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Ya te estas acercando a la mitad de los desafíos!.\n\n\n\n\n\nUn sistema cifrado transmite la secuencia de Fibonacci. Debes extraer y analizar ciertas posiciones para encontrar una clave.\n\nDe la lista de Fibonacci generada, extrae los elementos (números) en los índices 0, 2, 10, -2. Luego promedia los números extraídos.\n\n\n\n\n\n\n\nAcceder a elementos de una lista\n\n\n\n\n\nPara acceder a un elemento se neceita indicar su índice, los índices comienzan desde el valor 0 hasta n-1 dónde n igual a cantidad de elementos de la lista.\nEn Python los indices pueden ser también negativos -1, -2, -3, ..., -n pero estos se cuentan de derecha a izquierda.\nteniendo la siguiente lista lista = [1, 2, 3, 4, 5, 6]\níndices positivos:\n\n0 para obtener 1\n2 para obtener 3\n3 para obtener 4\n\níndices negativos:\n\n-6 para obtener 1\n-3 para obtener 4\n-1 para obtener 6\n\nEjemplo\nlista = [1, 2, 3, 4]\nlista[0] # Obtiene valor 1\nlista[3] # Obtiene valor 3\nlista[-3] # Obtiene valor 2\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Habitación 6:</span>"
@@ -111,7 +111,7 @@
     "href": "rooms/sala_07.html",
     "title": "Habitación 7:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Se han detectado objetos cercanos a la estación espacial, y se deben ingresar los datos al escaner para detectar que resultan un peligro o no.\nCrea una lista ordenada por las letras teniendo de referencia desde Z hastaA con los objetos que sean grandes.\n\nOrdenar ocupando la función sorted(lista) donde lista es la variable que contiene el listado de objetos.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Habitación 7:</span>"
@@ -122,7 +122,7 @@
     "href": "rooms/sala_08.html",
     "title": "Habitación 8:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Has llegado a la mitad ¡Vamos por un segundo aire!.\n\n\n\n\n\nTripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar, tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.\nVan a ingresar tres tripulantes:\n\nTripulante uno tiene credencial con acceso permitido y traje con alta resistencia\nTripulante dos tiene credencial con acceso permitido y traje con baja resistencia\nTripulante tres tiene credencial con acceso denegado y traje con alta resistencia\n\n\nDebes aplicar las sentencias if - else para verificar que la credencial sea igual a True y resistencia_traje sea igual a \"Alta\" para permitir acceso a la sala.\nPuedes conectar condiciones a través de un and.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nReemplazar la palabra None por True o \"Alta\" dependiendo de la variable con la que se iguala.\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Habitación 8:</span>"
@@ -133,7 +133,7 @@
     "href": "rooms/sala_09.html",
     "title": "Habitación 9:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Se tiene un listado objetos que se les debe hacer mantención, pero estos están mezclados con objetos que ya están en perfecto estado.\n\nRecorre la lista objetos y verifica si no está dentro de la lista de reparados para luego agregarlas a la lista de por_reparar.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Habitación 9:</span>"
@@ -144,7 +144,7 @@
     "href": "rooms/sala_10.html",
     "title": "Habitación 10:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Hay problemas nuevamente con el escaner de objetos, no reconoce ciertos textos, hay que calibrarlo pronto.\nDebes convertir el texto que contenga la palabra meteorito en minúsculas con la función .lower() y el texto que contenga asteroide en mayúsculas con la función .upper()\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Habitación 10:</span>"
@@ -177,7 +177,7 @@
     "href": "rooms/sala_13.html",
     "title": "Habitación 13:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Están llegando mensajes desde la base central pero no tienen sentido a simple vista… ¡El sistema de recepción de mensajería está dañado y está mostrando de forma errónea los mensajes! Al parecer solo se cambiaron las letras dentro de la misma palabra, es decir, ¡anagramas!\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Habitación 13:</span>"
@@ -254,7 +254,7 @@
     "href": "oaks_lab/rooms/sala_00.html",
     "title": "Habitación 0: Inicio",
     "section": "",
-    "text": "Desafío de la Sala\nCompleta las siguientes variables:\nLuego muestra las primeras filas usando .head().",
+    "text": "Desafío de la Sala\nDespiertas dentro de un laboratorio muy conocido…\n¡Es el Laboratorio del Profesor Oak!\nSin embargo, algo no anda bien… Las puertas están bloqueadas y el sistema de datos está caído.\nUn mensaje aparece en la pantalla principal:\nCompleta las siguientes variables:\nLuego muestra las primeras filas usando .head().",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>24</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
@@ -276,7 +276,7 @@
     "href": "oaks_lab/rooms/sala_01.html",
     "title": "Habitación 1: Explorador de Datos",
     "section": "",
-    "text": "Desafío de la Sala\nYa cargaste los datos en la sala anterior (df).\nAhora:",
+    "text": "Desafío de la Sala\nEl sistema se ha reiniciado parcialmente…\nPero las puertas siguen bloqueadas.\nEn la pantalla aparece un mensaje del Profesor Oak:\nYa cargaste los datos en la sala anterior (df).\nAhora:",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>25</span>  <span class='chapter-title'>Habitación 1: Explorador de Datos</span>"
@@ -298,7 +298,7 @@
     "href": "oaks_lab/rooms/sala_02.html",
     "title": "Habitación 2: Tipos de Pokémon",
     "section": "",
-    "text": "Desafío de la Sala",
+    "text": "Desafío de la Sala\nEl sistema del laboratorio sigue bloqueado…\nEn la pantalla aparece un nuevo mensaje del Profesor Oak:",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>Habitación 2: Tipos de Pokémon</span>"
@@ -320,7 +320,7 @@
     "href": "oaks_lab/rooms/sala_03.html",
     "title": "Habitación 3: Estadísticas de Combate",
     "section": "",
-    "text": "Desafío de la Sala",
+    "text": "Desafío de la Sala\nEn esta sala aparece una gran pantalla que dice:",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>27</span>  <span class='chapter-title'>Habitación 3: Estadísticas de Combate</span>"
@@ -342,7 +342,7 @@
     "href": "oaks_lab/rooms/sala_04.html",
     "title": "Habitación 4: Visualización de Combate",
     "section": "",
-    "text": "¿Qué haremos?",
+    "text": "¿Qué haremos?\nLa sala está llena de pantallas mostrando batallas Pokémon.\nEl Profesor Oak te deja un nuevo mensaje:",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>28</span>  <span class='chapter-title'>Habitación 4: Visualización de Combate</span>"
@@ -386,7 +386,7 @@
     "href": "howto.html",
     "title": "Elementos disponibles",
     "section": "",
-    "text": "Tema (Theme)\nEl tema es sketchy, pero podría ser cualquier otro. Ya está configurado en el archivo _quarto.yml.\nEn sketchy doc hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.",
+    "text": "Tema (Theme)\nEsta página contiene todos los distintos elementos, para que puedas examinar el código y ver lo que se puede hacer.\nEl tema es sketchy, pero podría ser cualquier otro. Ya está configurado en el archivo _quarto.yml.\nEn sketchy doc hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.",
     "crumbs": [
       "📚 Recursos",
       "<span class='chapter-number'>30</span>  <span class='chapter-title'>Elementos disponibles</span>"

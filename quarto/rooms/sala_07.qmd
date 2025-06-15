@@ -3,17 +3,19 @@ title: "Habitación 7:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_07.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Texto de la habitación.
+Se han detectado objetos cercanos a la estación espacial, y se deben ingresar los datos al escaner para detectar que resultan un peligro o no.
+
+Crea una lista ordenada por las letras teniendo de referencia desde Z hastaA con los objetos que sean grandes.
 
 <div class="alert alert-info">
-Desafío de la habitación.
+Ordenar ocupando la función `sorted(lista)` donde `lista` es la variable que contiene el listado de objetos.
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
@@ -25,6 +27,8 @@ respuesta=True
 :::
 
 ```{pyodide-python}
+objetos = ["MEDIANO_3", "MEDIANO_1", "MEDIANO_3", "GRANDE_1", "PEQUEÑO_10", "GRANDE_10", "GRANDE_3", "PEQUEÑO_1", "PEQUEÑO_10"]
+
 # Escribe tu respuesta aquí
 respuesta = None
 print(respuesta)
