@@ -7,7 +7,7 @@ def revisar(autorizar_acceso):
     acceso_tripulante_tres = autorizar_acceso(False, "Alta")
 
     if acceso_tripulante_uno == True and acceso_tripulante_dos == False and acceso_tripulante_tres == False:
-        hyperlink("¡Correcto! Avanza a la siguiente página", "sala_09.html", "success")
+        hyperlink("¡Correcto! Haz click aquí para avanzar al siguiente desafío", "sala_09.html", "success")
     else:
         text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 

@@ -102,7 +102,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <script type="module">
-window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_08.py";
+window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_08.py";
 </script>
 <style>
 #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
@@ -269,7 +269,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"\ndef autorizar_acceso(tarjeta, resistencia_traje):\n\n    # Reemplaza las palabras None por los valores correctos\n    if tarjeta == None and resistencia_traje == None:\n        return True\n    else:\n        return False\n\n# Verifica la respuesta\nimport sala\nsala.revisar(autorizar_acceso)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"code":"\ndef autorizar_acceso(acceso, resistencia):\n\n    # Reemplaza las palabras None por los valores correctos\n    if acceso == None and resistencia == None:\n        return True\n    else:\n        return False\n\n# Verifica la respuesta\nimport sala\nsala.revisar(autorizar_acceso)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -748,12 +748,12 @@ Has llegado a la mitad ¡Vamos por un segundo aire!.
 <p>Tripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar, tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.</p>
 <p>Van a ingresar tres tripulantes:</p>
 <ul>
-<li>Tripulante uno tiene <strong>credencial</strong> con acceso permitido (<code>True</code>) y <strong>traje</strong> con <em>Alta</em> resistencia</li>
-<li>Tripulante dos tiene <strong>credencial</strong> con acceso permitido (<code>True</code>) y <strong>traje</strong> con <em>Baja</em> resistencia</li>
-<li>Tripulante tres tiene <strong>credencial</strong> con acceso denegado (<code>False</code>) y <strong>traje</strong> con <em>Alta</em> resistencia</li>
+<li>Tripulante uno tiene <strong>credencial</strong> con acceso permitido (<code>True</code>) y <strong>traje</strong> con resistencia <em>Alta</em></li>
+<li>Tripulante dos tiene <strong>credencial</strong> con acceso permitido (<code>True</code>) y <strong>traje</strong> con resistencia <em>Baja</em></li>
+<li>Tripulante tres tiene <strong>credencial</strong> con acceso denegado (<code>False</code>) y <strong>traje</strong> con resistencia <em>Alta</em></li>
 </ul>
 <div class="alert alert-info">
-<p>Las sentencias <code>if, elif, else</code> sirven para ejecutar cierto código si las condiciones de dichas sentencias se cumplen. No siempre es necesario ocupar <code>if</code>, <code>èlif</code> y <code>else</code>, aveces basta con ocupar <code>if</code> como en el desafío actual.</p>
+<p>Las sentencias <code>if, elif, else</code> sirven para ejecutar cierto código si las condiciones de dichas sentencias se cumplen. No siempre es necesario ocupar <code>if</code>, <code>elif</code> y <code>else</code>, a veces basta con ocupar <code>if</code> o <code>if</code> y <code>else</code> dependiendo del caso.</p>
 <p>Por ejemplo:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> cielo <span class="op">==</span> <span class="st">'Muy nublado'</span>:</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">'lluvia'</span></span>
