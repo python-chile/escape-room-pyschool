@@ -748,13 +748,19 @@ Has llegado a la mitad ¡Vamos por un segundo aire!.
 <p>Tripulantes deben reparar la filtración de altas temperaturas debido a una averiación de un panel solar, tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activar el sistema de seguridad.</p>
 <p>Van a ingresar tres tripulantes:</p>
 <ul>
-<li>Tripulante uno tiene <strong>credencial</strong> con acceso permitido y <strong>traje</strong> con <em>alta</em> resistencia</li>
-<li>Tripulante dos tiene <strong>credencial</strong> con acceso permitido y <strong>traje</strong> con baja resistencia</li>
-<li>Tripulante tres tiene <strong>credencial</strong> con acceso denegado y <strong>traje</strong> con alta resistencia</li>
+<li>Tripulante uno tiene <strong>credencial</strong> con acceso permitido (<code>True</code>) y <strong>traje</strong> con <em>Alta</em> resistencia</li>
+<li>Tripulante dos tiene <strong>credencial</strong> con acceso permitido (<code>True</code>) y <strong>traje</strong> con <em>Baja</em> resistencia</li>
+<li>Tripulante tres tiene <strong>credencial</strong> con acceso denegado (<code>False</code>) y <strong>traje</strong> con <em>Alta</em> resistencia</li>
 </ul>
 <div class="alert alert-info">
-<p>Debes aplicar las sentencias <code>if - else</code> para verificar que la <code>credencial</code> sea igual a <code>True</code> y <code>resistencia_traje</code> sea igual a <code>"Alta"</code> para permitir acceso a la sala.</p>
-<p>Puedes conectar condiciones a través de un <code>and</code>.</p>
+<p>Las sentencias <code>if, elif, else</code> sirven para ejecutar cierto código si las condiciones de dichas sentencias se cumplen. No siempre es necesario ocupar <code>if</code>, <code>èlif</code> y <code>else</code>, aveces basta con ocupar <code>if</code> como en el desafío actual.</p>
+<p>Por ejemplo:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> cielo <span class="op">==</span> <span class="st">'Muy nublado'</span>:</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">'lluvia'</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> cielo <span class="op">==</span> <span class="st">'Nublado'</span>:</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">'frio'</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">'templado'</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Pista">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -768,8 +774,7 @@ Pista
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Reemplazar la palabra <code>None</code> por <code>True</code> o <code>"Alta"</code> dependiendo de la variable con la que se iguala.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>respuesta<span class="op">=</span><span class="va">True</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>En este caso las sentencias ya están aplicadas, pero están igualadas (<code>==</code>) a valores erróneos. Basta con reemplazar los valores <code>None</code> por <code>True</code> o <code>"Alta"</code> dependiendo de la variable con la que se iguala.</p>
 </div>
 </div>
 </div>

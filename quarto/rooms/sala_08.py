@@ -11,10 +11,10 @@ def revisar(autorizar_acceso):
     else:
         text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 
-def autorizar_acceso(tarjeta, resistencia_traje):
+def autorizar_acceso(acceso, resistencia):
 
     # Escribe tu respuesta aquí
-    if tarjeta == True and resistencia_traje == "Alta":
+    if acceso == True and resistencia == "Alta":
         return True
     else:
         return False

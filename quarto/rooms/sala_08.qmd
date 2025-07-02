@@ -25,31 +25,40 @@ tienes que procupar que se cumpla el protocolo de ingreso y para eso debes activ
 
 Van a ingresar tres tripulantes:
 
-- Tripulante uno tiene **credencial** con acceso permitido y **traje** con _alta_ resistencia
-- Tripulante dos tiene **credencial** con acceso permitido y **traje** con baja resistencia
-- Tripulante tres tiene **credencial** con acceso denegado y **traje** con alta resistencia
+- Tripulante uno tiene **credencial** con acceso permitido (`True`) y **traje** con resistencia _Alta_
+- Tripulante dos tiene **credencial** con acceso permitido (`True`) y **traje** con resistencia _Baja_
+- Tripulante tres tiene **credencial** con acceso denegado (`False`) y **traje** con resistencia _Alta_
 
 <div class="alert alert-info">
-Debes aplicar las sentencias `if - else` para verificar que la `credencial` sea igual a `True` y `resistencia_traje` sea igual a `"Alta"` para permitir acceso a la sala.
 
-Puedes conectar condiciones a través de un `and`.
+Las sentencias `if, elif, else` sirven para ejecutar cierto código si las condiciones de dichas sentencias se cumplen. No siempre
+es necesario ocupar `if`, `elif` y `else`, a veces basta con ocupar `if` o `if` y `else` dependiendo del caso.
+
+Por ejemplo:
+```python
+if cielo == 'Muy nublado':
+    return 'lluvia'
+elif cielo == 'Nublado':
+    return 'frio'
+else:
+    return 'templado'
+```
 
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Reemplazar la palabra `None` por `True` o `"Alta"` dependiendo de la variable con la que se iguala.
+En este caso las sentencias ya están aplicadas, pero están igualadas (`==`) a valores erróneos. Basta con
+reemplazar los valores `None` por `True` o `"Alta"` dependiendo de la variable con la que se iguala.
 
-```python 
-respuesta=True
-```
 :::
+
 
 ```{pyodide-python}
 
-def autorizar_acceso(tarjeta, resistencia_traje):
+def autorizar_acceso(acceso, resistencia):
 
     # Reemplaza las palabras None por los valores correctos
-    if tarjeta == None and resistencia_traje == None:
+    if acceso == None and resistencia == None:
         return True
     else:
         return False
