@@ -13,28 +13,31 @@ include-in-header:
 Se tiene un listado objetos que se les debe hacer mantención, pero estos están mezclados con objetos que ya están en perfecto estado.
 
 <div class="alert alert-info">
-Recorre la lista `objetos` y verifica si **no está dentro** de la lista de `reparados` para luego agregarlas a la lista de `por_reparar`.
+Se combinan en este desafío lo siguiente:
+
+- Recorrer la lista `objetos`.
+- Sentencia `if` para verificar si los `objetos` no están (`not in`) en lista de `reparados`.
+- Agregar elementos a la lista `por reparar` si la sentencia `if` se cumple.
+
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
+Ten en consideración lo siguiente:
 
-```python 
-respuesta=True
-```
+- Para recorrer una lista tiene el formato `for` objeto in lista, en este caso la _lista_ es `objetos
+- Basta con una sentencia `if objeto not in reparados` para verificar que `objeto` no está dentro de lista de `reparados`
+- Se debe agregar el `objeto` que cumpla la sentencia a la lista `por reparar` con la función `.append(objeto)`
+
 :::
 
 ```{pyodide-python}
-# Escribe tu respuesta aquí
+# No elimines estas líneas
+import sala
 objetos = ["linterna", "audífonos", "monitor principal", "motor de enfriador","monitor de repuesto", "antena", "filtro gases", "lentes infrarojo", "teclado"]
 reparados= ["monitor de repuesto", "audífonos", "motor de enfriador"]
 por_reparar = []
 
-for objeto in objetos:
-    if objeto not in reparados:
-        por_reparar.append(objeto)
+# Escribe tu respuesta aquí
 
-# Verifica la respuesta
-import sala
 sala.revisar(por_reparar)
 ```

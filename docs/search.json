@@ -133,7 +133,7 @@
     "href": "rooms/sala_09.html",
     "title": "Habitación 9:",
     "section": "",
-    "text": "Se tiene un listado objetos que se les debe hacer mantención, pero estos están mezclados con objetos que ya están en perfecto estado.\n\nRecorre la lista objetos y verifica si no está dentro de la lista de reparados para luego agregarlas a la lista de por_reparar.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Se tiene un listado objetos que se les debe hacer mantención, pero estos están mezclados con objetos que ya están en perfecto estado.\n\nSe combinan en este desafío lo siguiente:\n\nRecorrer la lista objetos.\nSentencia if para verificar si los objetos no están (not in) en lista de reparados.\nAgregar elementos a la lista por reparar si la sentencia if se cumple.\n\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nTen en consideración lo siguiente:\n\nPara recorrer una lista tiene el formato for objeto in lista, en este caso la lista es `objetos\nBasta con una sentencia if objeto not in reparados para verificar que objeto no está dentro de lista de reparados\nSe debe agregar el objeto que cumpla la sentencia a la lista por reparar con la función .append(objeto)\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Habitación 9:</span>"
