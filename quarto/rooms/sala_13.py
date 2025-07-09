@@ -7,7 +7,7 @@ def revisar(respuesta):
     if respuesta == None:
         text("Intenta cambiar el valor de la variable `respuesta`.", "info")
     elif respuesta == diccionario:
-        hyperlink("¡Correcto! Haz click aquí para avanzar al siguiente desafío", "sala_13.html", "success")
+        hyperlink("¡Correcto! Haz click aquí para avanzar al siguiente desafío", "sala_14.html", "success")
     else:
         text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 
