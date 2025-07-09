@@ -9,7 +9,7 @@ def revisar(func):
         andura = func("andura meteorito")
 
         if escila == "ASTEROIDE ESCILA" and sofrosina == "SOFROSINA ASTEROIDE" and aarhus == "aarhus meteorito" and andura == "andura meteorito":
-            hyperlink("¡Correcto! Avanza a la siguiente página", "sala_11.html", "success")
+            hyperlink("¡Correcto! Haz click aquí para avanzar al siguiente desafío", "sala_11.html", "success")
         else:
             text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 

@@ -51,10 +51,7 @@ convertir_mayuscula(variable_dos)
 # asteroide urania, leda asteroide, meteorito arlong, dronino meteorito
 
 def transformar_palabras(palabra):
-
     # Escribe aquí tus sentencias if
-
-    return palabra # No modificar
 
 # Verifica la respuesta
 import sala
