@@ -3,31 +3,51 @@ title: "Habitación 11:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_11.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Texto de la habitación.
+Desde el comando central se está pidiendo un breve reporte respecto a las misiones pero hay un problema, sólo se
+puede enviar mensajes cada 3hrs.
+
+Se debe enviar todas las palabras unidas y __separadas por un espacio__ en un mismo texto, para poder informar el estado de la misión.
+
 
 <div class="alert alert-info">
-Desafío de la habitación.
+Ocupa la función `.join()` para unir una **lista** de palabraas. Esta función se ocupa con los **string** que son
+los textos encerrados en doble comillas `""` o comillas simples `''`.
+
+Tener en cuenta que la función `.join()` va a juntar las palabras **ocupando el valor** que tenga la variable que la invoca.
+
+Por ejemplo:
+```python
+texto_uno = "Pyschool 2025"
+texto_dos = "desafío sala 11"
+texto = "-"
+texto_unido = texto.join([texto_uno, texto_dos]) # valor de texto_unido: Pyschool 2025-desafío sala 11
+```
+
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
+Debes crear una variable y asignar el valor de espacio en blanco `" "` y que esta invoque la función `.join()` pasando dentro de esta misma función
+la lista `mensaje`.
 
-```python 
-respuesta=True
+```python
+textos = ["Hola", "mundo"]
+espacio_blanco = " "
+union = espacio_blanco.join(textos)
 ```
 :::
 
 ```{pyodide-python}
+mensaje = ["Misión", "PySchool 2025", "progreso a mitad", "con pequeñas dificultades", "pronto", "nuevo", "reporte"]
+
 # Escribe tu respuesta aquí
 respuesta = None
-print(respuesta)
 
 # Verifica la respuesta
 import sala
