@@ -32,7 +32,7 @@ Para agregar un nuevo elemento a una lista dentro de un diccionario se puede hac
 ```python 
 lista = ["azul_A01", "verde_A02", "rojo_A01"]
 primer_elemento = lista[0] # Se obtiene primer elemento de la lista "azul_A01"
-sufijo = primer_elemento[-4:] # Se obtiene A01
+sufijo = primer_elemento[-3:] # Se obtiene A01
 diccionario = {'A01': []}
 
 for elemento in lista:
