@@ -269,7 +269,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"# Palabras de ejemplo que se detectan asteroide urania, leda asteroide, meteorito arlong, dronino meteorito\n\ndef transformar_palabras(palabra):\n\n    # Escribe aquí tus sentencias if\n\n    return palabra # No modificar\n\n# Verifica la respuesta\nimport sala\nsala.revisar(transformar_palabras)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"code":"# Palabras de ejemplo:\n# asteroide urania, leda asteroide, meteorito arlong, dronino meteorito\n\ndef transformar_palabras(palabra):\n\n    # Escribe aquí tus sentencias if\n\n    return palabra # No modificar\n\n# Verifica la respuesta\nimport sala\nsala.revisar(transformar_palabras)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -738,10 +738,18 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>Hay problemas nuevamente con el escaner de objetos, no reconoce ciertos textos, hay que calibrarlo pronto.</p>
-<p>Debes convertir el texto que contenga la palabra <code>meteorito</code> en minúsculas con la función <code>.lower()</code> y el texto que contenga <code>asteroide</code> en mayúsculas con la función <code>.upper()</code></p>
+<p>Hay problemas con el sistema de reconocimiento de objetos espaciales, no reconoce ciertos formatos de los textos.</p>
+<p>Para corregir el texto, se debe cambiar a mayúsculas o minúsculas según sea uno de los siguientes casos:</p>
+<ul>
+<li>Si la variable <code>palabra</code> contiene <strong>meteorito</strong>, debe quedar en minúsculas.</li>
+<li>Si la variable <code>palabra</code> contiene <strong>asteroide</strong>, debe quedar en mayúsculas.</li>
+</ul>
 <div class="alert alert-info">
-<p>Desafío de la habitación.</p>
+<p>Se deben ocupar las funciones <code>.upper()</code> para convertir el texto en mayúsculas o <code>.lower()</code> para convertir el texto en minúsculas.</p>
+<p>Por ejemplo para convertir en minúsculas:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>palabra_origial <span class="op">=</span> <span class="st">"PySchool"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>palabra_original.lower()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>También para verificar que un texto contiene una cierta palabra, se debe ocupar <code>in</code> en la sentencia <code>if</code>, pero cuidado que esto es sensible a las letras en mayúsculas o minúsculas, es decir, no es lo mismo <strong>Meteorito</strong> que <strong>meteorito</strong>.</p>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Pista">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -755,8 +763,16 @@ Pista
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Pista de la habitación</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>respuesta<span class="op">=</span><span class="va">True</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Seguir el ejemplo para saber si una variable contiene la palabra <strong>pyschool</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>variable_uno <span class="op">=</span> <span class="st">"pyschool 2025"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>variable_dos <span class="op">=</span> <span class="st">"hola 2025"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> convertir_mayuscula(palabra):</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"pyschool"</span> <span class="kw">in</span> palabra:</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> palabra.upper()</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>convertir_mayuscula(variable_uno)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>convertir_mayuscula(variable_dos)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
