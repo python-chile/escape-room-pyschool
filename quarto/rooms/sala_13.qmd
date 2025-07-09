@@ -3,33 +3,50 @@ title: "Habitación 13:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = ""https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_13.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Están llegando mensajes desde la base central pero no tienen sentido a simple vista...
-¡El sistema de recepción de mensajería está dañado y está mostrando de forma errónea los mensajes!
-Al parecer solo se cambiaron las letras dentro de la misma palabra, es decir, ¡anagramas!
+El sistema de archivos está desordenado. Se necesita reagrupar los archivos según el código que contienen para analizar su contenido más rápido.
+
+Para ayudar al sistema, se debe crear un  **diccionarrio** dónde cada **llave** corresponde al código (**sufijo**) que contiene
+cada nombre de archivo, y cada nombre de archivo que tenga ese sufijo en común, agruparlos en una lista para dejarlos como **valor** para
+cada llave del diccionario.
+
 
 <div class="alert alert-info">
-Desafío de la habitación.
+Debes crear un `diccionario` vacío (`{}`) para entregar los archivos ordenados aplicando lo siguiente:
+
+- Bucle `for` para recorrer el listado de `archivos`.
+- Sub-texto de cada nombre de archivo (para obtener el sufijo) ocupando `sufijo = variable[-4:]`.
+- Sentencia `if - else` junto a `in` para verificar si el diccionario ya contiene el par `llave` (**sufijo**) y `valor` (**lista de archivos**).
+- Crear una lista o agregar un nuevo elemento a dicha lista.
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
+Para agregar un nuevo elemento a una lista dentro de un diccionario se puede hacer como lo siguiente:
 
 ```python 
-respuesta=True
+lista = ["azul_A01", "verde_A02", "rojo_A01"]
+primer_elemento = lista[0] # Se obtiene primer elemento de la lista "azul_A01"
+sufijo = primer_elemento[-4:] # Se obtiene A01
+diccionario = {'A01': []}
+
+for elemento in lista:
+    if elemento not in diccionario[sufijo]:
+        diccionario[sufijo].append()
 ```
 :::
 
 ```{pyodide-python}
+archivos = ["lab_ps01", "rendimiento_ec00", "pruebas_tc12", "quimicos_ps01", "bateria_tc12", "paneles_ec00", "reporte_ec00", "reparaciones_salas_tc12", "sustancias_ps01"]
+
 # Escribe tu respuesta aquí
 respuesta = None
-print(respuesta)
+
 
 # Verifica la respuesta
 import sala
