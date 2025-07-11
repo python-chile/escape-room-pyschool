@@ -3,17 +3,23 @@ title: "Habitación 17:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_17.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Texto de la habitación.
+El equipo ha llegado al núcleo de la estación espacial. Una nueva compuerta bloquea el acceso a la sala final. En la pantalla se muestra el siguiente mensaje:
+
+"Para poder despegar regreso a la Tierra, se debe ocupar el código secreto podrá continuar."
+
+Una pista aparece al lado:
+"Usando el código secreto, obtén la suma de los primeros números primos. Esa es la contraseña."
+
 
 <div class="alert alert-info">
-Desafío de la habitación.
+Debes crear un bucle que permita ocupar una variable que pase por todos los números desde el 2 hasta el último número primo requerido.
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
@@ -25,6 +31,14 @@ respuesta=True
 :::
 
 ```{pyodide-python}
+# Función para saber si un número es primo
+def es_primo(numero):
+    if numero <= 3: return True
+    else:
+        for i in range(2, numero - 1):
+            if numero % i == 0: return False
+        return True
+
 # Escribe tu respuesta aquí
 respuesta = None
 print(respuesta)
