@@ -3,31 +3,52 @@ title: "Habitación 14:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_14.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Texto de la habitación.
+Mientras exploras el módulo de comunicaciones de la estación espacial, encuentras un panel que emite señales de luz en un extraño patrón de puntos (.) y rayas (_).
+Los sistemas están caídos y no hay forma de acceder a los registros...
+Pero junto a los cables, encuentras un diccionario de claves escondido. Parece que alguien dejó un mensaje importante codificado en este sistema. ¿Podrás descifrarlo?
+
 
 <div class="alert alert-info">
-Desafío de la habitación.
+Dado el mensaje codificado y el diccionario con código morse, debes recorrer decifrar el mensaje recorriendo la lista
+y obteniendo el valor correspondiente del diccionario, para luego unir todos estos valores en una variable y poder obtener la respuesta.
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
+Debes recorrer la lista `mensaje` y por cada elemento de este, obtener el valor del `diccionario` acumulándolos en una lista `[]``. Luego debes juntar
+todos estos valores ocupando la función `.join()`:
 
-```python 
-respuesta=True
+```python
+mensaje_espanol = []
+conector_palabras= ''
+for elemento in mensaje:
+    valor = diccionario[elemento]
+    mensaje_espanol.append(valor)
+mensaje_decodificado = conector_palabras.join(mensaje_espanol)
 ```
+
 :::
 
 ```{pyodide-python}
+mensaje = [ '.', '._..', '__._.', '_._.', '___', '_..', '..', '__.', '___', '__._.', '...', '.', '_._.', '._.', '.', '_', '___', '__._.',
+            '__._', '.._', '.', '__._.', '...', '.', '__._.', '_..', '.', '_...', '.', '__._.', '___', '_._.', '.._', '.__.', '._', '._.',
+            '__._.', '.', '_.', '__._.', '.', '._..', '__._.', '.._', '._..', '_', '..', '__', '___', '__._.','_..', '.', '...', '._', '.._.',
+            '..', '___', '__._.', '.', '...', '__._.', '..___', '...._']
+
+diccionario = { '._': 'a', '_...': 'b', '_._.': 'c', '_..': 'd', '.': 'e', '.._.': 'f', '__.': 'g', '....': 'h', '..': 'i', '.___': 'j', '_._': 'k', '._..': 'l',
+                '__': 'm', '_.': 'n', '___': 'o', '.__.': 'p', '__._': 'q', '._.': 'r', '...': 's', '_': 't', '.._': 'u', '..._': 'v', '.__': 'w', '_.._': 'x', '_.__': 'y',
+                '__..': 'z', '__._.': ' ','_____': '0', '.____': '1', '..___': '2', '...__': '3', '...._': '4','.....': '5', '_....': '6', '__...': '7', '___..': '8',
+                '____.': '9' }
+
 # Escribe tu respuesta aquí
 respuesta = None
-print(respuesta)
+
 
 # Verifica la respuesta
 import sala
