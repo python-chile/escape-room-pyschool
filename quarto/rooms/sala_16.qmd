@@ -3,33 +3,65 @@ title: "Habitación 16:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_16.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
     </style>
 ---
 
-Texto de la habitación.
+El sistema para monitorear las temperaturas de las salas principales está fallando, hay salas que se están enfriando
+como otras que su temperatura está subiendo y sin alarmas de avisos de que se deben regular. Los rangos
+ de temperaturas no son reconocidos como debe ser.
+
+La función del sistema se debe arreglar cuanto antes, ya que este monitoreo es primordial para el funcionamiento de la estación espacial.
+
+El monitoreo debe respetar los siguientes rangos:
+
+- Si la tempratura es menor o igual a -2C° debe indicar nivel `muy bajo`.
+- Si la temperatura es mayor a -2C° y menor o igual a 12C° debe indicar nivel `bajo`.
+- Si la temperatura es mayor a 12°C y menor o igual a 18°C debe indicar nivel `medio`.
+- Si la temperatura es mayor a 18°C debe indicar nivel `alto`
 
 <div class="alert alert-info">
-Desafío de la habitación.
+Se debe modificar la función de monitoreo para que pueda recibir temperaturas en `celsius`, tranformarlas a su equivalente en `fahrenheit` y crear una `lista`
+que contenga en el **mismo orden** que los grados celsius, su nivel de temperatura.
+
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
+Al momento de recorrer la `lista` de grados celsius, se debe transformar y luego evaluar a qué nivel corresponde dicho grado para agregar en la `lista` de
+ niveles su respectivo valor.
 
-```python 
-respuesta=True
+```python
+grados_celsius = [0, 2]
+lista_niveles = []
+def monitoreo(grados_celsius):
+    for grado in grados_celsius:
+        grado_fahrenheit = celsius_a_fahrenheit(grado)
+
+        if grado_fahrenheit < 25:
+            lista_niveles.append('alta')
+        else:
+            lista_niveles.append('baja')
 ```
 :::
 
 ```{pyodide-python}
-# Escribe tu respuesta aquí
-respuesta = None
-print(respuesta)
+temperaturas = [-2, 0, 25, -1, 16]
 
-# Verifica la respuesta
+# Arregla la función para que cumpla las condiciones
+def monitoreo_temperatura(temperaturas):
+    for temperatura in temperaturas:
+        if temperatura <= -2:
+            return `bajo`
+        elif temperatura > 20:
+            return `alto`
+        else:
+            return `medio`
+
+respuesta = monitoreo_temperatura(temperaturas)
+
 import sala
 sala.revisar(respuesta)
 ```
