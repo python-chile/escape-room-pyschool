@@ -10,36 +10,57 @@ include-in-header:
     </style>
 ---
 
-El equipo ha llegado al núcleo de la estación espacial. Una nueva compuerta bloquea el acceso a la sala final. En la pantalla se muestra el siguiente mensaje:
+El equipo ha llegado al núcleo de la estación espacial. Se encuentra una compuerta antes de llegar a la sala final, pero está
+bloqueada y se necesita conocer la contraseña para que se pueda abrir.
 
-"Para poder despegar regreso a la Tierra, se debe ocupar el código secreto podrá continuar."
-
-Una pista aparece al lado:
-"Usando el código secreto, obtén la suma de los primeros números primos. Esa es la contraseña."
-
+La contraseña se puede conocer ocupando el código secreto en la suma de los números primos requeridos.
 
 <div class="alert alert-info">
-Debes crear un bucle que permita ocupar una variable que pase por todos los números desde el 2 hasta el último número primo requerido.
+Se debe obtener la suma desde el primer número primo hasta el indicado en el `código secreto`. Tener en consideración que se debe recorrer todos
+los números enteros positivos y en caso que cumpla con ser número primo, sumarlo, así sucesivamente hasta obtener la suma total.
+
+Por ejemplo:
+
+```python
+def es_primo(numero):
+    if numero % 1 == 0:
+        return True
+    elif numero % 2 == 0:
+        return False
+    elif numero % 3 == 0:
+        return False
+    elif numero % numero == 0:
+        return True
+
+for numero in numeros:
+    if es_primo(numero):
+        suma = suma + numero
+```
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
+Considerar lo siguiente para el algoritmo de la suma de los primeros `N` números primos:
 
-```python 
-respuesta=True
+- Para saber si es un número primo, debe ser divisible por el número 1 y por si mismo. Ejemplo: `A % 1 == 0`  y `A % A == 0`.
+- Crear variable que cuente cuántos números primos se han sumado, sin que pase el valor del `código secreto`.
+- Crear variable que vaya acumulando la suma de los primeros `N` números primos.
+
+```python
+suma = 0
+contador_numeros = 0
+for numero in numeros:
+    if es_primo(numero):
+        suma = suma + numero
+        contador_numeros = contador_numeros + 1
 ```
+
 :::
 
 ```{pyodide-python}
-# Función para saber si un número es primo
-def es_primo(numero):
-    if numero <= 3: return True
-    else:
-        for i in range(2, numero - 1):
-            if numero % i == 0: return False
-        return True
 
-# Escribe tu respuesta aquí
+# Escribe aquí función para saber si un número es primo
+
+# Escribe tu respuesta
 respuesta = None
 print(respuesta)
 
