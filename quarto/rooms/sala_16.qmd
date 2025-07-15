@@ -11,10 +11,10 @@ include-in-header:
 ---
 
 El sistema para monitorear las temperaturas de las salas principales está fallando, hay salas que se están enfriando
-como otras que su temperatura está subiendo y sin alarmas de avisos de que se deben regular. Los rangos
- de temperaturas no son reconocidos como debe ser.
+como otras que su temperatura está subiendo y sin alarmas de avisos de que se deben regular. Las temperaturas no son reconocidos como debe ser.
 
-La función del sistema se debe arreglar cuanto antes, ya que este monitoreo es primordial para el funcionamiento de la estación espacial.
+La función del sistema se debe arreglar cuanto antes, ya que este monitoreo es primordial para el
+funcionamiento de la estación espacial. Este debe funcionar con grados `fahrenheit`.
 
 El monitoreo debe respetar los siguientes rangos:
 
@@ -54,11 +54,11 @@ temperaturas = [-2, 0, 25, -1, 16]
 def monitoreo_temperatura(temperaturas):
     for temperatura in temperaturas:
         if temperatura <= -2:
-            return `bajo`
+            return 'bajo'
         elif temperatura > 20:
-            return `alto`
+            return 'alt'`
         else:
-            return `medio`
+            return 'medio'
 
 respuesta = monitoreo_temperatura(temperaturas)
 
