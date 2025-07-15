@@ -10,24 +10,34 @@ include-in-header:
     </style>
 ---
 
-Se han detectado objetos cercanos a la estación espacial, y se deben ingresar los datos al escaner para detectar que resultan un peligro o no.
+Desde el módulo de control, detectan múltiples objetos orbitando alrededor de la estación espacial. Es urgente
+analizar sus coordenadas para prevenir colisiones. Necesitas ordenar las coordenadas y extraer tres datos clave:
 
-Crea una lista ordenada por las letras teniendo de referencia desde Z hastaA con los objetos que sean grandes.
+- El objeto más cercano a la estación.
+- El objeto más lejano.
+- El objeto que se encuentra en el centro de la lista (una vez ordenada).
 
 <div class="alert alert-info">
-Ordenar ocupando la función `sorted(lista)` donde `lista` es la variable que contiene el listado de objetos.
+Debes ordenar la `lista` ocupando la función `.sorted()` y ocupar los `indices` necesarios para crear una nueva
+lista con las coordenadas requeridas.
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Pista de la habitación
+El valor del **centro** depende del largo de la lista:
 
-```python 
-respuesta=True
+- Si el largo de la lista es un número par: Es el promedio de los dos valores que están al medio.
+- Si el lago de la lista es un número impar: Es el valor de al medio.
+
+```python
+largo = len(lista)
+valor = lista(largo//2) # Para lista con largo impar
 ```
+La operación `//2` es una división que obtiene sólo el valor entero del resultado. Si es `7//2` obtiene el valor de 3.
+
 :::
 
 ```{pyodide-python}
-objetos = ["MEDIANO_3", "MEDIANO_1", "MEDIANO_3", "GRANDE_1", "PEQUEÑO_10", "GRANDE_10", "GRANDE_3", "PEQUEÑO_1", "PEQUEÑO_10"]
+coordenadas = [540, 320, 890, 150, 430, 270]
 
 # Escribe tu respuesta aquí
 respuesta = None

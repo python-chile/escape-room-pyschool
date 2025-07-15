@@ -1,15 +1,33 @@
 from helpers import text, hyperlink
 
 def revisar(respuesta):
-    lista = ["GRANDE_10", "GRANDE_1", "GRANDE_3"]
+    lista = [150, 375, 890]
 
-    if respuesta == lista:
+    if respuesta == None:
+        text("Intenta cambiar el valor de la variable `respuesta`.", "info")
+    elif respuesta == lista:
         hyperlink("¡Correcto! Avanza a la siguiente página", "sala_08.html", "success")
     else:
         text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 
+def ordernar_coordenadas(coordenadas):
+    coordenadas.sort()
+    largo = len(coordenadas)
+
+    if largo % 2 == 0:
+        valor_medio = (coordenadas[(largo//2) -1] + coordenadas[(largo//2)])//2
+
+    else:
+        valor_medio = coordenadas[(largo//2)]
+
+    return [coordenadas[0],
+            valor_medio,
+            coordenadas[-1]]
+
+
 if __name__ == "__main__":
-    test = ["GRANDE_10", "GRANDE_1", "GRANDE_3"]
+    coordenadas = [540, 320, 890, 150, 430, 270]
+    print(ordernar_coordenadas(coordenadas))
     revisar("test")
+    revisar(ordernar_coordenadas(coordenadas))
     revisar(None)
-    revisar(test)
