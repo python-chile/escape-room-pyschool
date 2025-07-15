@@ -25,14 +25,14 @@ dentro de otro ciclo `for` para obtener todas las combinaciones existentes y den
 Los ciclos `for` anidados funcionan de la siguiente manera. Por cada recorrido del **primer ciclo for** se hace un recorrido
 completo del **segundo ciclo for**, es decir, el segundo ciclo for se repite cada vez que el primer ciclo for avanza.
 
+Para almacenar los valores pares `(x,y)` en una lista se hace de la forma `lista.append((1,2))`
+
 Ejemplo:
-```python 
+```python
 for exterior in exteriores: #  Se avanza un valor por cada recorrido completo del segundo for
     for interior in interiores: # Se recorre completo
-        if exterior + interior == 30
+        lista.append((exterior, interior))
 ```
-
-Para almacenar los valores pares en una lista se hace de la forma `lista.append((1,2))`
 :::
 
 ```{pyodide-python}
