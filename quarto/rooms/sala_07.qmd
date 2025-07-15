@@ -3,7 +3,7 @@ title: "Habitación 7:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_07.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_07.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
@@ -25,7 +25,7 @@ lista con las coordenadas requeridas.
 ::: {.callout-tip title="Pista" collapse="true"}
 El valor del **centro** depende del largo de la lista:
 
-- Si el largo de la lista es un número par: Es el promedio de los dos valores que están al medio.
+- Si el largo de la lista es un número par: Es el valor **entero** del promedio de los valores que están al medio.
 - Si el lago de la lista es un número impar: Es el valor de al medio.
 
 ```python
