@@ -6,7 +6,7 @@ def revisar(respuesta):
     if respuesta == None:
         text("Intenta cambiar el valor de la variable `respuesta`.", "info")
     elif respuesta == lista:
-        hyperlink("¡Correcto! Avanza a la siguiente página", "sala_08.html", "success")
+        hyperlink("¡Correcto! Haz click aquí para avanzar al siguiente desafío", "sala_08.html", "success")
     else:
         text("No es la respuesta correcta. Inténtalo nuevamente.", "warning")
 
@@ -27,7 +27,6 @@ def ordernar_coordenadas(coordenadas):
 
 if __name__ == "__main__":
     coordenadas = [540, 320, 890, 150, 430, 270]
-    print(ordernar_coordenadas(coordenadas))
     revisar("test")
     revisar(ordernar_coordenadas(coordenadas))
     revisar(None)
