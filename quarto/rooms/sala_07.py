@@ -14,11 +14,9 @@ def ordernar_coordenadas(coordenadas):
     coordenadas.sort()
     largo = len(coordenadas)
 
-    if largo % 2 == 0:
-        valor_medio = (coordenadas[(largo//2) -1] + coordenadas[(largo//2)])//2
-
-    else:
-        valor_medio = coordenadas[(largo//2)]
+    valor_medio = (coordenadas[(largo//2) - 1] + coordenadas[largo//2]) //2 \
+        if largo %2 == 0 \
+        else coordenadas[largo//2]
 
     return [coordenadas[0],
             valor_medio,
