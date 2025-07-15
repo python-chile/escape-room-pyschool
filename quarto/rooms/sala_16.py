@@ -31,7 +31,6 @@ def niveles_temperatura(temperaturas):
         elif fahrenheit > 64.400:
             niveles_corregidos.append('alto')
 
-    print(niveles_corregidos)
     return niveles_corregidos
 
 
