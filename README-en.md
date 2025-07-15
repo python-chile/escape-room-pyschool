@@ -1,8 +1,8 @@
-# PyScape - Python-based Escape Room
+# PySchool - Python-based Escape Room
 
-PyScape is an interactive web-based escape room game built with Python and Quarto. Players solve puzzles and challenges by writing and executing Python code directly in their browser.
+PySchool is an interactive web-based escape room game built with Python and Quarto. Players solve puzzles and challenges by writing and executing Python code directly in their browser.
 
-[Live Demo](https://sebastiandres.github.io/pyscape/)
+[Live Demo](https://sebastiandres.github.io/pyschool_2025/)
 
 
 ## Features
