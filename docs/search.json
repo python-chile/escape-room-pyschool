@@ -24,7 +24,7 @@
     "href": "pyschool.html",
     "title": "Autoría",
     "section": "",
-    "text": "Reconocimientos adicionales\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC.\nNuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nEste proyecto es una iniciativa protegida por derechos de autor bajo la organización Python Chile. Los contribuyentes clave incluyen a Francisco Alfaro y Sebastián Flores, cuya dedicación ha sido esencial para el desarrollo y mantenimiento continuo del proyecto.\nQueremos extender un agradecimiento especial a todos los colaboradores y miembros de nuestra comunidad que han enriquecido este proyecto con sus ideas, sugerencias y aportes de código. Su participación ha sido crucial y es enormemente valorada.\nPara obtener más información sobre los autores y colaboradores, o para descubrir cómo puedes contribuir, te invitamos a visitar la página oficial de Python Chile. ¡Agradecemos tu apoyo y nos complace contar contigo en nuestra comunidad!",
+    "text": "Reconocimientos adicionales\nQueremos extender un agradecimiento especial a todos los colaboradores y miembros de nuestra comunidad que han enriquecido este proyecto con sus ideas, sugerencias y aportes de código. Su participación ha sido crucial y es enormemente valorada.\nPara obtener más información sobre los autores y colaboradores, o para descubrir cómo puedes contribuir, te invitamos a visitar la página oficial de Python Chile. ¡Agradecemos tu apoyo y nos complace contar contigo en nuestra comunidad!",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>PySchool 2025</span>"
     ]
@@ -155,7 +155,7 @@
     "href": "rooms/sala_11.html",
     "title": "Habitación 11:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Desde el comando central se está pidiendo un breve reporte respecto a las misiones pero hay un problema, sólo se pueden enviar mensajes cada 3hrs.\nSe debe enviar todas las palabras unidas y separadas por un espacio en un mismo texto, para poder informar el estado de la misión.\n\nOcupa la función .join() para unir una lista de palabraas. Esta función se ocupa con los string que son los textos encerrados en doble comillas \"\" o comillas simples ''.\nTener en cuenta que la función .join() va a juntar las palabras ocupando el valor que tenga la variable que la invoca.\nPor ejemplo:\ntexto_uno = \"Pyschool 2025\"\ntexto_dos = \"desafío sala 11\"\ntexto = \"-\"\ntexto_unido = texto.join([texto_uno, texto_dos])\n# valor de texto_unido: \"Pyschool 2025-desafío sala 11\"\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nDebes crear una variable y asignar el valor de espacio en blanco \" \" y que esta invoque la función .join() pasando dentro de esta misma función la lista mensaje.\ntextos = [\"Hola\", \"mundo\"]\nespacio_blanco = \" \"\nunion = espacio_blanco.join(textos)\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Habitación 11:</span>"
@@ -166,7 +166,7 @@
     "href": "rooms/sala_12.html",
     "title": "Habitación 12:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "La terminal de energía requiere saber cuántos módulos están funcionando. Cada módulo tiene un nombre y una cantidad de energía asignada.\nCrea un diccionario que contenga tres módulos con sus niveles de energía:\n\nMódulo PS004 con nivel de energía 80\nMódulo PS014 con nivel de energía 120\nMódulo PS104 con nivel de energía 50\n\n\nLos diccionarios son un tipo de datos en el mundo de la programación que contienen valores pares compuestos por llave y valor por ejemplo:\ndiccionario = {\n 'llave': 'valor',\n 'llave_dos': 'valor_dos'\n }\nEn el ejemplo llave o llave_dos puede ser cualquier texto, este último sirve para obtener el valor o valor_dos:\ndiccionario['llave'] # Se obtiene 'valor'\ndiccionario['llave_dos'] # Se obtiene 'valor_dos'\nLas variables de valor pueden ser cualquier dato, tanto texto como numérico u otros:\naltura_metros = {\n 'cabina': 1.5,\n 'radio': 0.4,\n 'parlante': 1\n }\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nCrea un diccionario ocupando como llave los nombres de los módulos y como valor el número que corresponde a cada módulo.\nPor ejempo para módulo PS00 con energía 10:\ndiccionario = {\n    'PS00': 10\n}\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Habitación 12:</span>"
@@ -177,7 +177,7 @@
     "href": "rooms/sala_13.html",
     "title": "Habitación 13:",
     "section": "",
-    "text": "Están llegando mensajes desde la base central pero no tienen sentido a simple vista… ¡El sistema de recepción de mensajería está dañado y está mostrando de forma errónea los mensajes! Al parecer solo se cambiaron las letras dentro de la misma palabra, es decir, ¡anagramas!\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "El sistema de archivos está desordenado. Se necesita reagrupar los archivos según el código que contienen para analizar su contenido más rápido.\nPara ayudar al sistema, se debe crear un diccionarrio dónde cada llave corresponde al código (sufijo) que contiene cada nombre de archivo, y cada nombre de archivo que tenga ese sufijo en común, agruparlos en una lista para dejarlos como valor para cada llave del diccionario.\n\nDebes crear un diccionario vacío ({}) para entregar los archivos ordenados aplicando lo siguiente:\n\nBucle for para recorrer el listado de archivos.\nSub-texto de cada nombre de archivo (para obtener el sufijo) ocupando sufijo = variable[-4:].\nSentencia if - else junto a in para verificar si el diccionario ya contiene el par llave (sufijo) y valor (lista de archivos).\nCrear una lista o agregar un nuevo elemento a dicha lista.\n\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPara agregar un nuevo elemento a una lista dentro de un diccionario se puede hacer como lo siguiente:\nlista = [\"azul_A01\", \"verde_A02\", \"rojo_A01\"]\nprimer_elemento = lista[0] # Se obtiene primer elemento de la lista \"azul_A01\"\nsufijo = primer_elemento[-3:] # Se obtiene A01\ndiccionario = {'A01': []}\n\nfor elemento in lista:\n    if elemento not in diccionario[sufijo]:\n        diccionario[sufijo].append()\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Habitación 13:</span>"
@@ -188,7 +188,7 @@
     "href": "rooms/sala_14.html",
     "title": "Habitación 14:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Mientras exploras el módulo de comunicaciones de la estación espacial, encuentras un panel que emite señales de luz en un extraño patrón de puntos (.) y rayas (_) .\nLos sistemas están caídos y no hay forma de acceder a los registros…\nPero junto a los cables, encuentras un diccionario de claves escondido. Parece que alguien dejó un mensaje importante codificado en este sistema.\n¿Podrás descifrarlo?\n\nOcupando el diccionario, debes decifrar el mensaje recorriendo la lista mensaje y obtener el valor correspondiente desde el diccionario, para luego unir todos estos valores en una sola variable, y poder obtener la respuesta decifrada.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPor cada elemento de mensaje obten el valor desde diccionario[elemento] para acumularlos en una lista [] y juntar estos caracteres en un solo texto con la función .join().\nPor ejenplo:\nmensaje_espanol = []\nconector_palabras= '-'\nfor elemento in mensaje:\n    valor = diccionario[elemento]\n    mensaje_espanol.append(valor)\nmensaje_decodificado = conector_palabras.join(mensaje_espanol)\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>Habitación 14:</span>"
@@ -210,7 +210,7 @@
     "href": "rooms/sala_16.html",
     "title": "Habitación 16:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "El sistema para monitorear las temperaturas de las salas principales está fallando, hay salas que se están enfriando como otras que su temperatura está subiendo y sin alarmas de avisos de que se deben regular. Las temperaturas no son reconocidos como debe ser.\nLa función del sistema se debe arreglar cuanto antes, ya que este monitoreo es primordial para el funcionamiento de la estación espacial. Este debe funcionar con grados fahrenheit.\nEl monitoreo debe respetar los siguientes rangos:\n\nSi la tempratura es menor o igual a -2C° debe indicar nivel muy bajo.\nSi la temperatura es mayor a -2C° y menor o igual a 12C° debe indicar nivel bajo.\nSi la temperatura es mayor a 12°C y menor o igual a 18°C debe indicar nivel medio.\nSi la temperatura es mayor a 18°C debe indicar nivel alto\n\n\nSe debe modificar la función de monitoreo para que pueda recibir temperaturas en celsius, tranformarlas a su equivalente en fahrenheit y crear una lista que contenga en el mismo orden que los grados celsius, su nivel de temperatura.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nAl momento de recorrer la lista de grados celsius, se debe transformar y luego evaluar a qué nivel corresponde dicho grado para agregar en la lista de niveles su respectivo valor.\ngrados_celsius = [0, 2]\nlista_niveles = []\ndef monitoreo(grados_celsius):\n    for grado in grados_celsius:\n        grado_fahrenheit = celsius_a_fahrenheit(grado)\n\n        if grado_fahrenheit &lt; 25:\n            lista_niveles.append('alta')\n        else:\n            lista_niveles.append('baja')\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Habitación 16:</span>"
@@ -221,7 +221,7 @@
     "href": "rooms/sala_17.html",
     "title": "Habitación 17:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "El equipo ha llegado al núcleo de la estación espacial. Se encuentra una compuerta antes de llegar a la sala final, pero está bloqueada y se necesita conocer la contraseña para que se pueda abrir.\nLa contraseña se puede conocer ocupando el código secreto en la suma de los números primos requeridos.\n\nSe debe obtener la suma desde el primer número primo hasta el indicado en el código secreto. Tener en consideración que se debe recorrer todos los números enteros positivos y en caso que cumpla con ser número primo, sumarlo, así sucesivamente hasta obtener la suma total.\nPor ejemplo:\ndef es_primo(numero):\n    if numero % 1 == 0:\n        return True\n    elif numero % 2 == 0:\n        return False\n    elif numero % 3 == 0:\n        return False\n    elif numero % numero == 0:\n        return True\n\nfor numero in numeros:\n    if es_primo(numero):\n        suma = suma + numero\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nConsiderar lo siguiente para el algoritmo de la suma de los primeros N números primos:\n\nPara saber si es un número primo, debe ser divisible por el número 1 y por si mismo. Ejemplo: A % 1 == 0 y A % A == 0.\nCrear variable que cuente cuántos números primos se han sumado, sin que pase el valor del código secreto.\nCrear variable que vaya acumulando la suma de los primeros N números primos.\n\nsuma = 0\ncontador_numeros = 0\nfor numero in numeros:\n    if es_primo(numero):\n        suma = suma + numero\n        contador_numeros = contador_numeros + 1\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>21</span>  <span class='chapter-title'>Habitación 17:</span>"
@@ -254,7 +254,7 @@
     "href": "oaks_lab/rooms/sala_00.html",
     "title": "Habitación 0: Inicio",
     "section": "",
-    "text": "Desafío de la Sala\nDespiertas dentro de un laboratorio muy conocido…\n¡Es el Laboratorio del Profesor Oak!\nSin embargo, algo no anda bien… Las puertas están bloqueadas y el sistema de datos está caído.\nUn mensaje aparece en la pantalla principal:\nCompleta las siguientes variables:\nLuego muestra las primeras filas usando .head().",
+    "text": "Desafío de la Sala\nCompleta las siguientes variables:\nLuego muestra las primeras filas usando .head().",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>24</span>  <span class='chapter-title'>Habitación 0: Inicio</span>"
@@ -276,7 +276,7 @@
     "href": "oaks_lab/rooms/sala_01.html",
     "title": "Habitación 1: Explorador de Datos",
     "section": "",
-    "text": "Desafío de la Sala\nEl sistema se ha reiniciado parcialmente…\nPero las puertas siguen bloqueadas.\nEn la pantalla aparece un mensaje del Profesor Oak:\nYa cargaste los datos en la sala anterior (df).\nAhora:",
+    "text": "Desafío de la Sala\nYa cargaste los datos en la sala anterior (df).\nAhora:",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>25</span>  <span class='chapter-title'>Habitación 1: Explorador de Datos</span>"
@@ -298,7 +298,7 @@
     "href": "oaks_lab/rooms/sala_02.html",
     "title": "Habitación 2: Tipos de Pokémon",
     "section": "",
-    "text": "Desafío de la Sala\nEl sistema del laboratorio sigue bloqueado…\nEn la pantalla aparece un nuevo mensaje del Profesor Oak:",
+    "text": "Desafío de la Sala",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>Habitación 2: Tipos de Pokémon</span>"
@@ -320,7 +320,7 @@
     "href": "oaks_lab/rooms/sala_03.html",
     "title": "Habitación 3: Estadísticas de Combate",
     "section": "",
-    "text": "Desafío de la Sala\nEn esta sala aparece una gran pantalla que dice:",
+    "text": "Desafío de la Sala",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>27</span>  <span class='chapter-title'>Habitación 3: Estadísticas de Combate</span>"
@@ -342,7 +342,7 @@
     "href": "oaks_lab/rooms/sala_04.html",
     "title": "Habitación 4: Visualización de Combate",
     "section": "",
-    "text": "¿Qué haremos?\nLa sala está llena de pantallas mostrando batallas Pokémon.\nEl Profesor Oak te deja un nuevo mensaje:",
+    "text": "¿Qué haremos?",
     "crumbs": [
       "Laboratorio del Profesor Oak",
       "<span class='chapter-number'>28</span>  <span class='chapter-title'>Habitación 4: Visualización de Combate</span>"
@@ -386,7 +386,7 @@
     "href": "howto.html",
     "title": "Elementos disponibles",
     "section": "",
-    "text": "Tema (Theme)\nEsta página contiene todos los distintos elementos, para que puedas examinar el código y ver lo que se puede hacer.\nEl tema es sketchy, pero podría ser cualquier otro. Ya está configurado en el archivo _quarto.yml.\nEn sketchy doc hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.",
+    "text": "Tema (Theme)\nEl tema es sketchy, pero podría ser cualquier otro. Ya está configurado en el archivo _quarto.yml.\nEn sketchy doc hay ejemplos con código de todos los elementos, que fueron resumidos en esta página.",
     "crumbs": [
       "📚 Recursos",
       "<span class='chapter-number'>30</span>  <span class='chapter-title'>Elementos disponibles</span>"
