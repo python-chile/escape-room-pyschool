@@ -12,8 +12,11 @@ include-in-header:
 
 Se tiene un listado objetos que se les debe hacer mantención, pero estos están mezclados con objetos que ya están en perfecto estado.
 
+Cuidado con gastar tiempo y recursos en hacer mantención a objetos en perfecto estado. Debes crear un listado nuevo separando
+los objetos que solo necesitan mantención.
+
 <div class="alert alert-info">
-Se combinan en este desafío lo siguiente:
+Aplica los siguientes elementos para tener una `lista` de objetos para la mantención:
 
 - Recorrer la lista `objetos`.
 - Sentencia `if` para verificar si los `objetos` no están (`not in`) en lista de `reparados`.

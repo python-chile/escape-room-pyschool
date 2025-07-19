@@ -13,14 +13,14 @@ include-in-header:
 Desde el comando central se está pidiendo un breve reporte respecto a las misiones pero hay un problema, sólo se
 pueden enviar mensajes cada 3hrs.
 
-Se debe enviar todas las palabras unidas y __separadas por un espacio__ en un mismo texto, para poder informar el estado de la misión.
+Envia todas las palabras unidas y __separadas por un espacio__ en un mismo texto, para poder informar el estado de la misión.
 
 
 <div class="alert alert-info">
 Ocupa la función `.join()` para unir una **lista** de palabraas. Esta función se ocupa con los **string** que son
 los textos encerrados en doble comillas `""` o comillas simples `''`.
 
-Tener en cuenta que la función `.join()` va a juntar las palabras **ocupando el valor** que tenga la variable que la invoca.
+Ten en cuenta que la función `.join()` va a juntar las palabras **ocupando el valor** que tenga la variable que la invoca.
 
 Por ejemplo:
 ```python
@@ -34,8 +34,8 @@ texto_unido = texto.join([texto_uno, texto_dos])
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Debes crear una variable y asignar el valor de espacio en blanco `" "` y que esta invoque la función `.join()` pasando dentro de esta misma función
-la lista `mensaje`.
+Crea una variable y asignar el valor de espacio en blanco `" "` y que esta invoque la función `.join()` pasando
+ dentro de esta misma función la lista `mensaje`.
 
 ```python
 textos = ["Hola", "mundo"]

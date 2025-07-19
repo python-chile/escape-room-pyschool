@@ -12,13 +12,13 @@ include-in-header:
 
 Hay problemas con el sistema de reconocimiento de objetos espaciales, no reconoce ciertos formatos de los textos.
 
-Para corregir el texto, se debe cambiar a mayúsculas o minúsculas según sea uno de los siguientes casos:
+Para corregir el texto, cambia a mayúsculas o minúsculas según sea uno de los siguientes casos:
 
 - Si la variable `palabra` contiene **meteorito**, debe quedar en minúsculas.
 - Si la variable `palabra` contiene **asteroide**, debe quedar en mayúsculas.
 
 <div class="alert alert-info">
-Se deben ocupar las funciones `.upper()` para convertir el texto en mayúsculas o `.lower()` para convertir
+Ocupa las funciones `.upper()` para convertir el texto en mayúsculas o `.lower()` para convertir
 el texto en minúsculas.
 
 Por ejemplo para convertir en minúsculas:
@@ -26,7 +26,7 @@ Por ejemplo para convertir en minúsculas:
 palabra_origial = "PySchool"
 palabra_original.lower()
 ```
-También para verificar que un texto contiene una cierta palabra, se debe ocupar `in` en la sentencia `if`,
+También para verificar que un texto contiene una cierta palabra, utiliza `in` en la sentencia `if`,
 pero cuidado que esto es sensible a las letras en mayúsculas o minúsculas, es decir, no es lo mismo **Meteorito** que **meteorito**.
 </div>
 

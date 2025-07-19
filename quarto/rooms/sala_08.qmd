@@ -31,7 +31,7 @@ Van a ingresar tres tripulantes:
 
 <div class="alert alert-info">
 
-Las sentencias `if, elif, else` sirven para ejecutar cierto código si las condiciones de dichas sentencias se cumplen. No siempre
+Ocupa las sentencias `if, elif, else` para ejecutar código cuando se cumplen ciertas condiciones. No siempre
 es necesario ocupar `if`, `elif` y `else`, a veces basta con ocupar `if` o `if` y `else` dependiendo del caso.
 
 Por ejemplo:
@@ -47,8 +47,8 @@ else:
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-En este caso las sentencias ya están aplicadas, pero están igualadas (`==`) a valores erróneos. Basta con
-reemplazar los valores `None` por `True` o `"Alta"` dependiendo de la variable con la que se iguala.
+Las sentencias ya están aplicadas, pero están igualadas (`==`) a valores erróneos. Reemplaza
+ los valores `None` por `True` o `"Alta"` dependiendo de la variable con la que se iguala.
 
 :::
 

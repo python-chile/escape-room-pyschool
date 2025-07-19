@@ -12,13 +12,13 @@ include-in-header:
 
 El sistema de archivos está desordenado. Se necesita reagrupar los archivos según el código que contienen para analizar su contenido más rápido.
 
-Para ayudar al sistema, se debe crear un  **diccionarrio** dónde cada **llave** corresponde al código (**sufijo**) que contiene
+Para ayudar al sistema, utiliza un  **diccionarrio** dónde cada **llave** corresponde al código (**sufijo**) que contiene
 cada nombre de archivo, y cada nombre de archivo que tenga ese sufijo en común, agruparlos en una lista para dejarlos como **valor** para
 cada llave del diccionario.
 
 
 <div class="alert alert-info">
-Debes crear un `diccionario` vacío (`{}`) para entregar los archivos ordenados aplicando lo siguiente:
+Crea un `diccionario` vacío (`{}`) para entregar los archivos ordenados aplicando lo siguiente:
 
 - Bucle `for` para recorrer el listado de `archivos`.
 - Sub-texto de cada nombre de archivo (para obtener el sufijo) ocupando `sufijo = variable[-4:]`.

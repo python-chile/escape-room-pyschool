@@ -18,7 +18,7 @@ analizar sus coordenadas para prevenir colisiones. Necesitas ordenar las coorden
 - El objeto que se encuentra en el centro de la lista (una vez ordenada).
 
 <div class="alert alert-info">
-Debes ordenar la `lista` ocupando la función `.sorted()` y ocupar los `indices` necesarios para crear una nueva
+Ordena la `lista` ocupando la función `.sorted()` y utilizando los `indices` necesarios para crear una nueva
 lista con las coordenadas requeridas.
 </div>
 

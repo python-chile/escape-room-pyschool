@@ -16,7 +16,7 @@ bloqueada y se necesita conocer la contraseña para que se pueda abrir.
 La contraseña se puede conocer ocupando el código secreto en la suma de los números primos requeridos.
 
 <div class="alert alert-info">
-Se debe obtener la suma desde el primer número primo hasta el indicado en el `código secreto`. Tener en consideración que se debe recorrer todos
+Obtén la suma desde el primer número primo hasta el indicado en el `código secreto`. Ten en consideración que se debe recorrer todos
 los números enteros positivos y en caso que cumpla con ser número primo, sumarlo, así sucesivamente hasta obtener la suma total.
 
 Por ejemplo:
@@ -39,7 +39,7 @@ for numero in numeros:
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
-Considerar lo siguiente para el algoritmo de la suma de los primeros `N` números primos:
+Considera lo siguiente para el algoritmo de la suma de los primeros `N` números primos:
 
 - Para saber si es un número primo, debe ser divisible por el número 1 y por si mismo. Ejemplo: `A % 1 == 0`  y `A % A == 0`.
 - Crear variable que cuente cuántos números primos se han sumado, sin que pase el valor del `código secreto`.

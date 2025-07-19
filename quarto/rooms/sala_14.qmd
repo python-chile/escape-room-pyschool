@@ -16,7 +16,7 @@ Los sistemas están caídos y no hay forma de acceder a los registros...
 
 Pero junto a los cables, encuentras un diccionario de claves escondido. Parece que alguien dejó un mensaje importante codificado en este sistema.
 
-¿Podrás descifrarlo?
+¡Procura leer el mensaje! ya que es un dato importante a futuro.
 
 
 <div class="alert alert-info">
@@ -53,7 +53,7 @@ diccionario = { '._': 'a', '_...': 'b', '_._.': 'c', '_..': 'd', '.': 'e', '.._.
 
 # Escribe tu respuesta aquí
 respuesta = None
-
+pint(respuesta)
 
 # Verifica la respuesta
 import sala
