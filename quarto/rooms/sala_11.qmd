@@ -3,7 +3,7 @@ title: "Habitación 11:"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_11.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyschool_2025/refs/heads/main/quarto/rooms/sala_11.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }

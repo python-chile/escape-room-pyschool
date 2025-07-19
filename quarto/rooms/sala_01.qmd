@@ -3,7 +3,7 @@ title: "Habitación 1: Hola Mundo"
 include-in-header:
   text: |
     <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_01.py";
+    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyschool_2025/refs/heads/main/quarto/rooms/sala_01.py";
     </script>
     <style>
     #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
