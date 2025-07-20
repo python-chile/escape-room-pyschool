@@ -59,6 +59,7 @@ El diseño se basa en el [sketchy theme](https://bootswatch.com/sketchy/) de boo
 > [!NOTE]
 >
 > Quarto se levanta con puerto aleatorio, para ocupar un puerto específico: `quarto preview --port [puerto]`.
+> 
 > Más detalle `quarto preview --help`.
 
 2. Visualiza el sitio:

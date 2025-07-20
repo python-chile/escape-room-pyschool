@@ -60,6 +60,7 @@ Some of the color definitions are:
 > [!NOTE]
 >
 > Quarto runs using random port, to set a specific port use: `quarto preview --port [port]`.
+> 
 > More details `quarto preview --help`.
 
 2. View the site:
