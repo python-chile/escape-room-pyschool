@@ -10,10 +10,6 @@ include-in-header:
     </style>
 ---
 
-<h2>
-¡Vas muy bien! es momento de agregar un nuevo nivel a los números.
-</h2>
-
 <center>
 <img src="./sala_04.png" width="650">
 </center>

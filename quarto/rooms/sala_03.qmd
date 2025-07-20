@@ -10,10 +10,6 @@ include-in-header:
     </style>
 ---
 
-<h2>
-¡Excelente! Veamos otro desafío con números.
-</h2>
-
 <center>
 <img src="./sala_03.png" width="650">
 </center>

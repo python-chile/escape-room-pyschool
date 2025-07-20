@@ -10,12 +10,6 @@ include-in-header:
     </style>
 ---
 
-<h2>
-¡Has llegado a la primera sala y con ello tu primer obstáculo!.
-</h2>
-
-<br/>
-
 <center>
 <img src="./sala_01.png" width="650">
 </center>

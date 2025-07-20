@@ -10,10 +10,6 @@ include-in-header:
     </style>
 ---
 
-<h2>
-¡Muy bien! Haz logrado llegar al segundo desafío.
-</h2>
-
 <center>
 <img src="./sala_02.png" width="650">
 </center>

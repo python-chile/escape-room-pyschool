@@ -10,10 +10,6 @@ include-in-header:
     </style>
 ---
 
-<h2>
-¡Estupendo! ya estás dominando las operaciones matemáticas.
-</h2>
-
 <center>
 <img src="./sala_05.png" width="650">
 </center>
