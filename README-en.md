@@ -57,6 +57,11 @@ Some of the color definitions are:
    cd quarto && quarto render .
    ```
 
+> [!NOTE]
+>
+> Quarto runs using random port, to set a specific port use: `quarto preview --port [port]`.
+> More details `quarto preview --help`.
+
 2. View the site:
    ```bash
    make view
