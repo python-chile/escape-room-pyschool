@@ -16,7 +16,10 @@ include-in-header:
 
 <br/>
 
-La temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.
+Los paneles solares de la estación han comenzado a mostrar lecturas inestables 🌡️.
+
+Para mantener la energía funcionando correctamente, debes recalibrar su temperatura aplicando una fórmula especial
+basada en la radiación que han recibido 🌞⚡.
 
 $$
 \left( \frac{(1,23 + 2,34)}{(1 + (43/2))} \right) + (3 \times 2^{1,5})

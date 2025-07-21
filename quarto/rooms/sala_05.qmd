@@ -16,7 +16,12 @@ include-in-header:
 
 <br/>
 
-Una compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.
+Frente a ti, una compuerta metálica  de alta seguridad se mantiene cerrada 🔒. En su pantalla, un mensaje parpadea
+sin cesar:
+
+<div class=" text-center">
+🧮 *“Ingresa la suma correcta de la secuencia del 1 al 1000 para desbloquear el sistema.”*
+</div>
 
 <div class="alert alert-info">
 Asigna los valores correspondientes a las variables `a` y `b`.

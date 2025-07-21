@@ -11,7 +11,7 @@ include-in-header:
 ---
 
 <h2 class="text-center">
-¡Bienvenido joven astronauta! <br/>
+🚀 ¡Bienvenido joven astronauta!✨ <br/>
 Estas a punto de iniciarte en la programación, y qué mejor que participar en la solución de la estación espacial.
 </h2>
 
@@ -24,7 +24,11 @@ Estas a punto de iniciarte en la programación, y qué mejor que participar en l
 <br/>
 
 <div class="font-italic">
-Año 2079. La estación espacial OASIS-9, que orbita la luna Europa, sufre una serie de fallas tras una tormenta solar. El comandante en jefe activa el protocolo de emergencia "PYSCHOOL-25": cada sala del sistema principal se bloquea hasta que uno de los miembros de la tripulación resuelve un acertijo lógico o computacional. Solo así podrán restablecer los sistemas antes de que se agote el soporte vital...
+Año 2079. La estación espacial OASIS-9, que orbita la luna Europa, sufre una serie de fallas tras una tormenta solar.
+
+El comandante en jefe 🚨 activa el protocolo de emergencia "PYSCHOOL-25" 🐍: cada sala del sistema principal se bloquea 🔒 hasta que uno de los miembros de la tripulación resuelve un acertijo 🔎 lógico o computacional.
+
+Solo así podrán restablecer los sistemas y volver sin problemas a sus hogares...
 </div>
 
 <br/>

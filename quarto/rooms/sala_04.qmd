@@ -16,7 +16,13 @@ include-in-header:
 
 <br/>
 
-El sistema de soporte vital está recibiendo lecturas inconsistentes de temperatura. Necesitas calcular el promedio para tomar decisiones automáticas.
+¡El sistema de la estación se está volviendo loco!... Está recibiendo lecturas de
+temperatura completamente inconsistentes 🧊🔥.
+
+⚙️ Ajusta el sistema para arreglar el clima interno y evitar posibles golpes térmicos.
+
+🖥️ Para tomar decisiones automáticas y estabilizar el ambiente, debes calcular el valor promedio
+de las siguientes mediciones:
 
 $$
 19,5 - 22,3 - 12 - 10,01 - 32 - 29,99 - 20,89

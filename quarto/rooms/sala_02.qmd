@@ -16,11 +16,20 @@ include-in-header:
 
 <br/>
 
-La compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:
+Mientras flotas por el pasillo de gravedad cero 🛰️, llegas al laboratorio químico.
 
+La compuerta está completamente sellada y un panel intermitente muestra un mensaje
+antiguo dejado por los primeros astronautas:
+
+🧩 **Solo quienes dominen los números podrán acceder.**
+
+<div class="d-flex justify-content-center">
+<div class="alert alert-warning">
 $$
 (201 + 759) \times 2^{3}
 $$
+</div>
+</div>
 
 <div class="alert alert-info">
 Asigna a cada variable su respectivo valor numérico según la fórmula. Por ejemplo a = 55.

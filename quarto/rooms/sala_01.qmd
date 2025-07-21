@@ -16,15 +16,18 @@ include-in-header:
 
 <br/>
 
-La terminal del sistema de oxígeno muestra un valor erróneo de presión ...
+La terminal del sistema de oxígeno comienza a parpadear en rojo... algo no está bien.
 
-<div class="text-center text-danger font-weight-bold">
-**Peligro**
+<div class="d-flex justify-content-center">
+<div class="alert alert-danger text-center text-danger font-weight-bold">
+⚠️ **¡Peligro!** ⚠️
 
 Se ha detectado pérdida de oxígeno en la sala B9-2.
 </div>
+</div>
 
-¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.
+🕹️ ¡Rápido! Activa la puerta de emergencia. Usa la terminal para enviar la señal correcta y
+poder cerrar la sala antes que se agote el oxígeno por completo.
 
 <div class="alert alert-info">
 La primera tarea es escribir "Cerrar".
