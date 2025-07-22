@@ -16,10 +16,14 @@ include-in-header:
 
 <br/>
 
-Un sistema cifrado transmite la secuencia de Fibonacci. Debes extraer y analizar ciertas posiciones para encontrar una clave.
+Mientras te acercas al núcleo de comunicaciones, detectas un patrón pulsante en la pantalla del sistema cifrado. Es la
+secuencia de Fibonacci, transmitida como una señal de emergencia desde un satélite perdido hace años 🛰️✨.
+
+💾 Extrae y analiza ciertas posiciones para encontrar la clave de acceso y así poder avanzar al siguiente nivel.
 
 <div class="alert alert-info">
-De la lista de Fibonacci generada, extrae los elementos (números) en los índices 0, 2, 10, -2. Luego promedia los números extraídos.
+De la lista de Fibonacci generada, extrae los elementos (números) en los índices **0, 2, 10, -2**. Luego obtén el
+promedio de los números extraídos.
 </div>
 
 ::: {.callout-tip title="Acceder a elementos de una lista" collapse="true"}

@@ -10,10 +10,11 @@ include-in-header:
     </style>
 ---
 
-Se tiene un listado objetos que se les debe hacer mantención, pero estos están mezclados con objetos que ya están en perfecto estado.
+Desde el área de mantenimiento 🔧 han enviado un listado objetos de la estación espacial por reparar, sin embargo, el listado está
+mezclado con objetos que ya están en perfecto estado ✅.
 
-Cuidado con gastar tiempo y recursos en hacer mantención a objetos en perfecto estado. Debes crear un listado nuevo separando
-los objetos que solo necesitan mantención.
+⚠️ ¡Cuidado! No gastes recursos en hacer mantenciones innecesarias. Crea un listado nuevo 📋 separando
+solo los objetos que realmente necesitan dicha mantención ⚙️.
 
 <div class="alert alert-info">
 Aplica los siguientes elementos para tener una `lista` de objetos para la mantención:

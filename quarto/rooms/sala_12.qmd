@@ -10,13 +10,14 @@ include-in-header:
     </style>
 ---
 
-La terminal de energía requiere saber cuántos módulos están funcionando. Cada módulo tiene un nombre y una cantidad de energía asignada.
+La estación espacial 🛰️ está comenzando a presentar errores en el suministro de energía ⚡. La terminal principal
+necesita saber cuántos módulos están operativos y cuánta energía sumistra cada uno 🔋.
 
-Crea un **diccionario** que contenga tres módulos con sus niveles de energía:
+💡 Crea un **diccionario** con los tres siguientes módulos más sus respectivos niveles de energía:
 
-- Módulo PS004 con nivel de energía 80
-- Módulo PS014 con nivel de energía 120
-- Módulo PS104 con nivel de energía 50
+- Módulo **PS004** con nivel de energía **80**
+- Módulo **PS014** con nivel de energía **120**
+- Módulo **PS104** con nivel de energía **50**
 
 
 <div class="alert alert-info">

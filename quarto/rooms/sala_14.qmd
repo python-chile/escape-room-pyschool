@@ -10,14 +10,14 @@ include-in-header:
     </style>
 ---
 
-Mientras exploras el módulo de comunicaciones de la estación espacial, encuentras un panel que emite señales de luz en un extraño patrón de puntos (` . `) y rayas (` _ `) .
+Mientras exploras el módulo de comunicaciones de la estación espacial 🛰️, encuentras un panel que emite señales de luz
+en un extraño patrón de puntos (` . `) y rayas (` _ `) ... ¡código morse! 😲🕵️‍♂️.
 
-Los sistemas están caídos y no hay forma de acceder a los registros...
+Los sistemas están caídos ⚠️ y no hay forma de acceder a los registros...
 
-Pero junto a los cables, encuentras un diccionario de claves escondido. Parece que alguien dejó un mensaje importante codificado en este sistema.
+Pero junto a los cables🔌, encuentras un diccionario 📖 de claves escondido. Parece que alguien dejó un mensaje importante codificado en este sistema.
 
-¡Procura leer el mensaje! ya que es un dato importante a futuro.
-
+✨ ¡Procura leer el mensaje! ya que es un dato importante a futuro.
 
 <div class="alert alert-info">
 Ocupando el diccionario, debes decifrar el mensaje recorriendo la lista `mensaje`

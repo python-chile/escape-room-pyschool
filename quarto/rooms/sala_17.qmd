@@ -10,10 +10,22 @@ include-in-header:
     </style>
 ---
 
-El equipo ha llegado al núcleo de la estación espacial. Se encuentra una compuerta antes de llegar a la sala final, pero está
-bloqueada y se necesita conocer la contraseña para que se pueda abrir.
+El equipo ha llegado al núcleo de la estación espacial 🌌. Se encuentran con una compuerta blindada que bloquea el
+paso a la sala final.
 
-La contraseña se puede conocer ocupando el código secreto en la suma de los números primos requeridos.
+Las luces parpadean y una pantalla muestra el siguiente mensaje 👽:
+
+<div class="d-flex justify-content-center">
+<div class="alert alert-warning">
+🧠 Según los registros, la contraseña se obtiene utilizando el código secreto... ese mismo número clave que han
+encontrado antes en su viaje. 🔎
+</div>
+</div>
+
+!Es imprescindible encontrar la contraseña correcta para continuar 🧩!
+
+🔢 Suma todos los números primos requeridos. La cantidad de números a sumar está
+determinada por el código secreto. Sólo así se podrá revelar la última contraseña 🔓.
 
 <div class="alert alert-info">
 Obtén la suma desde el primer número primo hasta el indicado en el `código secreto`. Ten en consideración que se debe recorrer todos

@@ -10,8 +10,10 @@ include-in-header:
     </style>
 ---
 
-Desde el módulo de control, detectan múltiples objetos orbitando alrededor de la estación espacial. Es urgente
-analizar sus coordenadas para prevenir colisiones. Necesitas ordenar las coordenadas y extraer tres datos clave:
+Desde el módulo de control, detectan múltiples objetos orbitando alrededor de la estación espacial ⚠️. Es urgente
+analizar sus coordenadas para prevenir colisiones 🌌💥.
+
+🚀 Ordena y extrae los tres siguientes datos clave:
 
 - El objeto más cercano a la estación.
 - El objeto más lejano.

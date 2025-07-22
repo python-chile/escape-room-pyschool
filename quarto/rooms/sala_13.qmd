@@ -10,12 +10,13 @@ include-in-header:
     </style>
 ---
 
-El sistema de archivos está desordenado. Se necesita reagrupar los archivos según el código que contienen para analizar su contenido más rápido.
+📁 El sistema de archivos del módulo de investigación 🧪 está desordenado. Al parecer, varios archivos
+comparten un **sufijo**, pero están revueltos entre todos, lo que hace difícil su rápido análisis.
 
-Para ayudar al sistema, utiliza un  **diccionarrio** dónde cada **llave** corresponde al código (**sufijo**) que contiene
-cada nombre de archivo, y cada nombre de archivo que tenga ese sufijo en común, agruparlos en una lista para dejarlos como **valor** para
-cada llave del diccionario.
+🤖🚀 Para optimizar el sistema, reagrupa los archivos considerando lo siguiente:
 
+- Crea un **diccionarrio** dónde cada **llave** corresponda al **sufijo** en común.
+- Agrupa en una **lista** todos los archivos que tengan el mismo **sufijo** y asígnalos como **valor** a su correspondiente **llave**.
 
 <div class="alert alert-info">
 Crea un `diccionario` vacío (`{}`) para entregar los archivos ordenados aplicando lo siguiente:

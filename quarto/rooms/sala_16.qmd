@@ -10,18 +10,18 @@ include-in-header:
     </style>
 ---
 
-El sistema para monitorear las temperaturas de las salas principales está fallando, hay salas que se están enfriando
-como otras que su temperatura está subiendo, todo esto sin alarmas de avisos para poder regularlas.
+El sistema para monitorear las temperaturas 🌡️ de las salas principales está fallando, hay salas que se están enfriando
+como otras que su temperatura está subiendo ❄️🔥... ¡todo esto sin alarmas de avisos para poder regularlas!😱.
 
-Arregla la función del sistema cuanto antes, ya que este monitoreo es primordial para el
-funcionamiento de la estación espacial. Este debe funcionar con grados `fahrenheit`.
+🛠️ Arregla la función del sistema cuanto antes, ya que este monitoreo es primordial para el
+funcionamiento de la estación espacial 🚨. Este debe funcionar con grados `fahrenheit`.
 
 El monitoreo debe respetar los siguientes rangos:
 
-- Si la tempratura es menor o igual a -2C° debe indicar nivel `muy bajo`.
-- Si la temperatura es mayor a -2C° y menor o igual a 12C° debe indicar nivel `bajo`.
-- Si la temperatura es mayor a 12°C y menor o igual a 18°C debe indicar nivel `medio`.
-- Si la temperatura es mayor a 18°C debe indicar nivel `alto`
+- 🧊 Si la tempratura es menor o igual a -2C° debe indicar nivel `muy bajo`.
+- ❄️ Si la temperatura es mayor a -2C° y menor o igual a 12C° debe indicar nivel `bajo`.
+- 🌤️ Si la temperatura es mayor a 12°C y menor o igual a 18°C debe indicar nivel `medio`.
+- 🔥 Si la temperatura es mayor a 18°C debe indicar nivel `alto`
 
 <div class="alert alert-info">
 Modifica la función de monitoreo para que pueda recibir temperaturas en `celsius`, tranformarlas a su equivalente en `fahrenheit` y crear una `lista`

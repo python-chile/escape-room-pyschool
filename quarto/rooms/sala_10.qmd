@@ -10,12 +10,12 @@ include-in-header:
     </style>
 ---
 
-Hay problemas con el sistema de reconocimiento de objetos espaciales, no reconoce ciertos formatos de los textos.
+El sistema de análisis de objetos que orbitan la estación 🛰️ está presentando fallos en el reconocimiento de texto 📉.
 
-Para corregir el texto, cambia a mayúsculas o minúsculas según sea uno de los siguientes casos:
+🛠️ Para reestablecer el análisis de objetos, necesitas corregir los textos detectos con las siguientes condiciones:
 
-- Si la variable `palabra` contiene **meteorito**, debe quedar en minúsculas.
-- Si la variable `palabra` contiene **asteroide**, debe quedar en mayúsculas.
+- Si la variable `palabra` contiene **meteorito**, debe quedar en **minúsculas** 🔽.
+- Si la variable `palabra` contiene **asteroide**, debe quedar en **mayúsculas** 🔼.
 
 <div class="alert alert-info">
 Ocupa las funciones `.upper()` para convertir el texto en mayúsculas o `.lower()` para convertir
