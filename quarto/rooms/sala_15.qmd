@@ -10,11 +10,11 @@ include-in-header:
     </style>
 ---
 
-Durante la revisión de los sistemas exteriores, se detectó una serie de coordenadas espaciales que parecen estar alteradas.
-Para asegurar el camino de regreso, necesitas identificar todas las combinaciones de coordenadas (x, y) cuya suma total sea exactamente 50.
+Durante la revisión de los sistemas exteriores ⚙️ , se detectó una serie de coordenadas espaciales que parecen estar alteradas 🧮.
+Para asegurar el camino de regreso, necesitas identificar 🔎 todas las combinaciones de coordenadas (x, y) cuya suma total sea exactamente 50.
 
-Estas coordenadas están definidas en un rango del 1 al 30.
-Si no encuentras todas las combinaciones correctas, podrías enviar a la tripulación hacia una zona de meteoritos.
+⚠️ Estas coordenadas están definidas en un rango del 1 al 30.
+Si no encuentras todas las combinaciones correctas, podrías enviar a la tripulación hacia una zona de meteoritos 💥.
 
 <div class="alert alert-info">
 Guarda todas las combinaciones posibles en una `lista` con el formato `(x,y)`. Para esto debes ocupar un ciclo `for`

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -70,10 +70,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5b9d2237693fb6cab40e1dfa860fa2c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -102,7 +102,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <script type="module">
-window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_16.py";
+window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyschool_2025/refs/heads/main/quarto/rooms/sala_16.py";
 </script>
 <style>
 #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
@@ -269,7 +269,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"out-width":"700px","read-only":"false","fig-cap":"","classes":"","comment":"","context":"interactive","label":"","warning":"true","message":"true","fig-height":5,"out-height":"","results":"markup","fig-width":7,"autorun":"","dpi":72,"output":"true"},"id":1,"code":"temperaturas = [-2, 0, 25, -1, 16]\n\n# Arregla la función para que cumpla las condiciones\ndef monitoreo_temperatura(temperaturas):\n    for temperatura in temperaturas:\n        if temperatura <= -2:\n            return 'bajo'\n        elif temperatura > 20:\n            return 'alt'`\n        else:\n            return 'medio'\n\nrespuesta = monitoreo_temperatura(temperaturas)\n\nimport sala\nsala.revisar(respuesta)"}];
+globalThis.qpyodideCellDetails = [{"code":"temperaturas = [-2, 0, 25, -1, 16]\n\n# Arregla la función para que cumpla las condiciones\ndef monitoreo_temperatura(temperaturas):\n    for temperatura in temperaturas:\n        if temperatura <= -2:\n            return 'bajo'\n        elif temperatura > 20:\n            return 'alt'`\n        else:\n            return 'medio'\n\nrespuesta = monitoreo_temperatura(temperaturas)\n\nimport sala\nsala.revisar(respuesta)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -489,13 +489,13 @@ globalThis._qpyodideGetInstance = function() {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/sala_00.html">Python Escape Room</a></li><li class="breadcrumb-item"><a href="../rooms/sala_16.html"><span class="chapter-title">Habitación 16:</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -529,9 +529,9 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Python Escape Room</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -628,16 +628,16 @@ globalThis._qpyodideGetInstance = function() {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/sala_final.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="../rooms/sala_final.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación Final</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Laboratorio del Profesor Oak</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -681,9 +681,9 @@ globalThis._qpyodideGetInstance = function() {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">📚 Recursos</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -738,17 +738,17 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>El sistema para monitorear las temperaturas de las salas principales está fallando, hay salas que se están enfriando como otras que su temperatura está subiendo y sin alarmas de avisos de que se deben regular. Las temperaturas no son reconocidos como debe ser.</p>
-<p>La función del sistema se debe arreglar cuanto antes, ya que este monitoreo es primordial para el funcionamiento de la estación espacial. Este debe funcionar con grados <code>fahrenheit</code>.</p>
+<p>El sistema para monitorear las temperaturas 🌡️ de las salas principales está fallando, hay salas que se están enfriando como otras que su temperatura está subiendo ❄️🔥… ¡todo esto sin alarmas de avisos para poder regularlas!😱.</p>
+<p>🛠️ Arregla la función del sistema cuanto antes, ya que este monitoreo es primordial para el funcionamiento de la estación espacial 🚨. Este debe funcionar con grados <code>fahrenheit</code>.</p>
 <p>El monitoreo debe respetar los siguientes rangos:</p>
 <ul>
-<li>Si la tempratura es menor o igual a -2C° debe indicar nivel <code>muy bajo</code>.</li>
-<li>Si la temperatura es mayor a -2C° y menor o igual a 12C° debe indicar nivel <code>bajo</code>.</li>
-<li>Si la temperatura es mayor a 12°C y menor o igual a 18°C debe indicar nivel <code>medio</code>.</li>
-<li>Si la temperatura es mayor a 18°C debe indicar nivel <code>alto</code></li>
+<li>🧊 Si la tempratura es menor o igual a -2C° debe indicar nivel <code>muy bajo</code>.</li>
+<li>❄️ Si la temperatura es mayor a -2C° y menor o igual a 12C° debe indicar nivel <code>bajo</code>.</li>
+<li>🌤️ Si la temperatura es mayor a 12°C y menor o igual a 18°C debe indicar nivel <code>medio</code>.</li>
+<li>🔥 Si la temperatura es mayor a 18°C debe indicar nivel <code>alto</code></li>
 </ul>
 <div class="alert alert-info">
-<p>Se debe modificar la función de monitoreo para que pueda recibir temperaturas en <code>celsius</code>, tranformarlas a su equivalente en <code>fahrenheit</code> y crear una <code>lista</code> que contenga en el <strong>mismo orden</strong> que los grados celsius, su nivel de temperatura.</p>
+<p>Modifica la función de monitoreo para que pueda recibir temperaturas en <code>celsius</code>, tranformarlas a su equivalente en <code>fahrenheit</code> y crear una <code>lista</code> que contenga en el <strong>mismo orden</strong> que los grados celsius, su nivel de temperatura.</p>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Pista">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -762,7 +762,7 @@ Pista
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Al momento de recorrer la <code>lista</code> de grados celsius, se debe transformar y luego evaluar a qué nivel corresponde dicho grado para agregar en la <code>lista</code> de niveles su respectivo valor.</p>
+<p>Al momento de recorrer la <code>lista</code> de grados celsius, transforma y luego evalúa a qué nivel corresponde cada grado, para luego agregar su valor en dicha <code>lista</code> de niveles.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>grados_celsius <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">2</span>]</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>lista_niveles <span class="op">=</span> []</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> monitoreo(grados_celsius):</span>
@@ -817,18 +817,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -860,7 +849,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -868,7 +877,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -965,7 +974,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
