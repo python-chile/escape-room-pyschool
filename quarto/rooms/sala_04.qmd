@@ -29,14 +29,18 @@ $$
 $$
 
 <div class="alert alert-info">
-Agrega los números en los corchetes `[]` que están asignados a la variable `numeros`, y sepáralos con el caracter `,`.
+Agrega los números en la variable `numeros` y separa cada uno con una coma `,`.
+
+Ten en mente que la variable `numeros` es una `lista` y estas se definen por encerrar sus elementos
+entre corchetes `[]`. También considera que los números decimales en el código se escriben ocupando un punto `.` en lugar
+de una coma `,`.
 </div>
 
 ::: {.callout-tip title="Pista" collapse="true"}
 
 Para escribir los números dentro de`[]` sigue el siguiente ejemplo:
 ```python 
-numeros = [1, 2, 3, 4]
+numeros = [1.2, 2, 3.5, 4]
 ```
 :::
 
