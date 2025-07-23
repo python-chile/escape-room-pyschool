@@ -10,7 +10,7 @@ include-in-header:
 <div style="height: 200px;"></div>
 
 <center>
-<a href="rooms/sala_00.html" target="_blank"><img src="./images/rooms_600x800.png" height="400"></a>
+<a href="rooms/sala_00.html" target="_blank"><img src="./images/spacestation_600x800.png" height="400"></a>
 <a href="oaks_lab/oaks_lab.html" target="_blank"><img src="./images/oak_600x800.png" height="400"></a>
 </center>
 
