@@ -1,13 +1,8 @@
 ---
 title: "Habitación 3: Estadísticas de Combate"
 include-in-header:
-  text: |
-    <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/oaks_lab/rooms/sala_03.py";
-    </script>
-    <style>
-    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
-    </style>
+  - file: setup.html
+  - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_03.py"; </script>'
 ---
 
 En esta sala aparece una gran pantalla que dice:

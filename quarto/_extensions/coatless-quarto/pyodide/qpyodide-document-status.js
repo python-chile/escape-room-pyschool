@@ -1,5 +1,6 @@
 // Declare startupMessageqpyodide globally
 globalThis.qpyodideStartupMessage = document.createElement("p");
+globalThis.qpyodideStartupMessage.style.opacity = "0.5"; // semi-transparent
 
 // Function to set the button text
 globalThis.qpyodideSetInteractiveButtonState = function(buttonText, enableCodeButton = true) {

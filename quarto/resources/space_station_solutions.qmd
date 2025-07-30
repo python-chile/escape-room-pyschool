@@ -1,0 +1,25 @@
+---
+title: Elementos disponibles
+---
+
+Esta página contiene todas las soluciones a las distintas salas de la estación espacial.
+
+## Sala 1
+
+Lorem Ipsum...
+
+## Sala 2
+
+Lorem Ipsum...
+
+## Sala 3
+
+Lorem Ipsum...
+
+## Sala 4
+
+Lorem Ipsum...
+
+## Sala 5
+
+Lorem Ipsum...

@@ -1,10 +1,6 @@
 ---
 title: "Habitación Final"
-include-in-header:
-  text: |
-    <style>
-    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
-    </style>
+include-in-header: setup.html
 ---
 
 La última puerta se abre lentamente...  
@@ -20,8 +16,3 @@ Frente a ti, una gran Pokébola holográfica aparece en el cielo y proyecta un m
 Sabes que esta aventura no fue solo un juego.  
 Has dado tus primeros pasos como Científico de Datos Pokémon.  
 Y esto... es solo el comienzo.
-
-<center>
-<a href="../../anexos/cierre_evento.html" class="btn btn-success" w-100 h-100>🏆 Cierre PySchool</a>
-</center>
-

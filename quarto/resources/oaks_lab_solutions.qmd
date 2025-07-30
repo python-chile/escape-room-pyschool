@@ -1,0 +1,159 @@
+---
+title: Oaks Lab - Soluciones a los desafíos
+---
+
+Esta página contiene todas las soluciones a los desafíos de Oaks Lab.
+
+## Sala 0
+
+Basta con ejecutar el código (sin realizar cambios):
+
+```python
+# Completa los valores correctos
+import pandas as pd
+pd.set_option('display.max_columns', None)
+
+url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
+df = pd.read_csv(url)
+
+# Mostrar las primeras filas
+df.head()
+
+# Verifica tu respuesta
+import sala
+sala.verificar(url, df)
+```
+
+## Sala 1
+
+Solución:
+
+```python
+# Cargar datos nuevamente
+import pandas as pd
+pd.set_option('display.max_columns', None)
+
+url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
+
+df = pd.read_csv(url)
+
+# Explora los datos
+print("Mostrando información general del dataset:")
+info = df.info()
+
+print("\nMostrando descripción estadística del dataset:")
+desc = df.describe()
+print(desc)
+
+# Verifica tu respuesta
+import sala
+sala.verificar(desc)
+```
+
+## Sala 2
+
+Ejecutar:
+```python
+# Cargar nuevamente el dataset
+import pandas as pd
+import matplotlib.pyplot as plt
+
+url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
+df = pd.read_csv(url)
+
+# Contar Pokémon por tipo
+conteo = df['Type 1'].value_counts()
+
+# Crear gráfico de barras
+conteo.plot(kind='bar')
+plt.title('Cantidad de Pokémon por Tipo')
+plt.xlabel('Tipo')
+plt.ylabel('Cantidad')
+plt.xticks(rotation=45)
+plt.show()
+
+# Número total de tipos de Pokémon
+respuesta = conteo.shape[0]  # ¿Cuántos tipos hay?
+
+# Verifica tu respuesta
+import sala
+sala.verificar(respuesta)
+```
+
+## Sala 3
+
+Usar el código:
+
+```python
+# Cargar datos
+import pandas as pd
+
+url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
+df = pd.read_csv(url)
+
+# Agrupar y calcular promedio
+promedio = df.groupby('Type 1')[['HP', 'Attack', 'Defense', 'Speed']].mean().reset_index()
+
+# Definir respuestas
+promedio_orden_ataque = promedio.sort_values("Attack", ascending=False)
+respuesta_ataque = promedio_orden_ataque["Type 1"].values[0]  # Tipo con mayor ataque promedio
+
+promedio_orden_defensa = promedio.sort_values("Defense", ascending=True)
+respuesta_defensa = promedio_orden_defensa["Type 1"].values[0]  # Tipo con menor defensa promedio
+
+
+print("Promedio por tipo:")
+print(promedio)
+
+print("Tipo con mayor ataque promedio:", respuesta_ataque)
+print("Tipo con menor defensa promedio:", respuesta_defensa)
+
+# Verifica tu respuesta
+import sala
+sala.verificar(respuesta_ataque, respuesta_defensa)
+```
+
+## Sala 4
+
+Usar el código:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
+df = pd.read_csv(url)
+
+# Elegir columnas
+col_x = "Attack"  # Por ejemplo: 'Attack', 'Defense', 'HP', 'Speed'
+col_y = "Defense"  # Por ejemplo: 'Attack', 'Defense', 'HP', 'Speed'
+color = "orange"  # Por ejemplo: 'orange', 'green', 'blue', 'red'
+
+# Crear columna suma
+df['suma'] = df[col_x] + df[col_y]
+
+# Gráfico de dispersión
+plt.figure(figsize=(10, 6))
+plt.scatter(df[col_x], df[col_y], color=color)
+plt.title(f'{col_x} vs {col_y} de Pokémon')
+plt.xlabel(col_x)
+plt.ylabel(col_y)
+plt.grid()
+plt.show()
+
+# Mostrar Top 5 Pokémon
+print("Top 5 Pokémon con mayor suma entre", col_x, "y", col_y)
+tabla_top5 = df[['Name', col_x, col_y, 'suma']].sort_values('suma', ascending=False).head(5)
+print(tabla_top5)
+
+# Definir respuesta
+respuesta = tabla_top5["Name"].values[0]  # Escribe aquí el nombre del Pokémon con mayor suma
+
+# Verifica tu respuesta
+import sala
+sala.verificar(col_x, col_y, respuesta)
+```
+
+## Sala final
+
+Sin cambios. No es necesario ejecutar código.

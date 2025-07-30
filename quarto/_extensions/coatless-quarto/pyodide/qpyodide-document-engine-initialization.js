@@ -34,7 +34,7 @@ globalThis.qpyodideInstance = await import(
     // await loadedPyodide.runPythonAsync("globalScope = {}"); 
     
     // Update status to reflect the next stage of the procedure
-    qpyodideUpdateStatusHeaderSpinner("Cargando trampas...");
+    qpyodideUpdateStatusHeaderSpinner("Initializing Python Packages");
 
     // Load the `micropip` package to allow installation of packages.
     await mainPyodide.loadPackage("micropip");
@@ -43,7 +43,6 @@ globalThis.qpyodideInstance = await import(
     // Load the `pyodide_http` package to shim uses of `requests` and `urllib3`.
     // This allows for `pd.read_csv(url)` to work flawlessly.
     // Details: https://github.com/coatless-quarto/pyodide/issues/9
-    qpyodideUpdateStatusHeaderSpinner("Cargando serpientes...");
     await mainPyodide.loadPackage("pyodide_http");
     await mainPyodide.runPythonAsync(`
     import pyodide_http
@@ -60,26 +59,30 @@ globalThis.qpyodideInstance = await import(
     from matplotlib import pyplot as plt
     `);
 
-    // Load the helpers file
+
+        // Load the helpers file
+    // REPO_URL and GLOBAL_URL is setup in the setup.html file on each escape room folder, and loaded into the header so it's available here.
     qpyodideUpdateStatusHeaderSpinner("Cargando desafío...");
     await mainPyodide.runPythonAsync(`
     import urllib.request
-    url =  "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/helpers.py"
+    url = "`+window.ROOM_HELPER_URL+`"
     urllib.request.urlretrieve(url, "helpers.py");
     `);
     console.log("Completed loading the helpers from helpers.py");
+    console.log("url: " + window.ROOM_HELPER_URL);
     qpyodideUpdateStatusHeader("Cargando archivos...");
     
     // Load the verification file
     qpyodideUpdateStatusHeaderSpinner("Cargando desafío...");
     await mainPyodide.runPythonAsync(`
     import urllib.request
-    url =  "`+window.GLOBAL_URL+`"
+    url =  "`+window.ROOM_CHALLENGE_URL+`"
     urllib.request.urlretrieve(url, "sala.py");
     `);
-    console.log("Completed loading the answers from " + window.GLOBAL_URL);
+    console.log("Completed loading the answers");
+    console.log("url: " + window.ROOM_CHALLENGE_URL);
     qpyodideUpdateStatusHeader("Cargando las habitaciones...");
-     
+
     // Unlock interactive buttons
     qpyodideSetInteractiveButtonState(
       `<i class="fa-solid fa-play qpyodide-icon-run-code"></i> <span>Run Code</span>`, 
@@ -87,7 +90,9 @@ globalThis.qpyodideInstance = await import(
     );
 
     // Set document status to viable
-    qpyodideUpdateStatusHeader("🟢 Escape room listo");
+    qpyodideUpdateStatusHeader(
+      "🟢 Escape room listo!"
+    );
 
     // Assign Pyodide into the global environment
     globalThis.mainPyodide = mainPyodide;

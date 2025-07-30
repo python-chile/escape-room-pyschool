@@ -1,0 +1,75 @@
+# Basic Metadata Configuration
+title: "PySchool 2025"
+#subtitle: "Un escape room con Python: Aprende Python mientras resuelves desafíos"
+#description: "Aprende Python mientras resuelves desafíos"
+#author: "Sebastian Flores"
+#date: "2025-05-04"
+lang: es
+license: "CC BY-NC"
+
+# Project Configuration
+project:
+  type: book
+  output-dir: "../docs"
+
+# Book Configuration
+book:
+  #sidebar: false        # show sidebar navigation
+  #reader-mode: true    # focuses content (like Read the Docs)
+  favicon: "images/favicon.png"
+  chapters:
+    - index.qmd
+    - students.qmd
+    - teachers.qmd
+    - pyschool.qmd
+    - part: Python Escape Room
+      chapters:
+        - space_station/space_station.qmd
+        - space_station/rooms/sala_01.qmd
+        - space_station/rooms/sala_02.qmd
+        - space_station/rooms/sala_03.qmd 
+        - space_station/rooms/sala_04.qmd
+        - space_station/rooms/sala_05.qmd
+        - space_station/rooms/sala_06.qmd
+        - space_station/rooms/sala_07.qmd
+        - space_station/rooms/sala_08.qmd
+        - space_station/rooms/sala_09.qmd
+        - space_station/rooms/sala_10.qmd
+        - space_station/rooms/sala_11.qmd
+        - space_station/rooms/sala_12.qmd
+        - space_station/rooms/sala_13.qmd
+        - space_station/rooms/sala_14.qmd
+        - space_station/rooms/sala_15.qmd
+        - space_station/rooms/sala_16.qmd
+        - space_station/rooms/sala_17.qmd
+        - space_station/rooms/sala_final.qmd
+    - part: Laboratorio del Profesor Oak
+      chapters:    
+        - oaks_lab/oaks_lab.qmd
+        - oaks_lab/rooms/sala_00.qmd
+        - oaks_lab/rooms/sala_01.qmd
+        - oaks_lab/rooms/sala_02.qmd
+        - oaks_lab/rooms/sala_03.qmd
+        - oaks_lab/rooms/sala_04.qmd
+        - oaks_lab/rooms/sala_final.qmd
+    - part: 📚 Recursos
+      chapters:
+        - howto.qmd
+        - space_station/template.qmd
+
+# Format Configuration
+format:
+  html:
+    theme: sketchy
+    css: "style.css"
+    number-sections: false
+    toc: false
+    #page-layout: full
+    page-navigation: false
+    #sidebar-width: 0px
+
+# Extensions
+filters: 
+  - pyodide
+
+#sin-enumeracion: true  # Esta línea es opcional para indicar que no se desea enumeración

@@ -1,21 +1,29 @@
 ---
-title: "PySchool 2025"
+title: "Inicio"
 include-in-header:
   text: |
-    <style>
-    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
-    </style>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Eliminar todas las clases del elemento con id quarto-content
+        x = document.querySelector('#quarto-content');
+        x.classList.remove('page-layout-article');
+        x.classList.remove('page-columns');
+        // Eliminar el sidebar (id quarto-sidebar y quarto-sidebar-container)
+        document.querySelector('#quarto-sidebar').remove();
+        document.querySelector('#quarto-sidebar-container').remove();
+    });
+    </script>
 ---
 
-<div style="height: 200px;"></div>
+<div style="height: 50px;"></div>
 
-<center>
-<a href="rooms/sala_00.html" target="_blank"><img src="./images/spacestation_600x800.png" height="400"></a>
-<a href="oaks_lab/oaks_lab.html" target="_blank"><img src="./images/oak_600x800.png" height="400"></a>
-</center>
+<div style="text-align: center;"><a href="students.html" class="btn btn-info">Soy un estudiante</a></div>
 
-<!-- Large jump -->
-<div style="height: 200px;"></div>
+<div style="height: 50px;"></div>
+
+<div style="text-align: center;"><a href="teachers.html" class="btn btn-info">Soy un profesor</a></div>
+
+<div style="height: 50px;"></div>
 
 ---
 
@@ -24,19 +32,3 @@ include-in-header:
 <a href="https://pyschool.cl" target="_blank"><img src="./images/cover.png" height="120"></a>
 <a href="https://www.duoc.cl/sedes/valparaiso/" target="_blank"><img src="./images/DUOC_1.png" height="75"></a>
 </center>
-
----
-
-:::: {.columns}
-::: {.column width="10%"}
-:::
-::: {.column width="30%"}
-[Sobre PySchool](pyschool.html)
-:::
-::: {.column width="30%"}
-[PySchool 2024](pyschool2024/index.html)
-:::
-::: {.column width="30%"}
-[PySchool Docs](howto.html)
-:::
-:::

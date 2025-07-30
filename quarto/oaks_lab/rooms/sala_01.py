@@ -1,6 +1,6 @@
 from helpers import text, hyperlink
 
-def verificar(desc):
+def verificar(info, desc):
     import pandas as pd
 
     if desc is None:
@@ -10,7 +10,7 @@ def verificar(desc):
         text("La variable `desc` debe ser el resultado de `df.describe()`.", "warning")
     
     else:
-        hyperlink("¡Perfecto! Has explorado correctamente el dataset. Avanza a la siguiente sala.", "2.html", "success")
+        hyperlink("¡Perfecto! Has explorado correctamente el dataset. Avanza a la siguiente sala.", "sala_02.html", "success")
 
 if __name__ == "__main__":
     verificar(None)

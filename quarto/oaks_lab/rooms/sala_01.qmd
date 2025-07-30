@@ -1,13 +1,8 @@
 ---
 title: "Habitación 1: Explorador de Datos"
 include-in-header:
-  text: |
-    <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/oaks_lab/rooms/sala_01.py";
-    </script>
-    <style>
-    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
-    </style>
+  - file: setup.html
+  - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_01.py"; </script>'
 ---
 
 El sistema se ha reiniciado parcialmente...  
@@ -59,13 +54,14 @@ df = pd.read_csv(url)
 
 # Explora los datos
 print("Mostrando información general del dataset:")
-info = None
+info = None # MODIFICAR ACÁ
+print(info)
 
 print("\nMostrando descripción estadística del dataset:")
-desc = None
+desc = None # MODIFICAR ACÁ
 print(desc)
 
 # Verifica tu respuesta
 import sala
-sala.verificar(desc)
+sala.verificar(info,desc)
 ```

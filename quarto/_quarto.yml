@@ -14,35 +14,15 @@ project:
 
 # Book Configuration
 book:
-  #sidebar: false        # show sidebar navigation
-  #reader-mode: true    # focuses content (like Read the Docs)
   favicon: "images/favicon.png"
   chapters:
     - index.qmd
-    - index2.qmd
-    - pyschool.qmd
-    - part: Python Escape Room
+    - students.qmd
+    - part: Estación Espacial 🛰️
       chapters:
-        - rooms/sala_00.qmd
-        - rooms/sala_01.qmd
-        - rooms/sala_02.qmd
-        - rooms/sala_03.qmd 
-        - rooms/sala_04.qmd
-        - rooms/sala_05.qmd
-        - rooms/sala_06.qmd
-        - rooms/sala_07.qmd
-        - rooms/sala_08.qmd
-        - rooms/sala_09.qmd
-        - rooms/sala_10.qmd
-        - rooms/sala_11.qmd
-        - rooms/sala_12.qmd
-        - rooms/sala_13.qmd
-        - rooms/sala_14.qmd
-        - rooms/sala_15.qmd
-        - rooms/sala_16.qmd
-        - rooms/sala_17.qmd
-        - rooms/sala_final.qmd
-    - part: Laboratorio del Profesor Oak
+        - space_station/space_station.qmd
+        - space_station/rooms/sala_00.qmd
+    - part: Laboratorio del Profesor Oak 🧪
       chapters:    
         - oaks_lab/oaks_lab.qmd
         - oaks_lab/rooms/sala_00.qmd
@@ -51,10 +31,14 @@ book:
         - oaks_lab/rooms/sala_03.qmd
         - oaks_lab/rooms/sala_04.qmd
         - oaks_lab/rooms/sala_final.qmd
-    - part: 📚 Recursos
+    - part: Recursos 📚 
       chapters:
-        - howto.qmd
-        - rooms/template.qmd
+        - teachers.qmd
+        - pyschool.qmd
+        - resources/oaks_lab_solutions.qmd
+        - resources/space_station_solutions.qmd
+        - resources/howto.qmd
+        - resources/template.qmd
 
 # Format Configuration
 format:
@@ -63,12 +47,8 @@ format:
     css: "style.css"
     number-sections: false
     toc: false
-    #page-layout: full
     page-navigation: false
-    #sidebar-width: 0px
 
 # Extensions
 filters: 
   - pyodide
-
-#sin-enumeracion: true  # Esta línea es opcional para indicar que no se desea enumeración

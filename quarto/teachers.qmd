@@ -1,0 +1,25 @@
+---
+title: "Recursos para profesores"
+---
+
+¡Este contenido es exclusivo para profesores!
+
+Notar que el sidebar si esta visible...
+
+Lorem Ipsum...
+
+---
+
+:::: {.columns}
+::: {.column width="10%"}
+:::
+::: {.column width="30%"}
+[Sobre PySchool](pyschool.html)
+:::
+::: {.column width="30%"}
+[PySchool 2024](pyschool2024/index.html)
+:::
+::: {.column width="30%"}
+[PySchool Docs](howto.html)
+:::
+:::
