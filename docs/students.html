@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Autoría</title>
+<title>Escape Rooms Disponibles</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Eliminar todas las clases del elemento con id quarto-content
+        x = document.querySelector('#quarto-content');
+        x.classList.remove('page-layout-article');
+        x.classList.remove('page-columns');
+        // Eliminar el sidebar (id quarto-sidebar y quarto-sidebar-container)
+        document.querySelector('#quarto-sidebar').remove();
+        document.querySelector('#quarto-sidebar-container').remove();
+    });
+</script>
 
 
 <link rel="stylesheet" href="style.css">
@@ -81,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./teachers.html">Recursos 📚</a></li><li class="breadcrumb-item"><a href="./pyschool.html"><span class="chapter-title">PySchool 2025</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./students.html"><span class="chapter-title">Escape Rooms Disponibles</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -108,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./students.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Escape Rooms Disponibles</span></a>
+  <a href="./students.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Escape Rooms Disponibles</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -284,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pyschool.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">PySchool 2025</span></a>
+  <a href="./pyschool.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">PySchool 2025</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -318,9 +329,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./teachers.html">Recursos 📚</a></li><li class="breadcrumb-item"><a href="./pyschool.html"><span class="chapter-title">PySchool 2025</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Autoría</span></h1>
+<h1 class="title"><span class="chapter-title">Escape Rooms Disponibles</span></h1>
 </div>
 
 
@@ -337,20 +348,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python.</p>
-<p>PySchool es una iniciativa de la organización Python Chile y DUOC.</p>
-<p>Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.</p>
+<div style="height: 100px;">
+
+</div>
 <center>
-<img src="./images/pythonchile.png" width="270"> <img src="./images/cover.png" width="200"> <img src="./images/DUOC_1.png" width="300">
+<a href="space_station/space_station.html" target="_blank"><img src="./images/spacestation_600x800.png" height="400"></a> <span style="width: 50px;"></span> <a href="oaks_lab/oaks_lab.html" target="_blank"><img src="./images/oak_600x800.png" height="400"></a>
 </center>
-<p>Este proyecto es una iniciativa protegida por derechos de autor bajo la organización Python Chile. Los contribuyentes clave incluyen a Francisco Alfaro y Sebastián Flores, cuya dedicación ha sido esencial para el desarrollo y mantenimiento continuo del proyecto.</p>
-<section id="reconocimientos-adicionales" class="level2">
-<h2 class="anchored" data-anchor-id="reconocimientos-adicionales">Reconocimientos adicionales</h2>
-<p>Queremos extender un agradecimiento especial a todos los colaboradores y miembros de nuestra comunidad que han enriquecido este proyecto con sus ideas, sugerencias y aportes de código. Su participación ha sido crucial y es enormemente valorada.</p>
-<p>Para obtener más información sobre los autores y colaboradores, o para descubrir cómo puedes contribuir, te invitamos a visitar la <a href="https://pythonchile.cl">página oficial de Python Chile</a>. ¡Agradecemos tu apoyo y nos complace contar contigo en nuestra comunidad!</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

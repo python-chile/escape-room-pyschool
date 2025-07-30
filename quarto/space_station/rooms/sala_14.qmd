@@ -1,13 +1,8 @@
 ---
 title: "Habitación 14:"
 include-in-header:
-  text: |
-    <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyschool_2025/refs/heads/main/quarto/rooms/sala_14.py";
-    </script>
-    <style>
-    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
-    </style>
+  - file: setup.html
+  - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_14.py"; </script>'
 ---
 
 Mientras exploras el módulo de comunicaciones de la estación espacial 🛰️, encuentras un panel que emite señales de luz

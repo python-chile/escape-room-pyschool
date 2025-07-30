@@ -1,13 +1,8 @@
 ---
 title: "Habitación 12:"
 include-in-header:
-  text: |
-    <script type="module">
-    window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyschool_2025/refs/heads/main/quarto/rooms/sala_12.py";
-    </script>
-    <style>
-    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
-    </style>
+  - file: setup.html
+  - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_12.py"; </script>'
 ---
 
 La estación espacial 🛰️ está comenzando a presentar errores en el suministro de energía ⚡. La terminal principal

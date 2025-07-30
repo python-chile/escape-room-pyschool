@@ -2,10 +2,7 @@
 title: "Bienvenida"
 subtitle: "Objetivos"
 include-in-header:
-  text: |
-    <style>
-    #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
-    </style>
+  - file: rooms/setup.html
 ---
 
 - Introducir los conceptos esenciales de Python aplicados al análisis de datos.  

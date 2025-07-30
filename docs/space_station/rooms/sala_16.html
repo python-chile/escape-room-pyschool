@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Habitación 4: Visualización de Combate</title>
+<title>Habitación 16:</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -68,10 +102,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-    window.REPO_URL = "https://raw.githubusercontent.com/sebastiandres/pyschool_2025/refs/heads/main/quarto/oaks_lab/rooms";
+    window.REPO_URL = "https://raw.githubusercontent.com/sebastiandres/pyschool_2025/refs/heads/main/quarto/space_station/rooms";
     window.ROOM_HELPER_URL = window.REPO_URL + "/helpers.py";
 </script>
-<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_04.py"; </script>
+<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_16.py"; </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/editor/editor.main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
   
@@ -234,7 +268,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"options":{"message":"true","output":"true","read-only":"false","fig-height":5,"context":"interactive","results":"markup","out-width":"700px","autorun":"","comment":"","fig-cap":"","dpi":72,"out-height":"","label":"","fig-width":7,"classes":"","warning":"true"},"code":"import pandas as pd\nimport matplotlib.pyplot as plt\n\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\ndf = pd.read_csv(url)\n\n# Elegir columnas\ncol_x = None  # Por ejemplo: 'Attack', 'Defense', 'HP', 'Speed'\ncol_y = None  # Por ejemplo: 'Attack', 'Defense', 'HP', 'Speed'\ncolor = None  # Por ejemplo: 'orange', 'green', 'blue', 'red'\n\n# Crear columna suma\ndf['suma'] = df[col_x] + df[col_y]\n\n# Gráfico de dispersión\nplt.figure(figsize=(10, 6))\nplt.scatter(df[col_x], df[col_y], color=color)\nplt.title(f'{col_x} vs {col_y} de Pokémon')\nplt.xlabel(col_x)\nplt.ylabel(col_y)\nplt.grid()\nplt.show()\n\n# Mostrar Top 5 Pokémon\nprint(\"Top 5 Pokémon con mayor suma entre\", col_x, \"y\", col_y)\ntabla_top5 = df[['Name', col_x, col_y, 'suma']].sort_values('suma', ascending=False).head(5)\nprint(tabla_top5)\n\n# Definir respuesta\nrespuesta = None  # Escribe aquí el nombre del Pokémon con mayor suma\n\n# Verifica tu respuesta\nimport sala\nsala.verificar(col_x, col_y, respuesta)"}];
+globalThis.qpyodideCellDetails = [{"id":1,"code":"temperaturas = [-2, 0, 25, -1, 16]\n\n# Arregla la función para que cumpla las condiciones\ndef monitoreo_temperatura(temperaturas):\n    for temperatura in temperaturas:\n        if temperatura <= -2:\n            return 'bajo'\n        elif temperatura > 20:\n            return 'alt'`\n        else:\n            return 'medio'\n\nrespuesta = monitoreo_temperatura(temperaturas)\n\nimport sala\nsala.revisar(respuesta)","options":{"warning":"true","results":"markup","fig-height":5,"out-width":"700px","fig-width":7,"output":"true","context":"interactive","fig-cap":"","read-only":"false","classes":"","dpi":72,"message":"true","out-height":"","comment":"","label":"","autorun":""}}];
 
 
 </script>
@@ -463,7 +497,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../oaks_lab/oaks_lab.html">Laboratorio del Profesor Oak 🧪</a></li><li class="breadcrumb-item"><a href="../../oaks_lab/rooms/sala_04.html"><span class="chapter-title">Habitación 4: Visualización de Combate</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../space_station/space_station.html">Estación Espacial 🛰️</a></li><li class="breadcrumb-item"><a href="../../space_station/rooms/sala_16.html"><span class="chapter-title">Habitación 16:</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -589,7 +623,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../space_station/rooms/sala_16.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 16:</span></a>
+  <a href="../../space_station/rooms/sala_16.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación 16:</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -640,7 +674,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../oaks_lab/rooms/sala_04.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación 4: Visualización de Combate</span></a>
+  <a href="../../oaks_lab/rooms/sala_04.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 4: Visualización de Combate</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -710,9 +744,9 @@ globalThis._qpyodideGetInstance = function() {
   });
 </script>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../oaks_lab/oaks_lab.html">Laboratorio del Profesor Oak 🧪</a></li><li class="breadcrumb-item"><a href="../../oaks_lab/rooms/sala_04.html"><span class="chapter-title">Habitación 4: Visualización de Combate</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../space_station/space_station.html">Estación Espacial 🛰️</a></li><li class="breadcrumb-item"><a href="../../space_station/rooms/sala_16.html"><span class="chapter-title">Habitación 16:</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Habitación 4: Visualización de Combate</span></h1>
+<h1 class="title"><span class="chapter-title">Habitación 16:</span></h1>
 </div>
 
 
@@ -729,55 +763,48 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>La sala está llena de pantallas mostrando batallas Pokémon.</p>
-<p>El Profesor Oak te deja un nuevo mensaje:</p>
+<p>El sistema para monitorear las temperaturas 🌡️ de las salas principales está fallando, hay salas que se están enfriando como otras que su temperatura está subiendo ❄️🔥… ¡todo esto sin alarmas de avisos para poder regularlas!😱.</p>
+<p>🛠️ Arregla la función del sistema cuanto antes, ya que este monitoreo es primordial para el funcionamiento de la estación espacial 🚨. Este debe funcionar con grados <code>fahrenheit</code>.</p>
+<p>El monitoreo debe respetar los siguientes rangos:</p>
+<ul>
+<li>🧊 Si la tempratura es menor o igual a -2C° debe indicar nivel <code>muy bajo</code>.</li>
+<li>❄️ Si la temperatura es mayor a -2C° y menor o igual a 12C° debe indicar nivel <code>bajo</code>.</li>
+<li>🌤️ Si la temperatura es mayor a 12°C y menor o igual a 18°C debe indicar nivel <code>medio</code>.</li>
+<li>🔥 Si la temperatura es mayor a 18°C debe indicar nivel <code>alto</code></li>
+</ul>
 <div class="alert alert-info">
-<p>“Antes de elegir al Pokémon más fuerte, un buen Científico de Datos debe visualizar los datos.<br>
-No siempre sumar estadísticas tiene sentido… ¡Primero observa, luego decide!”</p>
+<p>Modifica la función de monitoreo para que pueda recibir temperaturas en <code>celsius</code>, tranformarlas a su equivalente en <code>fahrenheit</code> y crear una <code>lista</code> que contenga en el <strong>mismo orden</strong> que los grados celsius, su nivel de temperatura.</p>
 </div>
-<hr>
-<section id="qué-haremos" class="level2">
-<h2 class="anchored" data-anchor-id="qué-haremos">¿Qué haremos?</h2>
-<ol type="1">
-<li>Elegir dos estadísticas de combate (<code>col_x</code> y <code>col_y</code>) — por ejemplo <code>Attack</code> y <code>Defense</code>.<br>
-</li>
-<li>Crear un gráfico de dispersión para ver cómo se relacionan.<br>
-</li>
-<li>Crear una nueva columna llamada <code>suma</code> sumando esas dos estadísticas.<br>
-</li>
-<li>Mostrar los 5 mejores Pokémon con mayor <code>suma</code>.<br>
-</li>
-<li>Definir en <code>respuesta</code> el nombre del Pokémon con la mayor <code>suma</code>.</li>
-</ol>
-<hr>
-<div class="callout callout-style-default callout-tip callout-titled" title="Recuerda">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-tip callout-titled" title="Pista">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Recuerda
+Pista
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>El gráfico de dispersión nos permite observar:</p>
-<ul>
-<li>Si las estadísticas están relacionadas.<br>
-</li>
-<li>Si sumar tiene sentido o si las variables son muy distintas.</li>
-</ul>
-<p>Luego de observar, podemos ordenar la tabla y tomar una mejor decisión.</p>
+<p>Al momento de recorrer la <code>lista</code> de grados celsius, transforma y luego evalúa a qué nivel corresponde cada grado, para luego agregar su valor en dicha <code>lista</code> de niveles.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>grados_celsius <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">2</span>]</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>lista_niveles <span class="op">=</span> []</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> monitoreo(grados_celsius):</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> grado <span class="kw">in</span> grados_celsius:</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        grado_fahrenheit <span class="op">=</span> celsius_a_fahrenheit(grado)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> grado_fahrenheit <span class="op">&lt;</span> <span class="dv">25</span>:</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>            lista_niveles.append(<span class="st">'alta'</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>            lista_niveles.append(<span class="st">'baja'</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-<hr>
-</section>
-<section id="tu-código" class="level2">
-<h2 class="anchored" data-anchor-id="tu-código">Tu Código</h2>
+</div>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

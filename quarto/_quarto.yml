@@ -22,6 +22,24 @@ book:
       chapters:
         - space_station/space_station.qmd
         - space_station/rooms/sala_00.qmd
+        - space_station/rooms/sala_01.qmd
+        - space_station/rooms/sala_02.qmd
+        - space_station/rooms/sala_03.qmd
+        - space_station/rooms/sala_04.qmd
+        - space_station/rooms/sala_05.qmd
+        - space_station/rooms/sala_06.qmd
+        - space_station/rooms/sala_07.qmd
+        - space_station/rooms/sala_08.qmd
+        - space_station/rooms/sala_09.qmd
+        - space_station/rooms/sala_10.qmd
+        - space_station/rooms/sala_11.qmd
+        - space_station/rooms/sala_12.qmd
+        - space_station/rooms/sala_13.qmd
+        - space_station/rooms/sala_14.qmd
+        - space_station/rooms/sala_15.qmd
+        - space_station/rooms/sala_16.qmd
+        - space_station/rooms/sala_17.qmd
+        - space_station/rooms/sala_final.qmd
     - part: Laboratorio del Profesor Oak 🧪
       chapters:    
         - oaks_lab/oaks_lab.qmd
