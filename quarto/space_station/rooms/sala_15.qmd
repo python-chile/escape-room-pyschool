@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_15.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_15.png" width="650">
+</center>
+
+<br/>
+
 Durante la revisión de los sistemas exteriores ⚙️ , se detectó una serie de coordenadas espaciales que parecen estar alteradas 🧮.
 Para asegurar el camino de regreso, necesitas identificar 🔎 todas las combinaciones de coordenadas (x, y) cuya suma total sea exactamente 50.
 

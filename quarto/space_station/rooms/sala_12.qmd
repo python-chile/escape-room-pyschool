@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_12.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_12.png" width="650">
+</center>
+
+<br/>
+
 La estación espacial 🛰️ está comenzando a presentar errores en el suministro de energía ⚡. La terminal principal
 necesita saber cuántos módulos están operativos y cuánta energía sumistra cada uno 🔋.
 

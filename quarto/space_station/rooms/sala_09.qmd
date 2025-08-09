@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_09.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_09.png" width="650">
+</center>
+
+<br/>
+
 Desde el área de mantenimiento 🔧 han enviado un listado objetos de la estación espacial por reparar, sin embargo, el listado está
 mezclado con objetos que ya están en perfecto estado ✅.
 

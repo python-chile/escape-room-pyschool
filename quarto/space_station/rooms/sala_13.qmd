@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_13.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_13.png" width="650">
+</center>
+
+<br/>
+
 📁 El sistema de archivos del módulo de investigación 🧪 está desordenado. Al parecer, varios archivos
 comparten un **sufijo**, pero están revueltos entre todos, lo que hace difícil su rápido análisis.
 

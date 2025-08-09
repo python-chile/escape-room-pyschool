@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_10.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_10.png" width="650">
+</center>
+
+<br/>
+
 El sistema de análisis de objetos que orbitan la estación 🛰️ está presentando fallos en el reconocimiento de texto 📉.
 
 🛠️ Para reestablecer el análisis de objetos, necesitas corregir los textos detectos con las siguientes condiciones:

@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_07.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_07.png" width="650">
+</center>
+
+<br/>
+
 Desde el módulo de control, detectan múltiples objetos orbitando alrededor de la estación espacial ⚠️. Es urgente
 analizar sus coordenadas para prevenir colisiones 🌌💥.
 

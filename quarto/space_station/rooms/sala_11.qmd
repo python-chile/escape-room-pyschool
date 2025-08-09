@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_11.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_11.png" width="650">
+</center>
+
+<br/>
+
 Desde el comando central se está pidiendo un breve reporte respecto a las misiones pero hay un problema, sólo se
 pueden enviar mensajes cada 3hrs.
 

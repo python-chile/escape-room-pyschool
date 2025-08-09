@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_14.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_14.png" width="650">
+</center>
+
+<br/>
+
 Mientras exploras el módulo de comunicaciones de la estación espacial 🛰️, encuentras un panel que emite señales de luz
 en un extraño patrón de puntos (` . `) y rayas (` _ `) ... ¡código morse! 😲🕵️‍♂️.
 

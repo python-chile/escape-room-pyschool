@@ -5,6 +5,12 @@ include-in-header:
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_16.py"; </script>'
 ---
 
+<center>
+<img src="./img/sala_16.png" width="650">
+</center>
+
+<br/>
+
 El sistema para monitorear las temperaturas 🌡️ de las salas principales está fallando, hay salas que se están enfriando
 como otras que su temperatura está subiendo ❄️🔥... ¡todo esto sin alarmas de avisos para poder regularlas!😱.
 
