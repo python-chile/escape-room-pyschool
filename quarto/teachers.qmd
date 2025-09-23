@@ -20,6 +20,6 @@ Lorem Ipsum...
 [PySchool 2024](pyschool2024/index.html)
 :::
 ::: {.column width="30%"}
-[PySchool Docs](howto.html)
+[PySchool Docs](resources/howto.html)
 :::
 :::

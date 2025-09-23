@@ -1,25 +1,241 @@
 ---
-title: Elementos disponibles
+title: Estación Espacial - Soluciones a los desafíos
 ---
 
 Esta página contiene todas las soluciones a las distintas salas de la estación espacial.
 
 ## Sala 1
 
-Lorem Ipsum...
+Solución:
+
+```python
+respuesta = "Cerrar"
+```
 
 ## Sala 2
 
-Lorem Ipsum...
+Solución:
+
+```python
+respuesta = (201 + 759) * 2 ** 3
+```
 
 ## Sala 3
 
-Lorem Ipsum...
+Solución:
+
+```python
+respuesta = ( (1.23 + 2.34) / (1 + (43 / 2) ) ) + (3 * 2**1.5)
+```
 
 ## Sala 4
 
-Lorem Ipsum...
+Solución:
+
+```python
+respuesta = statistics.mean([19.5, 22.3, 12, 10.01, 32, 29.99, 20.89])
+```
 
 ## Sala 5
 
-Lorem Ipsum...
+Solución:
+
+```python
+a, b, suma = 1, 1001, 0
+for numero in range(a, b):
+    suma = numero + suma
+```
+
+## Sala 6
+
+Solución:
+
+```python
+lista_fibonacci = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+promedio = statistics.mean([lista_fibonacci[0], lista_fibonacci[2], lista_fibonacci[10], lista_fibonacci[-2]])
+```
+
+## Sala 7
+
+Solución:
+
+```python
+coordenadas.sort()
+largo = len(coordenadas)
+valor_medio = (coordenadas[(largo//2) - 1] + coordenadas[largo//2]) //2 if largo %2 == 0 else coordenadas[largo//2]
+respuesta = [coordenadas[0], valor_medio, coordenadas[-1]]
+```
+
+## Sala 8
+
+Solución:
+
+```python
+def autorizar_acceso(acceso, resistencia):
+    if acceso == True and resistencia == "Alta":
+        return True
+    else:
+        return False
+```
+
+## Sala 9
+
+Solución:
+
+Crear bucle for
+```python
+for objeto in objetos:
+    if objeto not in reparados:
+        por_reparar.append(objeto)
+```
+
+## Sala 10
+
+Solución:
+
+Dejar la función como la siguiente
+```python
+def transformar_palabras(palabra):
+    if "asteroide" in palabra: palabra = palabra.upper()
+    elif "meteorito" in palabra: palabra = palabra.lower()
+    return palabra
+```
+
+## Sala 11
+
+Solución:
+
+```python
+mensaje= ["Misión", "PySchool 2025", "progreso a mitad", "con pequeñas dificultades", "pronto", "nuevo", "reporte"]
+respuesta = " ".join(mensaje)
+```
+
+## Sala 12
+
+Solución:
+
+```python
+respuesta = {'PS004': 80, 'PS014': 120, 'PS104': 50}
+```
+
+## Sala 13
+
+Solución:
+
+```python
+archivos = ["lab_ps01", "rendimiento_ec00", "pruebas_tc12", "quimicos_ps01", "bateria_tc12", "paneles_ec00", "reporte_ec00", "reparaciones_salas_tc12", "sustancias_ps01"]
+diccionario = {}
+for archivo in archivos:
+    sufijo = archivo[-4:] # Se extrae el sufijo de cada elemento
+    if sufijo not in diccionario:
+        diccionario[sufijo] = [archivo] # Si sufijo no existe en diccionario, se crea con un primer elemento dentro de esta
+    else:
+        diccionario[sufijo].append(archivo)
+
+diccionario
+```
+
+## Sala 14
+
+Solución:
+
+```python
+diccionario = {
+    '._': 'a', '_...': 'b', '_._.': 'c', '_..': 'd',
+    '.': 'e', '.._.': 'f', '__.': 'g', '....': 'h',
+    '..': 'i', '.___': 'j', '_._': 'k', '._..': 'l',
+    '__': 'm', '_.': 'n', '___': 'o', '.__.': 'p',
+    '__._': 'q', '._.': 'r', '...': 's', '_': 't',
+    '.._': 'u', '..._': 'v', '.__': 'w', '_.._': 'x',
+    '_.__': 'y', '__..': 'z', '__._.': ' ', '_____': '0',
+    '.____': '1', '..___': '2', '...__': '3', '...._': '4',
+    '.....': '5', '_....': '6', '__...': '7', '___..': '8',
+    '____.': '9'
+}
+mensaje = [
+    '.', '._..', '__._.',  # e l
+    '_._.', '___', '_..', '..', '__.', '___', '__._.', # c o d i g o
+    '...', '.', '_._.', '._.', '.', '_', '___', '__._.', # s e c r e t o
+    '__._', '.._', '.', '__._.',  # q u e
+    '...', '.', '__._.', # s e
+    '_..', '.', '_...', '.', '__._.', # d e b e
+    '___', '_._.', '.._', '.__.', '._', '._.', '__._.', # o c u p a r
+    '.', '_.', '__._.', # e n
+    '.', '._..', '__._.', # e l
+    '.._', '._..', '_', '..', '__', '___', '__._.', # u l t i m o
+    '_..', '.', '...', '._', '.._.', '..', '___', '__._.', # d e s a f i o
+    '.', '...', '__._.', # e s
+    '..___', '...._'  # 2 4
+]
+decodificado = [diccionario[simbolo] for simbolo in mensaje]
+respuesta = ''.join(decodificado)
+```
+
+## Sala 15
+
+Solución:
+
+```python
+coordenadas = list(range(1, 31))
+combinaciones_validas = []
+
+for x in coordenadas:
+    for y in coordenadas:
+        if x + y == 50:
+            combinaciones_validas.append((x, y))
+
+respuesta = combinaciones_validas
+```
+
+## Sala 16
+
+Solución:
+
+```python
+niveles_corregidos = []
+for temperatura in temperaturas:
+    fahrenheit = a_fahrenheit(temperatura)
+
+    if fahrenheit <= 28.400:
+        niveles_corregidos.append('muy bajo')
+
+    elif 28.400 < fahrenheit <= 53.600:
+        niveles_corregidos.append('bajo')
+
+    elif  53.600 < fahrenheit <= 64.400:
+        niveles_corregidos.append('medio')
+
+    elif fahrenheit > 64.400:
+        niveles_corregidos.append('alto')
+
+respuesta = niveles_corregidos
+```
+
+## Sala 17
+
+Solución:
+
+```python
+# función para conocer si un cierto número es primo o no
+def es_primo(numero):
+
+    if numero <= 3: return True
+    else:
+        for i in range(2, numero - 1):
+            if numero % i == 0: return False
+        return True
+
+def suma_numeros_primos(codigo_secreto):
+    suma = 0
+    numero = 2
+    contador = 0
+    for _ in range(1, 1000):
+        if es_primo(numero):
+            suma += numero
+            contador += 1
+        numero += 1
+        if contador == codigo_secreto: break
+    return suma
+
+respuesta = suma_numeros_primos(24)
+```

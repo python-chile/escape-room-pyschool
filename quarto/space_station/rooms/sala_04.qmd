@@ -1,5 +1,5 @@
 ---
-title: "Habitación 4: "
+title: "Habitación 4: Promedio de números"
 include-in-header:
   - file: setup.html
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_04.py"; </script>'

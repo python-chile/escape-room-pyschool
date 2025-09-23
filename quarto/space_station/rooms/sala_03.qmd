@@ -1,5 +1,5 @@
 ---
-title: "Habitación 3: "
+title: "Habitación 3: Operación Numérica Compleja"
 include-in-header:
   - file: setup.html
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_03.py"; </script>'

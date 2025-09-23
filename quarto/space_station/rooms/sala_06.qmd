@@ -1,5 +1,5 @@
 ---
-title: "Habitación 6:"
+title: "Habitación 6: Índices en Lista"
 include-in-header:
   - file: setup.html
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_06.py"; </script>'

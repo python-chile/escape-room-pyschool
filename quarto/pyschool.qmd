@@ -12,7 +12,7 @@ Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para apr
 
 # Autoría
 
-Este proyecto es una iniciativa protegida por derechos de autor bajo la organización Python Chile. Los contribuyentes clave incluyen a Francisco Alfaro y Sebastián Flores, cuya dedicación ha sido esencial para el desarrollo y mantenimiento continuo del proyecto.
+Este proyecto es una iniciativa protegida por derechos de autor bajo la organización Python Chile. Los contribuyentes clave incluyen a Francisco Alfaro, Sebastián Flores y Tony Rodríguez, cuya dedicación ha sido esencial para el desarrollo y mantenimiento continuo del proyecto.
 
 ## Reconocimientos adicionales
 

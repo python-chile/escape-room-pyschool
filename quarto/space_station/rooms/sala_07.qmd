@@ -1,5 +1,5 @@
 ---
-title: "Habitación 7:"
+title: "Habitación 7: Ordenar Números de Lista"
 include-in-header:
   - file: setup.html
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_07.py"; </script>'
@@ -21,7 +21,7 @@ analizar sus coordenadas para prevenir colisiones 🌌💥.
 - El objeto que se encuentra en el centro de la lista (una vez ordenada).
 
 <div class="alert alert-info">
-Ordena la `lista` ocupando la función `.sorted()` y utilizando los `indices` necesarios para crear una nueva
+Ordena la `lista` ocupando la función `.sort()` y utilizando los `indices` necesarios para crear una nueva
 lista con las coordenadas requeridas.
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: "Habitación 16:"
+title: "Habitación 16: Bucle For y Condicionales"
 include-in-header:
   - file: setup.html
   - text: '<script> window.ROOM_CHALLENGE_URL = window.REPO_URL + "/sala_16.py"; </script>'
