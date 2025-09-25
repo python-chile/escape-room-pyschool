@@ -4,7 +4,7 @@ English README: [README-en.md](README-en.md)
 
 PySchool es un juego de escape interactivo basado en la web construido con Python y Quarto. Los jugadores resuelven rompecabezas y desafíos escribiendo y ejecutando código Python directamente en su navegador.
 
-[Demo](https://sebastiandres.github.io/pyschool_2025/)
+[Demo](https://python-chile.github.io/escape-room-pyschool/)
 
 ## Características
 
