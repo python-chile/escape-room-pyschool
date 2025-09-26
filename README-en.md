@@ -41,7 +41,12 @@ Some of the color definitions are:
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. Install dependencies:
+3. Move to the main folder:
+   ```bash
+   cd quarto/
+   ```
+   
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```

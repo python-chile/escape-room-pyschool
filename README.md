@@ -40,7 +40,12 @@ El diseño se basa en el [sketchy theme](https://bootswatch.com/sketchy/) de boo
    source venv/bin/activate  # En Windows: venv\Scripts\activate
    ```
 
-3. Instala las dependencias:
+3. Entra a la carpeta principal:
+   ```bash
+   cd quarto/
+   ```
+
+4. Instala las dependencias:
    ```bash
    pip install -r requirements.txt
    ```
